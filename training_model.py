@@ -15,10 +15,10 @@ from sklearn_crfsuite import metrics
 from collections import Counter
 
 df = pd.read_csv('ner_dataset.csv', encoding = "ISO-8859-1")
-df = df[:1000000]
 df.head()
 df.isnull().sum()
 df = df.fillna(method='ffill')
+
 df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
 df1=df.groupby('Tag').size().reset_index(name='counts')
 
@@ -32,7 +32,7 @@ class SentenceGetter(object):
                                                            s['Tag'].values.tolist())]
         self.grouped = self.data.groupby('Sentence #').apply(agg_func)
         self.sentences = [s for s in self.grouped]
-        
+
     def get_next(self):
         try: 
             s = self.grouped['Sentence: {}'.format(self.n_sent)]
@@ -85,7 +85,7 @@ def sent2tokens(sent):
 
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.02, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 crf = sklearn_crfsuite.CRF(
     algorithm='lbfgs',
@@ -102,8 +102,8 @@ print(metrics.flat_classification_report(y_test, y_pred, labels = None))
 #Save File to disk
 filename='crfmodel.sav'
 pickle.dump(crf, open(filename, 'wb'))
- 
+
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 result = loaded_model.score(X_test, y_test)
-print(result)
+print(result) 
