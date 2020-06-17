@@ -13,8 +13,15 @@ import sklearn_crfsuite
 from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
+import csv
 
-sentence = input('Enter sentence for NER : ').split()
+# sentence = input('Enter sentence for NER : ').split()
+
+sentences = open("output_tweeter.tsv").read().split('\n')
+
+for i in range(len(sentences)):
+    sentences[i] = sentences[i].split()
+
 
 def word2features(sent, i):
     word = sent[i]
@@ -51,7 +58,7 @@ def sent2features(sent):
     return [word2features(sent, i) for i in range(len(sent))]
 
 
-X_test = [sent2features(sentence)]
+X_test = [sent2features(s) for s in sentences]
 
 # print(X_test)
 
@@ -59,4 +66,22 @@ X_test = [sent2features(sentence)]
 filename='crfmodel.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 y_pred = loaded_model.predict(X_test)
-print(y_pred) 
+
+col1 = []
+col2 = []
+
+for i in sentences:
+    for j in i:
+        col1.append(j)
+for i in y_pred:
+    for j in i:
+        col2.append(j)
+
+print(len(col1))
+print(len(col2))
+
+with open('set.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for i in range(len(col1)) :
+        writer.writerow([col1[i], col2[i]])
+
