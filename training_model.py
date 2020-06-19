@@ -13,6 +13,8 @@ import sklearn_crfsuite
 from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
+import time
+start_time = time.clock()
 
 df = pd.read_csv('set.csv', encoding = "ISO-8859-1")
 df.head()
@@ -20,8 +22,6 @@ df.isnull().sum()
 df = df.fillna(method='ffill')
 
 l1 = df.values.tolist()
-
-print(l1)
 
 df = pd.read_csv('ner_dataset.csv', encoding = "ISO-8859-1")
 df.head()
@@ -66,7 +66,7 @@ def word2features(sent, i):
     }
     if i > 0:
         word1 = sent[i-1][0]
-        postag1 = sent[i-1][1]
+        # postag1 = sent[i-1][1]
         features.update({
             '-1:word.lower()': word1.lower(),
             '-1:word.istitle()': word1.istitle(),
@@ -85,6 +85,38 @@ def word2features(sent, i):
         features['EOS'] = True
     return features
 
+def word2features2(sent, i):
+    word = sent[i][0]
+    features = {
+        'bias': 1.0, 
+        'word.lower()': word.lower(), 
+        'word[-3:]': word[-3:],
+        'word[-2:]': word[-2:],
+        'word.isupper()': word.isupper(),
+        'word.istitle()': word.istitle(),
+        'word.isdigit()': word.isdigit(),
+    }
+    if i > 0:
+        word1 = sent[i-1][0]
+        # postag1 = sent[i-1][1]
+        features.update({
+            '-1:word.lower()': word1.lower(),
+            '-1:word.istitle()': word1.istitle(),
+            '-1:word.isupper()': word1.isupper(),
+        })
+    else:
+        features['BOS'] = True
+    if i < len(sent)-1:
+        word1 = sent[i+1][0]
+        features.update({
+            '+1:word.lower()': word1.lower(),
+            '+1:word.istitle()': word1.istitle(),
+            '+1:word.isupper()': word1.isupper(),
+        })
+    else:
+        features['EOS'] = True
+    return [features]
+
 def sent2features(sent):
     return [word2features(sent, i) for i in range(len(sent))]
 def sent2labels(sent):
@@ -95,8 +127,6 @@ def sent2tokens(sent):
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
 
-print(y)
-
 crf = sklearn_crfsuite.CRF(
     algorithm='lbfgs',
     c1=0.1,
@@ -104,10 +134,14 @@ crf = sklearn_crfsuite.CRF(
     max_iterations=250,
     all_possible_transitions=True
 )
+
 crf.fit(X, y)
 
-X = [sent2features(s) for s in l1]
-y = [data[1] for data in l1]
+X = [word2features2(l1, i) for i in range(len(l1))]
+y = [[data[1]] for data in l1]
+
+print(len(X))
+print(len(y))
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 
@@ -124,3 +158,4 @@ pickle.dump(crf, open(filename, 'wb'))
 loaded_model = pickle.load(open(filename, 'rb'))
 result = loaded_model.score(X_test, y_test)
 print(result) 
+print((time.clock() - start_time)/60, " min")
