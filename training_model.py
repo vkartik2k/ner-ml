@@ -14,6 +14,15 @@ from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
 
+df = pd.read_csv('set.csv', encoding = "ISO-8859-1")
+df.head()
+df.isnull().sum()
+df = df.fillna(method='ffill')
+
+l1 = df.values.tolist()
+
+print(l1)
+
 df = pd.read_csv('ner_dataset.csv', encoding = "ISO-8859-1")
 df.head()
 df.isnull().sum()
@@ -85,7 +94,8 @@ def sent2tokens(sent):
 
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+print(y)
 
 crf = sklearn_crfsuite.CRF(
     algorithm='lbfgs',
@@ -94,6 +104,13 @@ crf = sklearn_crfsuite.CRF(
     max_iterations=250,
     all_possible_transitions=True
 )
+crf.fit(X, y)
+
+X = [sent2features(s) for s in l1]
+y = [data[1] for data in l1]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
+
 crf.fit(X_train, y_train)
 
 y_pred = crf.predict(X_test)
