@@ -1,6 +1,6 @@
 import csv
 import numpy as np
-def ratio(s, t, ratio_calc = True):
+def ratio(s, t, ratio_calc = False):
     rows = len(s)+1
     cols = len(t)+1
     distance = np.zeros((rows,cols),dtype = int)
@@ -26,7 +26,7 @@ def ratio(s, t, ratio_calc = True):
         Ratio = ((len(s)+len(t)) - distance[row][col]) / (len(s)+len(t))
         return Ratio
     else:
-        return "The strings are {} edits away".format(distance[row][col])
+        return distance[row][col]
 
 
 sentences = open("acc_out.csv").read().split('\n')
@@ -59,9 +59,9 @@ for area in areaList :
     counter+=1
     for i in range(len(area)) :
         for j in range(len(col1)) :
-            a = (area[i].lower().strip()).strip('#').strip(',')
-            b = (col1[j].lower().strip()).strip('#').strip(',')
-            if a!='' and b!='' and ratio(a, b) > 0.77 :
+            a = (area[i].lower().strip()).strip('#').strip(',').strip('@')
+            b = (col1[j].lower().strip()).strip('#').strip(',').strip('@')
+            if (len(a)<= 4 and a==b) or (len(a) > 4 and a!='' and b!='' and ratio(a, b) < 2) :
                 if i==0 :
                     # B-geo
                     if col2[j] == 'I-geo' or col2[j] == 'B-geo' :
