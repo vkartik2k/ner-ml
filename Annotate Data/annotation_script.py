@@ -52,10 +52,16 @@ for i in range(len(sentences)):
 bcount = 0
 icount = 0
 
+counter = 0
+
 for area in areaList :
+    print(counter/len(areaList)*100 , ' %')
+    counter+=1
     for i in range(len(area)) :
         for j in range(len(col1)) :
-            if ratio(area[i], col1[j]) > 0.85 :
+            a = (area[i].lower().strip()).strip('#').strip(',')
+            b = (col1[j].lower().strip()).strip('#').strip(',')
+            if a!='' and b!='' and ratio(a, b) > 0.77 :
                 if i==0 :
                     # B-geo
                     if col2[j] == 'I-geo' or col2[j] == 'B-geo' :
@@ -74,6 +80,9 @@ for area in areaList :
 
 print(bcount)
 print(icount)
+print("###############################################")
+print("         Alert : Done changes made             ")
+print("###############################################")
 
 with open('acc_out_real.csv', 'w', newline='') as file:
     writer = csv.writer(file)
