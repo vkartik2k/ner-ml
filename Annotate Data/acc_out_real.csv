@@ -1,6 +1,6 @@
 @garimaguptabjp,O
 @adeshguptabjp,O
-@MCDDelhI,B-geo
+@MCDDelhI,O
 @narendramodi,O
 @PMOIndia,O
 @ArvindKejriwal,O
@@ -11,7 +11,7 @@ the,O
 situation,O
 of,O
 Mahatma,B-geo
-GandhI,O
+GandhI,I-geo
 Road,I-geo
 Adarsh,B-geo
 Nagar,B-geo
@@ -333,7 +333,7 @@ Call,I-org
 via,O
 @Pedal_India,O
 cc,O
-@WeAreNewDelhI,B-geo
+@WeAreNewDelhI,O
 @RTDelhI,B-geo
 #iCanSaveLife,O
 â€œ@bhogleharsha,O
@@ -1008,7 +1008,7 @@ at,O
 trauma,I-geo
 centre,I-geo
 after,O
-suffeRing,B-geo
+suffeRing,O
 severe,O
 head,O
 injuries,O
@@ -1016,7 +1016,7 @@ in,O
 #Delhi,B-geo
 road,I-geo
 accident.,O
-Gopinath,B-geo
+Gopinath,O
 Munde,O
 meets,O
 with,O
@@ -1061,7 +1061,7 @@ to,O
 AIIMS,B-geo
 http://disq.us/8iolgnÂ,O
 #BreakingNews,O
-Gopinath,B-geo
+Gopinath,O
 Munde,O
 injured,O
 in,O
@@ -1091,7 +1091,7 @@ development,O
 ministe...,O
 http://bit.ly/1mLM1HIÂ,O
 #News,O
-Gopinath,B-geo
+Gopinath,O
 Munde,O
 meets,O
 with,O
@@ -1157,7 +1157,7 @@ Union...,O
 http://dlvr.it/5sHmynÂ,O
 #SuryaRay,O
 #India,B-geo
-Gopinath,B-geo
+Gopinath,O
 Munde,O
 injured,O
 in,O
@@ -4406,7 +4406,7 @@ my,O
 brother,O
 got,O
 a,O
-major,B-geo
+major,O
 road,I-geo
 accident,O
 17,O
@@ -4414,7 +4414,7 @@ days,O
 ago.,O
 He,O
 got,O
-major,B-geo
+major,O
 head,O
 injury,O
 now,O
@@ -4590,7 +4590,7 @@ man,O
 on,O
 bike,O
 """gone,RIP...""",O
-MAJOR,B-geo
+MAJOR,O
 jam,O
 opposite,O
 akshardham,B-geo
@@ -4603,7 +4603,7 @@ full,O
 """force,crowd...seems""",O
 like,O
 a,O
-major,B-geo
+major,O
 accident,O
 or,O
 something.,O
@@ -4724,7 +4724,7 @@ coming,O
 from,O
 old,O
 Yamuna,B-geo
-Bridge,O
+Bridge,I-geo
 is,O
 too,O
 dangerous.,O
@@ -4734,11 +4734,11 @@ DME,O
 entry,O
 after,O
 yamuna,B-geo
-bridge,O
+bridge,I-geo
 as,O
 exit,O
 to,O
-khelgaon/noida/Akshardham,O
+khelgaon/noida/Akshardham,B-geo
 and,O
 exit,O
 for,O
@@ -5094,7 +5094,7 @@ Akshardham,B-geo
 metro,I-geo
 station,I-geo
 Towards,O
-Noida-Delhi..,I-org
+Noida-Delhi..,I-geo
 Some,O
 accident,O
 has,O
@@ -5110,7 +5110,7 @@ Akshardham.,B-geo
 Belongs,O
 to,O
 """Satpal"""",D-18,Arya""",B-geo
-"""Nagar,IP""",O
+"""Nagar,IP""",I-geo
 Ext.,O
 Girl,O
 I,O
@@ -5124,7 +5124,7 @@ took,O
 place,I-geo
 near,O
 Akshardham,B-geo
-Mandir.RT,O
+Mandir.RT,I-geo
 ...,O
 http://www.tweetsnow.in/294880Â,O
 #TweetsNowpic.twitter.com/WZsY49rEll,O
@@ -5135,7 +5135,7 @@ took,O
 place,I-geo
 near,O
 Akshardham,B-geo
-Mandir.RT,O
+Mandir.RT,I-geo
 this.Finding,O
 Parents.Girl,O
 critical.Need,O
@@ -5377,7 +5377,7 @@ today!,O
 Hyundai,O
 acts,O
 irresponsibly,O
-"""#Hyundai,""",B-geo
+"""#Hyundai,""",O
 #Trafficsquad,I-org
 delhi24X7,O
 Dumper,O
@@ -5568,7 +5568,7 @@ on,O
 DND,B-org
 Towards,I-org
 Maharani,B-geo
-bagh.,O
+bagh.,I-geo
 Traffic,O
 is,O
 smooth,O
@@ -5694,8 +5694,8 @@ roads,O
 leading,B-geo
 to,O
 Sarai,B-geo
-Kale,I-org
-"""Khan,""",I-org
+Kale,I-geo
+"""Khan,""",I-geo
 Lodhi,B-geo
 Road,I-geo
 have,O
@@ -5795,7 +5795,7 @@ do,O
 not,O
 believe,O
 in,O
-repaiRing,B-geo
+repaiRing,O
 the,O
 roads.,O
 @DelhiPwd,O
@@ -6036,7 +6036,7 @@ Will,O
 #traffic,O
 cops,O
 do,O
-justice,B-geo
+justice,O
 to,O
 #AamAdmi?,O
 @PMOIndia,O
@@ -6068,7 +6068,7 @@ foot,O
 bridge,O
 at,O
 shiv,B-geo
-durga,O
+durga,I-geo
 vihar,I-geo
 fatak,O
 badarpur,B-geo
@@ -6461,7 +6461,7 @@ marta,O
 """hai,""",O
 chor,O
 tabrez,O
-ansari,B-geo
+ansari,O
 marta,O
 hai,O
 """,""",O
@@ -6690,7 +6690,7 @@ hightention,O
 wire,O
 as,O
 example,O
-JVTS,O
+JVTS,B-geo
 GARDEN,I-geo
 C,I-art
 BLOCK,I-art
@@ -7180,7 +7180,7 @@ the,O
 stretch.,O
 @dtptraffic,O
 @DelhiTrafficPol,O
-Jai,B-geo
+Jai,O
 Hind!,I-org
 DANGEROUS,I-art
 IRON,I-art
@@ -7547,7 +7547,7 @@ left,O
 turn,O
 towards,O
 SRI,B-geo
-FORT,O
+FORT,I-geo
 """road,it""",O
 might,O
 result,O
@@ -7636,7 +7636,7 @@ Had,O
 I,O
 not,O
 been,O
-weaRing,B-geo
+weaRing,O
 """Helmet,""",O
 somebody,O
 else,O
@@ -7655,7 +7655,7 @@ I,O
 were,O
 going,O
 towards,O
-Aurobindo,I-geo
+Aurobindo,B-geo
 Market,I-geo
 from,O
 Chirag,B-geo
@@ -7696,7 +7696,7 @@ dangerous,O
 road,I-geo
 """object,""",O
 a,O
-green,B-geo
+green,O
 tarpaulin,O
 over,O
 a,O
@@ -32510,7 +32510,7 @@ behind,O
 AIIMS,B-geo
 in,O
 New,B-geo
-"""DelhI,B-geone""",I-geo
+"""DelhI""",I-geo
 reported,O
 dead,O
 https://www.youtube.com/watch?v=CCN25XmMJMcÂ,O
@@ -39024,7 +39024,7 @@ got,O
 free,O
 treatment,O
 at,O
-"""Max,Saket.""",O
+"""Max,Saket.""",I-geo
 We,O
 had,O
 accident,O
@@ -39111,7 +39111,7 @@ solution?,O
 at,O
 Neb,B-geo
 Sarai,B-geo
-Gali,I-org
+Gali,I-geo
 2,O
 delhi#traffic,O
 """.BARAPULAH,BARAPULAH""",O
@@ -42964,7 +42964,7 @@ them,O
 too.,O
 pic.twitter.com/qJJMBfTE6I,O
 While,O
-heaRing,B-geo
+heaRing,O
 an,O
 appeal,O
 against,O
@@ -43110,7 +43110,7 @@ Good,O
 to,O
 know,O
 when,O
-Nirbhaya,B-geo
+Nirbhaya,O
 got,O
 the,O
 justice,B-geo
@@ -44764,7 +44764,7 @@ cases,O
 to,O
 """Delhi,7-day-deadline""",O
 to,O
-CBI,O
+CBI,B-geo
 in,O
 accident,O
 probe,O
@@ -44791,8 +44791,8 @@ days,O
 #HIGHWAY,I-art
 #Accidents,I-org
 #CBI,O
-#RanjanGogoi,O
-#Lucknow,O
+#RanjanGogoi,B-geo
+#Lucknow,B-geo
 #DelhI,B-geo
 #SG,I-art
 #CJI,O
@@ -44905,9 +44905,9 @@ DTC,O
 TERMINAL,B-geo
 ME,I-art
 BHEJE,O
-Kapil,B-geo
+Kapil,O
 veer,O
-Arora,B-geo
+Arora,O
 Saab,I-org
 same,O
 copy,O
