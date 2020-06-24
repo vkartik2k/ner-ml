@@ -13,17 +13,15 @@ import sklearn_crfsuite
 from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
-# import time
-# start_time = time.clock()
 
-df = pd.read_csv('acc_out_real.csv', encoding = "ISO-8859-1")
+df = pd.read_csv('testing_data.csv', encoding = "ISO-8859-1")
 df.head()
 df.isnull().sum()
 df = df.fillna(method='ffill')
 
 l1 = df.values.tolist()
 
-df = pd.read_csv('ner_dataset.csv', encoding = "ISO-8859-1")
+df = pd.read_csv('training_data.csv', encoding = "ISO-8859-1")
 df.head()
 df.isnull().sum()
 df = df.fillna(method='ffill')
@@ -140,10 +138,8 @@ crf = sklearn_crfsuite.CRF(
 X_test = [word2features2(l1, i) for i in range(len(l1))]
 y_test = [[data[1]] for data in l1]
 
-crf.fit(X_test, y_test)
-
-# y_pred = crf.predict(X_test)
-# print(metrics.flat_classification_report(y_test, y_pred, labels = None))
+y_pred = crf.predict(X_test)
+print(metrics.flat_classification_report(y_test, y_pred, labels = None))
 
 #Save File to disk
 filename='crfmodel.sav'
@@ -152,5 +148,4 @@ pickle.dump(crf, open(filename, 'wb'))
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 result = loaded_model.score(X_test, y_test)
-print(result) 
-# print((time.clock() - start_time)/60, " min")
+print(result)

@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+
 def ratio(s, t, ratio_calc = False):
     rows = len(s)+1
     cols = len(t)+1
@@ -28,15 +29,17 @@ def ratio(s, t, ratio_calc = False):
     else:
         return distance[row][col]
 
-
 sentences = open("acc_out.csv").read().split('\n')
 areaList = open("delhi_local.csv").read().split('\n')
 
-for i in range(len(areaList)) :
-    areaList[i] = areaList[i].split()
-
 col1 = []
 col2 = []
+bcount = 0
+icount = 0
+counter = 0
+
+for i in range(len(areaList)) :
+    areaList[i] = areaList[i].split()
 
 for i in range(len(sentences)):
     arr = sentences[i].split(',')
@@ -49,11 +52,6 @@ for i in range(len(sentences)):
 # for i in range(100) :
 #     print(col1[i], col2[i])
 
-bcount = 0
-icount = 0
-
-counter = 0
-
 for area in areaList :
     print(counter/len(areaList)*100 , ' %')
     counter+=1
@@ -63,7 +61,6 @@ for area in areaList :
             b = (col1[j].lower().strip()).strip('#').strip(',').strip('@')
             if (len(a)<= 4 and a==b) or (len(a) > 4 and a!='' and b!='' and ratio(a, b) < 2) :
                 if i==0 :
-                    # B-geo
                     if col2[j] == 'I-geo' or col2[j] == 'B-geo' :
                         pass
                     else :
@@ -71,20 +68,17 @@ for area in areaList :
                         col2[j] = 'B-geo' 
 
                 else :
-                    # I-geo
                     if col2[j] == 'I-geo' or col2[j] == 'B-geo' :
                         pass
                     else :
                         icount+=1
                         col2[j] = 'I-geo' 
 
-print(bcount)
-print(icount)
 print("###############################################")
-print("         Alert : Done changes made             ")
+print("        Alert : Operation Successful           ")
 print("###############################################")
 
-with open('acc_out_real.csv', 'w', newline='') as file:
+with open('acc_output.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     for i in range(len(col1)) :
         writer.writerow([col1[i], col2[i]])
