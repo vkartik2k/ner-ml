@@ -16,7 +16,7 @@ from collections import Counter
 # import time
 # start_time = time.clock()
 
-df = pd.read_csv('set.csv', encoding = "ISO-8859-1")
+df = pd.read_csv('acc_out_real.csv', encoding = "ISO-8859-1")
 df.head()
 df.isnull().sum()
 df = df.fillna(method='ffill')
@@ -135,7 +135,7 @@ crf = sklearn_crfsuite.CRF(
     all_possible_transitions=True
 )
 
-crf.fit(X, y)
+# crf.fit(X, y)
 
 X_test = [word2features2(l1, i) for i in range(len(l1))]
 y_test = [[data[1]] for data in l1]
