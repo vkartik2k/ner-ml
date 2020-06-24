@@ -13,8 +13,8 @@ import sklearn_crfsuite
 from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
-import time
-start_time = time.clock()
+# import time
+# start_time = time.clock()
 
 df = pd.read_csv('set.csv', encoding = "ISO-8859-1")
 df.head()
@@ -137,18 +137,13 @@ crf = sklearn_crfsuite.CRF(
 
 crf.fit(X, y)
 
-X = [word2features2(l1, i) for i in range(len(l1))]
-y = [[data[1]] for data in l1]
+X_test = [word2features2(l1, i) for i in range(len(l1))]
+y_test = [[data[1]] for data in l1]
 
-print(len(X))
-print(len(y))
+crf.fit(X_test, y_test)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
-
-crf.fit(X_train, y_train)
-
-y_pred = crf.predict(X_test)
-print(metrics.flat_classification_report(y_test, y_pred, labels = None))
+# y_pred = crf.predict(X_test)
+# print(metrics.flat_classification_report(y_test, y_pred, labels = None))
 
 #Save File to disk
 filename='crfmodel.sav'
@@ -158,4 +153,4 @@ pickle.dump(crf, open(filename, 'wb'))
 loaded_model = pickle.load(open(filename, 'rb'))
 result = loaded_model.score(X_test, y_test)
 print(result) 
-print((time.clock() - start_time)/60, " min")
+# print((time.clock() - start_time)/60, " min")
