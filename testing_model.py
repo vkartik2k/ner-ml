@@ -63,7 +63,6 @@ loaded_model = pickle.load(open(filename, 'rb'))
 y_pred = loaded_model.predict(X_test)
 print(y_pred) 
 
-
 # col1 = []
 # col2 = []
 

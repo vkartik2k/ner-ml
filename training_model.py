@@ -1,3 +1,7 @@
+#######################################################
+#   Written by : Kartik Verma and Shobit Sinha 2020   #
+#######################################################
+
 import pandas as pd
 import numpy as np
 import pickle
@@ -14,42 +18,9 @@ from sklearn_crfsuite import CRF,scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
 
-df = pd.read_csv('testing_data.csv', encoding = "ISO-8859-1")
-df.head()
-df.isnull().sum()
-df = df.fillna(method='ffill')
-
-l1 = df.values.tolist()
-
-df = pd.read_csv('training_data.csv', encoding = "ISO-8859-1")
-df.head()
-df.isnull().sum()
-df = df.fillna(method='ffill')
-
-df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
-df1=df.groupby('Tag').size().reset_index(name='counts')
-
-class SentenceGetter(object):
-    def __init__(self, data):
-        self.n_sent = 1
-        self.data = data
-        self.empty = False
-        agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
-                                                           s['POS'].values.tolist(), 
-                                                           s['Tag'].values.tolist())]
-        self.grouped = self.data.groupby('Sentence #').apply(agg_func)
-        self.sentences = [s for s in self.grouped]
-
-    def get_next(self):
-        try: 
-            s = self.grouped['Sentence: {}'.format(self.n_sent)]
-            self.n_sent += 1
-            return s 
-        except:
-            return None
-
-getter = SentenceGetter(df)
-sentences = getter.sentences
+############################################################################################
+#                        Converting data to features defination                            #
+############################################################################################
 
 def word2features(sent, i):
     word = sent[i][0]
@@ -122,8 +93,81 @@ def sent2labels(sent):
 def sent2tokens(sent):
     return [token for token, postag, label in sent]
 
-X = [sent2features(s) for s in sentences]
-y = [sent2labels(s) for s in sentences]
+############################################################################################
+#                                    Loading main_dataset                                  #
+############################################################################################
+
+df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
+df = df[:300000]
+df.head()
+df.isnull().sum()
+df = df.fillna(method='ffill')
+
+df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
+df1=df.groupby('Tag').size().reset_index(name='counts')
+
+class SentenceGetter(object):
+    def __init__(self, data):
+        self.n_sent = 1
+        self.data = data
+        self.empty = False
+        agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
+                                                           s['POS'].values.tolist(), 
+                                                           s['Tag'].values.tolist())]
+        self.grouped = self.data.groupby('Sentence #').apply(agg_func)
+        self.sentences = [s for s in self.grouped]
+
+    def get_next(self):
+        try: 
+            s = self.grouped['Sentence: {}'.format(self.n_sent)]
+            self.n_sent += 1
+            return s 
+        except:
+            return None
+
+getter = SentenceGetter(df)
+sentences = getter.sentences
+
+X1 = [sent2features(s) for s in sentences]
+Y1 = [sent2labels(s) for s in sentences]
+
+print("Status : main_dataset loaded successfully!")
+
+############################################################################################
+#                                    Loading covid_dataset                                 #
+############################################################################################
+
+df = pd.read_csv('Dataset/covid_dataset.csv', encoding = "ISO-8859-1")
+df.head()
+df.isnull().sum()
+df = df.fillna(method='ffill')
+
+list1 = df.values.tolist()
+
+X2 = [word2features2(list1, i) for i in range(len(list1))]
+Y2 = [[data[1]] for data in list1]
+
+print("Status : covid_dataset loaded successfully!")
+
+############################################################################################
+#                                   Loading accident_dataset                               #
+############################################################################################
+
+df = pd.read_csv('Dataset/accident_dataset.csv', encoding = "ISO-8859-1")
+df.head()
+df.isnull().sum()
+df = df.fillna(method='ffill')
+
+list1 = df.values.tolist()
+
+X3 = [word2features2(list1, i) for i in range(len(list1))]
+Y3 = [[data[1]] for data in list1]
+
+print("Status : accident_dataset loaded successfully!")
+
+############################################################################################
+#                                 Defining and training Model                              #
+############################################################################################
 
 crf = sklearn_crfsuite.CRF(
     algorithm='lbfgs',
@@ -133,19 +177,23 @@ crf = sklearn_crfsuite.CRF(
     all_possible_transitions=True
 )
 
-# crf.fit(X, y)
+X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.2, random_state=0)
+X_train3, X_test3, Y_train3, Y_test3 = train_test_split(X3, Y3, test_size=0.2, random_state=0)
 
-X_test = [word2features2(l1, i) for i in range(len(l1))]
-y_test = [[data[1]] for data in l1]
+X_train = X1 + X_train2 + X_train3
+Y_train = Y1 + Y_train2 + Y_train3
+X_test = X_test2 + X_test3
+Y_test = Y_test2 + Y_test3
 
-y_pred = crf.predict(X_test)
-print(metrics.flat_classification_report(y_test, y_pred, labels = None))
+print("Status : Training and Testing Data ready!")
+print("Size of training data " , len(X_train))
+print("Size of testing data " , len(X_test))
 
-#Save File to disk
-filename='crfmodel.sav'
-pickle.dump(crf, open(filename, 'wb'))
+crf.fit(X_train, Y_train)
 
-# load the model from disk
-loaded_model = pickle.load(open(filename, 'rb'))
-result = loaded_model.score(X_test, y_test)
-print(result)
+pickle.dump(crf, open('crfmodel.sav', 'wb'))
+
+print("Status : Training Successful!")
+
+Y_pred = crf.predict(X_test)
+print(metrics.flat_classification_report(Y_test, Y_pred, labels = None))
