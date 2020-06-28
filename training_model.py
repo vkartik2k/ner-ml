@@ -177,8 +177,8 @@ crf = sklearn_crfsuite.CRF(
     all_possible_transitions=True
 )
 
-X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.2, random_state=0)
-X_train3, X_test3, Y_train3, Y_test3 = train_test_split(X3, Y3, test_size=0.2, random_state=0)
+X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.1, random_state=0)
+X_train3, X_test3, Y_train3, Y_test3 = train_test_split(X3, Y3, test_size=0.1, random_state=0)
 
 X_train = X1 + X_train2 + X_train3
 Y_train = Y1 + Y_train2 + Y_train3

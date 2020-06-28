@@ -14326,9 +14326,9 @@ COVID-19,B-org
 was,O
 actually,O
 named,O
-Masjid-i,B-geo
-Jehan,I-geo
-Numa.,_-geo
+Masjid-i,O
+Jehan,O
+Numa.,O
 Built,I-per
 by,O
 Emperor,B-per
