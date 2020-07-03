@@ -29,7 +29,7 @@ def ratio(s, t, ratio_calc = False):
     else:
         return distance[row][col]
 
-sentences = open("../../Data/covid_tokenised.csv").read().split('\n')
+sentences = open("../../Data/gali_tokenised.csv").read().split('\n')
 areaList = open("delhi_local.csv").read().split('\n')
 
 col1 = []

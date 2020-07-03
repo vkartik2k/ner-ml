@@ -17,7 +17,7 @@ import csv
 import re
 import nltk
 
-list1 =open("Tweets/accident_tweets.csv").read().split('\n')
+list1 =open("Tweets/gali_tweets.tsv").read().split('\n')
 sentences = []
     
 charset = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|"
