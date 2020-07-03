@@ -700,7 +700,7 @@ of,O
 my,O
 wife,O
 .28,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 3,O
 Jagdamba,B-LOC
@@ -3943,7 +3943,7 @@ New,B-LOC
 Delhi,I-LOC
 .,O
 110045,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 4,O
 .,O
@@ -4079,7 +4079,7 @@ New,B-LOC
 Delhi,I-LOC
 .,O
 110045,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 4,O
 .,O
@@ -4170,7 +4170,7 @@ on,O
 my,O
 particular,O
 location,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 .,O
 8,I-LOC
@@ -4296,7 +4296,7 @@ on,O
 my,O
 particular,O
 location,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 .,O
 8,I-LOC
@@ -4876,7 +4876,7 @@ New,B-LOC
 Delhi,I-LOC
 .,O
 110045,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 4,O
 .,O
@@ -4963,7 +4963,7 @@ paani,O
 arha,O
 h,O
 Sentence #162,
-Gali,B-LOC
+Gali,B-GPE
 no,O
 .,O
 17/2,O
@@ -5005,7 +5005,7 @@ New,B-LOC
 Delhi,I-LOC
 .,O
 110045,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 4,O
 .,O
@@ -5092,7 +5092,7 @@ paani,O
 arha,O
 h,O
 Sentence #166,
-Gali,B-LOC
+Gali,B-GPE
 no,O
 .,O
 17/2,O
@@ -5138,7 +5138,7 @@ at,O
 House,I-LOC
 no,O
 1170,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 12,I-LOC
 Govind,B-LOC
@@ -5282,7 +5282,7 @@ at,O
 House,I-LOC
 no,O
 1170,O
-Gali,B-LOC
+Gali,B-GPE
 no,O
 12,I-LOC
 Govind,B-LOC
@@ -7358,7 +7358,7 @@ ki,O
 to,O
 usni,O
 mujhe,O
-Gali,B-LOC
+Gali,B-GPE
 galoj,O
 Kiya,B-LOC
 or,O
@@ -7739,7 +7739,7 @@ ki,O
 to,O
 usni,O
 mujhe,O
-Gali,B-LOC
+Gali,B-GPE
 galoj,O
 Kiya,B-LOC
 or,O
@@ -8658,7 +8658,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
@@ -8709,7 +8709,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
@@ -8760,7 +8760,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
@@ -8947,7 +8947,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
@@ -8998,7 +8998,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
@@ -9049,7 +9049,7 @@ broken,O
 last,O
 4,B-TIM
 months,O
-Gali,B-LOC
+Gali,B-GPE
 broken,O
 by,O
 EDMC,B-MISC
