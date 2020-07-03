@@ -1,31 +1,35 @@
 import pandas as pd
 import numpy as np
 import re
-from nltk import word_tokenize
+import nltk
 
 list1 =open("covid_tweets.tsv").read().split('\n')
 sentences = []
 
 for i in list1 :
-    print(word_tokenize(i))
+    print(nltk.word_tokenize(i))
     
+charset = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|"
+
+for i in list1 :
+    sentences += i.split('    ')
+
+ans = []
+for sentence in sentences:
+    newSentence = ""
+    for i in sentence :
+        if i in charset :
+            newSentence += i
+    ans.append(newSentence)
+
+sentences = ans
+
+final = []
+for sentence in sentences :
+    final.append(nltk.word_tokenize(i))
 
 
-# charset = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|"
-
-# for i in list1 :
-#     sentences += i.split('    ')
-
-# ans = []
-# for sentence in sentences:
-#     newSentence = ""
-#     for i in sentence :
-#         if i in charset :
-#             newSentence += i
-#     ans.append(newSentence)
-
-# sentences = ans
-
+print(final)
 # arr = []
 # for sentence in sentences:
 #     temp = sentence.split()
