@@ -91,6 +91,7 @@ function next_sentence() {
     reloadStep()
     sentence = []
     prevStart = start
+    document.getElementById('sentenceNo').innerHTML = arr[start]
     start += 1
     while (!arr[start].includes("Sentence #")) {
         sentence.push(arr[start].split(','))
