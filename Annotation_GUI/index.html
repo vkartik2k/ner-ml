@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotator</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+
+</head>
+
+<body onload="init()">
+    <h1>Tweet Annotator</h1>
+    <div style="font-size: 25px;" id="currentHead">Step : <span style="color: rgb(0, 187, 187); font-weight: bold;">Choose
+            Locations</span></div>
+    <div class="container">
+        <input id="fileInput" type="file" name="file" />
+    </div>
+    <div class="bottom">
+        <button style="display: inline;" class="extra" onclick="resetMark()">Reset Mark</button>
+        <button style="display: inline;" class="extra" onclick="download()">Download</button>
+        <button style="display: inline;" class="extra">Reset all to O</button>
+        <button style="display: inline;" class="extra" onclick="next()">Next</button>
+        <button style="display: inline;" class="extra" onclick="next_sentence()">Next Sentence</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- https://ourcodeworld.com/articles/read/189/how-to-create-a-file-and-generate-a-download-with-javascript-in-the-browser-without-a-server -->
+<!-- https://www.geeksforgeeks.org/javascript-program-to-read-text-file/ -->
