@@ -92,6 +92,7 @@ function next_sentence() {
     sentence = []
     prevStart = start
     document.getElementById('sentenceNo').innerHTML = arr[start]
+    god.push(arr[start].split(','))
     start += 1
     while (!arr[start].includes("Sentence #")) {
         sentence.push(arr[start].split(','))
