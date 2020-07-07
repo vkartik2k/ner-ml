@@ -191,7 +191,7 @@ print("Size of testing data " , len(X_test))
 
 crf.fit(X_train, Y_train)
 
-pickle.dump(crf, open('crfmodel.sav', 'wb'))
+pickle.dump(crf, open('model/crfmodel.sav', 'wb'))
 
 print("Status : Training Successful!")
 

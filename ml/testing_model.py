@@ -17,35 +17,35 @@ import csv
 import re
 import nltk
 
-list1 =open("Tweets/gali_tweets.tsv").read().split('\n')
-sentences = []
+# list1 =open("Tweets/gali_tweets.tsv").read().split('\n')
+# sentences = []
     
-charset = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|"
+# charset = " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|"
 
-for i in list1 :
-    sentences += i.split('    ')
+# for i in list1 :
+#     sentences += i.split('    ')
 
-ans = []
-for sentence in sentences:
-    newSentence = ""
-    for i in sentence :
-        if i in charset :
-            newSentence += i
-    ans.append(newSentence)
+# ans = []
+# for sentence in sentences:
+#     newSentence = ""
+#     for i in sentence :
+#         if i in charset :
+#             newSentence += i
+#     ans.append(newSentence)
 
-sentences = ans
+# sentences = ans
 
-final = []
-for sentence in sentences :
-    x = nltk.word_tokenize(sentence)
-    final.append(x)
+# final = []
+# for sentence in sentences :
+#     x = nltk.word_tokenize(sentence)
+#     final.append(x)
 
-sentences = final
+# sentences = final
 # sentences = open("Accidents.csv").read().split('\n')
 
 # for i in range(len(sentences)):
 #     sentences[i] = sentences[i].split()
-# sentence = input('Enter sentence for NER :').split()
+sentence = input('Enter sentence for NER :').split()
 
 def word2features(sent, i):
     word = sent[i]
@@ -81,31 +81,30 @@ def word2features(sent, i):
 def sent2features(sent):
     return [word2features(sent, i) for i in range(len(sent))]
 
-# X_test = [sent2features(sentence)]
-X_test = [sent2features(s) for s in sentences]
+X_test = [sent2features(sentence)]
+# X_test = [sent2features(s) for s in sentences]
 
-
-filename='crfmodel.sav'
+filename='model/crfmodel.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 y_pred = loaded_model.predict(X_test)
-# print(y_pred) 
+print(y_pred) 
 
-col1 = []
-col2 = []
-count = 0
-for i in sentences:
-    col1.append('Sentence #'+ str(count))
-    for j in i:
-        col1.append(j)
-    count += 1
-for i in y_pred:
-    col2.append('')
-    for j in i:
-        col2.append(j)
+# col1 = []
+# col2 = []
+# count = 0
+# for i in sentences:
+#     col1.append('Sentence #'+ str(count))
+#     for j in i:
+#         col1.append(j)
+#     count += 1
+# for i in y_pred:
+#     col2.append('')
+#     for j in i:
+#         col2.append(j)
 
-with open('acc_out.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    for i in range(len(col1)) :
-        writer.writerow([col1[i], col2[i]])
+# with open('acc_out.csv', 'w', newline='') as file:
+#     writer = csv.writer(file)
+#     for i in range(len(col1)) :
+#         writer.writerow([col1[i], col2[i]])
 
-print('DONE')
+# print('DONE')
