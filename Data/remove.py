@@ -1,6 +1,6 @@
 import csv
 
-f = open("file.csv", "r")
+f = open("covid_tbd.csv", "r")
 curr = []
 finalSentences = []
 for x in f:
@@ -25,7 +25,7 @@ for i in finalSentences:
             col1.append(j[0])
             col2.append(j[1][:-1])
 
-with open('acc_out.csv', 'w', newline='') as file:
+with open('acc.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     for i in range(len(col1)) :
         writer.writerow([col1[i], col2[i]])
