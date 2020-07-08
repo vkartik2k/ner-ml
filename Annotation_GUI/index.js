@@ -45,6 +45,14 @@ function reloadStep() {
         document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
         Persons</span>`
     }
+    if (step == 3) {
+        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
+        Time</span>`
+    }
+    if (step == 4) {
+        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
+        MISC</span>`
+    }
 }
 
 function mark(i) {
@@ -65,6 +73,14 @@ function mark(i) {
             god[prevStart+startStop][1] = 'B-PER\n'
             document.getElementById('ele' + (prevStart+startStop)).className = 'B-PER'
         }
+        if(step==3) {
+            god[prevStart+startStop][1] = 'B-PER\n'
+            document.getElementById('ele' + (prevStart+startStop)).className = 'B-PER'
+        }
+        if(step==4) {
+            god[prevStart+startStop][1] = 'B-MISC\n'
+            document.getElementById('ele' + (prevStart+startStop)).className = 'B-MISC'
+        }
         for(let j=startStop+1; j<=i; j++) {
             if(step==0) {
                 god[prevStart+j][1] = 'I-LOC\n'
@@ -77,6 +93,14 @@ function mark(i) {
             if(step==2) {
                 god[prevStart+j][1] = 'I-PER\n'
                 document.getElementById('ele' + (prevStart+j)).className = 'I-PER'
+            }
+            if(step==3) {
+                god[prevStart+j][1] = 'I-PER\n'
+                document.getElementById('ele' + (prevStart+j)).className = 'I-PER'
+            }
+            if(step==4) {
+                god[prevStart+j][1] = 'I-MISC\n'
+                document.getElementById('ele' + (prevStart+j)).className = 'I-MISC'
             }
         }
         startStop = -1
@@ -107,7 +131,7 @@ function next_sentence() {
 
 function next() {
     step += 1
-    if (step == 3) step = 0
+    if (step == 5) step = 0
     reloadStep()
 }
 
