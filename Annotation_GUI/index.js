@@ -1,30 +1,5 @@
 let container = document.getElementsByClassName('container')[0]
 
-function init() {
-    document.getElementById('fileInput').addEventListener('change', handleFileSelect, false);
-}
-
-function handleFileSelect(event) {
-    const reader = new FileReader()
-    reader.onload = handleFileLoad;
-    reader.readAsText(event.target.files[0])
-}
-
-function download(filename='dataset.csv') {
-    var element = document.createElement('a');
-    let str = ''
-    god.forEach(ele => str += ele[0]+','+ele[1])
-    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(str));
-    element.setAttribute('download', filename);
-
-    element.style.display = 'none';
-    document.body.appendChild(element);
-
-    element.click();
-
-    document.body.removeChild(element);
-}
-
 let god = []
 let arr = []
 let start = 0
@@ -33,17 +8,41 @@ let sentence = []
 let step = 0
 let startStop = -1
 
+const init = () => document.getElementById('fileInput').addEventListener('change', handleFileSelect, false)
+
+function handleFileSelect(event) {
+    const reader = new FileReader()
+    reader.onload = handleFileLoad
+    reader.readAsText(event.target.files[0])
+}
+
+function download() {
+    filename='dataset.csv'
+    var element = document.createElement('a')
+    let str = ''
+    god.forEach(ele => str += ele[0]+','+ele[1])
+    element.setAttribute('href', 'data:text/plaincharset=utf-8,' + encodeURIComponent(str))
+    element.setAttribute('download', filename)
+
+    element.style.display = 'none'
+    document.body.appendChild(element)
+
+    element.click()
+
+    document.body.removeChild(element)
+}
+
 function reloadStep() {
     if (step == 0) {
-        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187); font-weight: bold;">Choose
+        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
         Locations</span>`
     }
     if (step == 1) {
-        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187); font-weight: bold;">Choose
+        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
         Organisations</span>`
     }
     if (step == 2) {
-        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187); font-weight: bold;">Choose
+        document.getElementById('currentHead').innerHTML = `Step : <span style="color: rgb(0, 187, 187) font-weight: bold">Choose
         Persons</span>`
     }
 }
@@ -51,7 +50,7 @@ function reloadStep() {
 function mark(i) {
     if(startStop==-1) {
         startStop = i
-        document.getElementById('ele' + (prevStart+startStop)).className = 'selected'
+        document.getElementById('ele' + (prevStart+startStop)).className += ' selected'
     }
     else {
         if(step==0) {
@@ -68,9 +67,7 @@ function mark(i) {
         }
         for(let j=startStop+1; j<=i; j++) {
             if(step==0) {
-                console.log(god[prevStart+j])
                 god[prevStart+j][1] = 'I-LOC\n'
-                console.log(god[prevStart+j][1])
                 document.getElementById('ele' + (prevStart+j)).className = 'I-LOC'
             }
             if(step==1) {
@@ -82,7 +79,7 @@ function mark(i) {
                 document.getElementById('ele' + (prevStart+j)).className = 'I-PER'
             }
         }
-        startStop = -1;
+        startStop = -1
     }
 }
 
@@ -103,30 +100,37 @@ function next_sentence() {
     let i = 0
     sentence.forEach(element => {
         innerPart += "<button id='ele"+(i+prevStart)+"' class=" + element[1] + " onclick= mark("+i+")> " + element[0] + " </button>"
-        i++;
-    });
+        i++
+    })
     container.innerHTML = innerPart
 }
 
 function next() {
-    step += 1;
-    if (step == 3) {
-        step = 0
-        next_sentence()
-    }
+    step += 1
+    if (step == 3) step = 0
     reloadStep()
 }
 
 function handleFileLoad(event) {
-    console.log(event);
     let text = event.target.result
-    arr = text.split('\n');
+    arr = text.split('\n')
     next_sentence()
 }
 
-function resetMark() {
+let resetMark = () => {
+    if(startStop != -1) document.getElementById('ele' + (prevStart+startStop)).classList.remove("selected")
     startStop = -1
 }
 
-Mousetrap.bind('n', next);
-Mousetrap.bind('m', next_sentence);
+let markO = () => {
+    for(let i=0; i<sentence.length; i++) {
+        god[prevStart+i][1] = 'O\n'
+        document.getElementById('ele' + (prevStart+i)).className = ''
+    }
+}
+
+Mousetrap.bind('n', next)
+Mousetrap.bind('m', next_sentence)
+Mousetrap.bind('r',resetMark)
+Mousetrap.bind('d',download)
+Mousetrap.bind('o',markO)
