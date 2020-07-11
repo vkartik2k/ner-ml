@@ -2089,7 +2089,6 @@ Delhi-,B-LOC
 AIIMS,B-LOC
 docs,O
 #,O
-"Killed,4",O
 #,O
 injured,O
 in,O
@@ -2330,7 +2329,6 @@ Sentence #94,
 3,O
 AIIMS,B-LOC
 doctors,O
-"killed,4",O
 injured,O
 in,O
 a,O
@@ -2362,7 +2360,6 @@ of,O
 3,O
 AIIMS,B-LOC
 Delhi,B-LOC
-"doctors,4",O
 others,O
 injured,O
 Delhi,B-MISC
@@ -2373,8 +2370,6 @@ https,O
 pic.twitter.com/kCPFkJwrMF,O
 Sentence #96,
 :,O
-",3",O
-",4",O
 https,O
 :,O
 //lalluram.com/,O
@@ -2702,7 +2697,6 @@ For,O
 accident,O
 case,O
 Call,O
-"9456858036,90079974647",O
 Via,O
 @,O
 Pedal_India,B-LOC
@@ -4747,7 +4741,6 @@ u/s,O
 of,O
 Indian,B-GPE
 Penal,O
-"Code,1860",O
 .,O
 The,O
 date,O
@@ -6251,7 +6244,6 @@ Major,B-LOC
 Accident,O
 Hit,B-ORG
 &,I-ORG
-"Run,26th",B-TIM
 June,I-TIM
 MidNight,I-TIM
 12:15,I-TIM
@@ -6268,7 +6260,6 @@ Colony,I-LOC
 Road,I-LOC
 #,O
 Delhi,B-LOC
-"Male,25y-30y",O
 IDENTITY,B-ORG
 Not,I-ORG
 Available,I-ORG
@@ -6382,7 +6373,7 @@ http,O
 Delhi/New,B-LOC
 %,O
 Delhi,B-LOC
-Sentence #235,O
+Sentence #235,
 Jaideep,B-PER
 Pandey,I-PER
 :,O
@@ -6470,10 +6461,8 @@ took,O
 place,O
 near,O
 Akshardham,B-LOC
-Mandir
 .,O
 RT,O
-this
 .,O
 Finding,O
 Parents,O
@@ -6498,7 +6487,6 @@ Akshardham,B-LOC
 Mandir,O
 .,O
 RT,O
-this
 .,O
 Finding,O
 Parents,O
@@ -6525,10 +6513,8 @@ took,O
 place,O
 near,O
 Akshardham,B-LOC
-Mandir
 .,O
 RT,O
-this
 .,O
 Finding,O
 Parents,O
@@ -6548,8 +6534,6 @@ took,O
 place,O
 near,O
 Akshardham,B-LOC
-Mandir
-.O
 RT,O
 this,O
 .,O
@@ -6674,7 +6658,6 @@ Mandir,I-LOC
 ..,O
 RT,O
 this,O
-info
 .,O
 Finding,O
 Parents,O
@@ -6845,7 +6828,6 @@ http,O
 :,O
 //bit.ly/9bWSIE,O
 delhi24X7,O
-=============================================
 Sentence #252,
 ACCIDENT,O
 HAPPENED,O
@@ -11479,7 +11461,6 @@ ACCIDENT,O
 CAUSING,O
 SLOW,O
 MOVEMENT,I-MISC
-",",I-MISC
 ON,O
 DHAULA,B-LOC
 KUAN,I-LOC
@@ -12255,7 +12236,6 @@ BOARDER,O
 TO,I-MISC
 SHAHEED,B-LOC
 NAGAR,I-LOC
-METRO.B-LOC
 STATION,I-LOC
 .,O
 DAILY,O
@@ -13058,7 +13038,6 @@ Balaji,B-ORG
 prodyogki,O
 welcome,B-LOC
 plot,O
-"6,12,8",O
 in,O
 sector,B-TIM
 3,I-TIM
@@ -13119,7 +13098,6 @@ on,O
 weekly,O
 market,O
 sector,O
-"8,6",O
 dadadev,B-LOC
 mandir,I-LOC
 road,I-LOC
@@ -13308,7 +13286,6 @@ Balaji,B-ORG
 prodyogki,O
 welcome,B-LOC
 plot,O
-"6,12,8",O
 in,O
 sector,B-PER
 3,I-PER
@@ -16824,7 +16801,6 @@ Time,O
 of,O
 accident,O
 6.30,O
-"AM,12",B-ORG
 Mar,O
 17,O
 .,O
@@ -17482,7 +17458,6 @@ of,O
 the,O
 world,O
 's,O
-"vehicles,10",O
 %,O
 of,O
 the,O
@@ -18153,7 +18128,6 @@ AutoTechReview,O
 Sentence #645,
 LN,B-PER
 MISHRA,I-PER
-",",I-MISC
 MOHAN,B-PER
 KUMAR,I-PER
 MANGALAM,I-PER
@@ -18437,66 +18411,62 @@ and,O
 everything,O
 changed.,O
 Sentence #652,
+One,O
+night,O
+at,O
+2,O
+AM,O
+in,O
+1982,B-TIM
+Madhavrao,B-PER
+Scindia,I-PER
+and,O
+Sonia,B-PER
+Gandhi,I-PER
+were,O
+caughtalone,O
+together,O
+when,O
+their,O
+car,O
+met,O
+an,O
+accident,O
+near,O
+IIT,B-LOC
+Delhi,I-LOC
+main,I-LOC
+gate,I-LOC
+.,O
 Sentence #653,
+One,O
+night,O
+at,O
+2,O
+AM,O
+in,O
+1982,B-TIM
+Madhavrao,B-PER
+Scindia,I-PER
+and,O
+Sonia,B-PER
+Gandhi,I-PER
+were,O
+caughtalone,O
+together,O
+when,O
+their,O
+car,O
+met,O
+an,O
+accident,O
+near,O
+IIT,B-LOC
+Delhi,I-LOC
+main,I-LOC
+gate,I-LOC
+.,O
 Sentence #654,
-One,O
-night,O
-at,O
-2,O
-AM,O
-in,O
-1982,B-TIM
-Madhavrao,B-PER
-Scindia,I-PER
-and,O
-Sonia,B-PER
-Gandhi,I-PER
-were,O
-caughtalone,O
-together,O
-when,O
-their,O
-car,O
-met,O
-an,O
-accident,O
-near,O
-IIT,B-LOC
-Delhi,I-LOC
-main,I-LOC
-gate,I-LOC
-.,O
-Sentence #655,
-Sentence #656,
-Sentence #657,
-One,O
-night,O
-at,O
-2,O
-AM,O
-in,O
-1982,B-TIM
-Madhavrao,B-PER
-Scindia,I-PER
-and,O
-Sonia,B-PER
-Gandhi,I-PER
-were,O
-caughtalone,O
-together,O
-when,O
-their,O
-car,O
-met,O
-an,O
-accident,O
-near,O
-IIT,B-LOC
-Delhi,I-LOC
-main,I-LOC
-gate,I-LOC
-.,O
-Sentence #658,
 ``,O
 Google,B-ORG
 ``,O
@@ -18532,7 +18502,7 @@ was,O
 the,O
 co-passenger,O
 '',O
-Sentence #659,
+Sentence #655,
 PC,B-ORG
 Chako,O
 is,O
@@ -18583,7 +18553,7 @@ IIT,B-LOC
 Delhi,I-LOC
 main,I-LOC
 gate,I-LOC
-Sentence #660,
+Sentence #656,
 Do,O
 n't,O
 u,O
@@ -18633,7 +18603,7 @@ Delhi,I-LOC
 main,I-LOC
 gate,I-LOC
 .,O
-Sentence #661,
+Sentence #657,
 On,O
 a,O
 midnight,O
@@ -18682,7 +18652,7 @@ d,O
 steering,O
 wheel,O
 .,O
-Sentence #662,
+Sentence #658,
 But,O
 manio,O
 was,O
@@ -18709,7 +18679,7 @@ died,O
 few,O
 months,O
 later,B-TIM
-Sentence #663,
+Sentence #659,
 Kya,O
 pata,O
 Priyanka,O
@@ -18746,7 +18716,7 @@ fun,O
 time,O
 spent,O
 together,O
-Sentence #664,
+Sentence #660,
 Technology,O
 can,O
 help,O
@@ -18784,7 +18754,7 @@ utm_campaign=andapp,O
 utm_medium=referral,O
 &,O
 utm_source=native_share_tray,O
-Sentence #665,
+Sentence #661,
 When,O
 did,O
 Antonio,B-PER
@@ -18829,7 +18799,7 @@ of,O
 Rajiv,B-PER
 Khan,I-PER
 ?,O
-Sentence #666,
+Sentence #662,
 That,O
 is,O
 poor,O
@@ -18862,7 +18832,7 @@ Delhi,I-LOC
 main,I-LOC
 gate,I-LOC
 !,O
-Sentence #667,
+Sentence #663,
 In,O
 1982,B-TIM
 Sonia,B-PER
@@ -18890,7 +18860,7 @@ of,O
 IITD,B-LOC
 rescued,O
 them,O
-Sentence #668,
+Sentence #664,
 Raghu,B-PER
 Ram,I-PER
 Rajan,I-PER
@@ -18901,7 +18871,7 @@ IITD,B-LOC
 then,O
 @,O
 Swamy39,O
-Sentence #669,
+Sentence #665,
 It,O
 's,O
 not,O
@@ -18957,7 +18927,7 @@ Both,O
 were,O
 drunk,O
 ...,O
-Sentence #670,
+Sentence #666,
 Sonia,B-PER
 Gandhi,I-PER
 had,O
@@ -19009,7 +18979,7 @@ true,O
 ?,O
 @,O
 DrGPradhanFC,O
-Sentence #671,
+Sentence #667,
 Sonia,B-PER
 Gandhi,I-PER
 had,O
@@ -19056,7 +19026,7 @@ Delhi,I-LOC
 main,I-LOC
 gate,I-LOC
 .,O
-Sentence #672,
+Sentence #668,
 Aur,O
 inki,O
 madam,O
@@ -19085,7 +19055,7 @@ kya,O
 baat,O
 karein,O
 .,O
-Sentence #673,
+Sentence #669,
 @,O
 JM_Scindia,O
 @,O
@@ -19140,7 +19110,7 @@ Both,O
 were,O
 badly,O
 injured,O
-Sentence #674,
+Sentence #670,
 Scindia,B-PER
 might,O
 be,O
@@ -19172,7 +19142,7 @@ https,O
 :,O
 //twitter.com/Jairam_Ramesh/status/1237377881103372291,O
 pic.twitter.com/8TbLNDLQMW,O
-Sentence #675,
+Sentence #671,
 He,O
 was,O
 in,O
@@ -19182,7 +19152,7 @@ party,O
 @,O
 INCIndia,O
 .,O
-Sentence #676,
+Sentence #672,
 He,O
 knew,O
 lots,O
@@ -19209,7 +19179,7 @@ Sonia,B-PER
 &,O
 him,O
 .,O
-Sentence #677,
+Sentence #673,
 His,O
 death,O
 was,O
@@ -19217,7 +19187,7 @@ definitely,O
 a,O
 conspiracy,O
 .,O
-Sentence #678,
+Sentence #674,
 The,O
 accident,O
 happened,O
@@ -19246,7 +19216,7 @@ ites,O
 No,O
 proof,O
 .,O
-Sentence #679,
+Sentence #675,
 Please,O
 tell,O
 of,O
@@ -19286,7 +19256,7 @@ their,O
 dirty,O
 song,O
 ...,O
-Sentence #680,
+Sentence #676,
 Autoliv,O
 details,O
 how,O
@@ -19331,7 +19301,7 @@ https,O
 :,O
 //bit.ly/37K7UV4,O
 pic.twitter.com/auIEfJFFXX,O
-Sentence #681,
+Sentence #677,
 Autoliv,O
 details,O
 how,O
@@ -19376,7 +19346,7 @@ https,O
 :,O
 //bit.ly/37K7UV4,O
 pic.twitter.com/DsIu69mu1B,O
-Sentence #682,
+Sentence #678,
 Servant,O
 is,O
 a,O
@@ -19402,7 +19372,7 @@ to,O
 be,O
 involved,O
 .,O
-Sentence #683,
+Sentence #679,
 Look,O
 for,O
 Madhavrao,B-PER
@@ -19416,7 +19386,7 @@ night,I-TIM
 near,O
 IIT,B-LOC
 Delhi,I-LOC
-Sentence #684,
+Sentence #680,
 @,O
 dtptraffic,O
 There,O
@@ -19460,7 +19430,7 @@ to,O
 IIT,B-LOC
 Delhi,I-LOC
 .,O
-Sentence #685,
+Sentence #681,
 The,O
 first,O
 edition,O
@@ -19507,7 +19477,7 @@ hackathon,O
 TOYOTAhttps,O
 :,O
 //youtu.be/7xANa4ESMaY,O
-Sentence #686,
+Sentence #682,
 Who,O
 was,O
 the,O
@@ -19547,7 +19517,7 @@ ago,O
 https,O
 :,O
 //twitter.com/priyankagandhi/status/1187778738760638465,O
-Sentence #687,
+Sentence #683,
 Delhi,B-LOC
 :,O
 22,B-TIM
@@ -19565,7 +19535,7 @@ market,I-LOC
 via,O
 @,O
 starnewslive,O
-Sentence #688,
+Sentence #684,
 Delhi,B-LOC
 :,O
 22,B-TIM
@@ -19579,7 +19549,7 @@ accident,O
 near,O
 INA,B-LOC
 market,I-LOC
-Sentence #689,
+Sentence #685,
 Delhi,B-LOC
 :,O
 22,B-TIM
@@ -19594,7 +19564,7 @@ near,O
 #,O
 INA,B-LOC
 market,I-LOC
-Sentence #690,
+Sentence #686,
 Schoolboy,O
 mauled,O
 to,O
@@ -19616,7 +19586,7 @@ September,I-TIM
 http,O
 :,O
 //youtu.be/K40kqPtlbbo,O
-Sentence #691,
+Sentence #687,
 Bad,O
 News,O
 !,O
@@ -19634,7 +19604,7 @@ accident,O
 in,O
 Delhi,B-LOC
 .,O
-Sentence #692,
+Sentence #688,
 ...,O
 becoming,O
 GOC,O
@@ -19658,7 +19628,7 @@ CWGC,B-ORG
 Awarded,O
 ...,O
 pic.twitter.com/bGgWBTS1mT,O
-Sentence #693,
+Sentence #689,
 Wreckage,O
 of,O
 a,O
@@ -19679,7 +19649,7 @@ injured,O
 reported,O
 .,O
 pic.twitter.com/ZLFzLNK0AU,O
-Sentence #694,
+Sentence #690,
 Any,O
 one,O
 who,O
@@ -19726,7 +19696,7 @@ Rao,I-PER
 Inderlok,B-LOC
 etc,O
 ),O
-Sentence #695,
+Sentence #691,
 1,O
 dead,O
 and,O
@@ -19751,7 +19721,7 @@ Delhi,B-LOC
 http,O
 :,O
 //fb.me/Fws3sSfD,O
-Sentence #696,
+Sentence #692,
 vandalized,O
 a,O
 DTC,B-ORG
@@ -19772,7 +19742,7 @@ COURTESY,O
 :,O
 ANI,O
 pic.twitter.com/PYcSlPcof6,O
-Sentence #697,
+Sentence #693,
 Protesters,O
 vandalized,O
 a,O
@@ -19792,7 +19762,7 @@ accident,O
 http,O
 :,O
 //tennews.in/protesters-vandalized-a-dtc-bus-outside-inderlok-metro-station-in-delhi-after-a-road-accident/,O
-Sentence #698,
+Sentence #694,
 Protesters,O
 vandalized,O
 a,O
@@ -19812,7 +19782,7 @@ accident,O
 http,O
 :,O
 //tennews.in/protesters-vandalized-a-dtc-bus-outside-inderlok-metro-station-in-delhi-after-a-road-accident/,O
-Sentence #699,
+Sentence #695,
 PROTESTERS,O
 VANDALIZED,O
 A,O
@@ -19828,7 +19798,7 @@ AFTER,O
 A,O
 ROAD,O
 ACCIDENT,O
-Sentence #700,
+Sentence #696,
 Protesters,O
 vandalized,O
 a,O
@@ -19850,7 +19820,7 @@ COURTESY,O
 :,O
 ANI,O
 pic.twitter.com/UFDJNHc8sA,O
-Sentence #701,
+Sentence #697,
 Protesters,O
 vandalized,O
 a,O
@@ -19867,7 +19837,7 @@ a,O
 road,O
 accident,O
 pic.twitter.com/wBL4HX0lox,O
-Sentence #702,
+Sentence #698,
 Protesters,O
 vandalized,O
 a,O
@@ -19885,7 +19855,7 @@ road,O
 accident,O
 .,O
 pic.twitter.com/vSkEuggqzU,O
-Sentence #703,
+Sentence #699,
 BUS,O
 CRUSHED,O
 3,O
@@ -19905,7 +19875,7 @@ PUBLICSAFETY,O
 http,O
 :,O
 //tennews.in/bus-crushed-3-children-in-inderlok-1-died-2-injurred-new-delhi-road-accident-publicsafety/,O
-Sentence #704,
+Sentence #700,
 BUS,O
 CRUSHED,O
 3,O
@@ -19925,7 +19895,7 @@ PUBLICSAFETY,O
 http,O
 :,O
 //tennews.in/bus-crushed-3-children-in-inderlok-1-died-2-injurred-new-delhi-road-accident-publicsafety/,O
-Sentence #705,
+Sentence #701,
 ASN,B-ORG
 Aircraft,O
 accident,O
@@ -19947,7 +19917,7 @@ DEL,B-LOC
 http,O
 :,O
 //sco.lt/5K4O4P,O
-Sentence #706,
+Sentence #702,
 #,O
 BREAKING,O
 :,O
@@ -19977,7 +19947,7 @@ No,O
 injuries,O
 reported,O
 .,O
-Sentence #707,
+Sentence #703,
 Thank,O
 God,O
 A,O
@@ -20004,13 +19974,13 @@ hit,O
 a,O
 truck,O
 .,O
-Sentence #708,
+Sentence #704,
 #,O
 jetairways,O
 http,O
 :,O
 //www.timesnownews.com/india/article/jet-airways-aircraft-wing-hits-truck-at-new-delhi-indira-gandhi-international-airport-major-accident-averted/215261,O
-Sentence #709,
+Sentence #705,
 (,O
 ASN,B-ORG
 Aircraft,O
@@ -20043,7 +20013,7 @@ https,O
 :,O
 //www.topaviationnews.com/asn-aircraft-accident-beechcraft-b200-super-king-air-vt-bsa-delhi-indira-gandhi-international-airport-del/,O
 pic.twitter.com/UsrpP6rTjh,O
-Sentence #710,
+Sentence #706,
 Delhi,B-LOC
 Metro,I-LOC
 coach,O
@@ -20065,7 +20035,7 @@ Indraprastha,B-LOC
 http,O
 :,O
 //bit.ly/14inAF,O
-Sentence #711,
+Sentence #707,
 A,O
 26year,O
 old,O
@@ -20105,7 +20075,7 @@ this,O
 become,O
 #,O
 LifeSavers,O
-Sentence #712,
+Sentence #708,
 Read,O
 here,O
 for,O
@@ -20113,7 +20083,7 @@ more,O
 -https,O
 :,O
 //m.timesofindia.com/city/delhi/26-year-old-gives-lease-of-life-to-four-after-death/articleshow/63806446.cms,O
-Sentence #713,
+Sentence #709,
 Our,O
 Mahindra,B-ORG
 Scorpio,I-ORG
@@ -20159,7 +20129,7 @@ anandmahindra,O
 MahindraRise,O
 @,O
 NewMahindraCars,O
-Sentence #714,
+Sentence #710,
 RT,O
 BloodAid,O
 :,O
@@ -20186,7 +20156,7 @@ BloodAid,O
 cc,O
 tajinderbagga,O
 upma,O
-Sentence #715,
+Sentence #711,
 #,O
 Delhi,B-LOC
 #,O
@@ -20212,7 +20182,7 @@ cc,O
 tajinderbagga,O
 @,O
 upma23,O
-Sentence #716,
+Sentence #712,
 @,O
 anandmahindra,B-LOC
 Had,O
@@ -20267,7 +20237,7 @@ but,O
 no,O
 help,O
 .,O
-Sentence #717,
+Sentence #713,
 @,O
 DelhiPolice,O
 despite,O
@@ -20317,7 +20287,7 @@ to,O
 accidents,O
 .,O
 pic.twitter.com/TtXv1Xt1iU,O
-Sentence #718,
+Sentence #714,
 Fatal,O
 accident,O
 on,O
@@ -20339,7 +20309,7 @@ drunk,O
 .,O
 @,O
 dtptraffic,O
-Sentence #719,
+Sentence #715,
 @,O
 ibncj,O
 ITO,B-LOC
@@ -20367,7 +20337,7 @@ Alert,O
 Driver,O
 prevented,O
 mishap,O
-Sentence #720,
+Sentence #716,
 ITO,B-LOC
 bus,O
 accident,O
@@ -20389,7 +20359,7 @@ failed,O
 .,O
 #,O
 Delhi,B-LOC
-Sentence #721,
+Sentence #717,
 Delhi,B-ORG
 Traffic,I-ORG
 Alert,I-ORG
@@ -20415,7 +20385,7 @@ near,O
 http,O
 :,O
 //fb.me/YXAHmZCT,O
-Sentence #722,
+Sentence #718,
 Just,O
 In,O
 :,O
@@ -20435,7 +20405,7 @@ ITO,B-LOC
 #,O
 Delhi,B-LOC
 pic.twitter.com/e3woOuv6PL,O
-Sentence #723,
+Sentence #719,
 3,O
 Injured,B-ORG
 In,I-ORG
@@ -20450,7 +20420,7 @@ Delhi,B-LOC
 http,O
 :,O
 //indiareckoner.net/2015/07/3-injured-in-a-car-accident-near-ito-office-in-delhi/,O
-Sentence #724,
+Sentence #720,
 Witnessed,O
 an,O
 accident,O
@@ -20479,7 +20449,7 @@ distance,O
 Nobody,O
 bothers,O
 ...,O
-Sentence #725,
+Sentence #721,
 I,O
 liked,O
 a,O
@@ -20497,7 +20467,7 @@ Vikas,B-LOC
 marg,I-LOC
 road,I-LOC
 accident,O
-Sentence #726,
+Sentence #722,
 Five,O
 people,O
 seriously,O
@@ -20519,7 +20489,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #727,
+Sentence #723,
 :,O
 This,O
 is,O
@@ -20550,7 +20520,7 @@ DHOLA,B-LOC
 KUAN,I-LOC
 ITO,B-LOC
 ISBT,B-LOC
-Sentence #728,
+Sentence #724,
 @,O
 Olacabs,B-GPE
 shame,O
@@ -20611,7 +20581,7 @@ some,O
 action,O
 ?,O
 pic.twitter.com/naCUb9D3LE,O
-Sentence #729,
+Sentence #725,
 :,O
 https,O
 :,O
@@ -20634,7 +20604,7 @@ accident,O
 arvindojha,O
 @,O
 DelhiPolice,O
-Sentence #730,
+Sentence #726,
 @,O
 dtptraffic,O
 one,O
@@ -20655,7 +20625,7 @@ on,O
 ITo,O
 side,O
 road,O
-Sentence #731,
+Sentence #727,
 Road,B-LOC
 towards,O
 Lakshmi,B-LOC
@@ -20680,7 +20650,7 @@ on,O
 the,O
 road,B-LOC
 .,O
-Sentence #732,
+Sentence #728,
 2,O
 people,O
 injured,O
@@ -20696,7 +20666,7 @@ Delhi,B-LOC
 http,O
 :,O
 //wp.me/p5gCDT-mwh,O
-Sentence #733,
+Sentence #729,
 Worst,O
 CAR,O
 Accident,O
@@ -20712,7 +20682,7 @@ Delhi,B-LOC
 http,O
 :,O
 //fb.me/1J5KfjxBy,O
-Sentence #734,
+Sentence #730,
 This,O
 single,O
 dug,O
@@ -20763,7 +20733,7 @@ police,I-ORG
 headquarters,O
 @,O
 DelhiPolicepic.twitter.com/eW7tAljpwu,O
-Sentence #735,
+Sentence #731,
 ``,O
 @,O
 ZeeNews,O
@@ -20808,14 +20778,13 @@ ON,O
 17th,B-TIM
 NOV,O
 '',O
-",2019",O
 AT,O
 ENGINEERS,O
 BHAWAN,O
 ITO,B-LOC
 NEW,B-LOC
 DELHI,I-LOC
-Sentence #736,
+Sentence #732,
 @,O
 PMOIndia,O
 Sir,O
@@ -20867,7 +20836,7 @@ Mob,I-PER
 New,B-LOC
 Delhi,I-LOC
 110077,I-LOC
-Sentence #737,
+Sentence #733,
 VI-20190226-66823-IND,O
 -,O
 Vehicle,O
@@ -20915,7 +20884,7 @@ injuring,B-LOC
 13,I-LOC
 passengers,O
 p,O
-Sentence #738,
+Sentence #734,
 Delhi,B-LOC
 :,O
 Truck,O
@@ -20932,24 +20901,23 @@ Today,B-TIM
 https,O
 :,O
 //delhiinformer.com/90456/delhi-truck-driver-dies-in-road-accident-near-ito-flyover-india-today/,O
-Sentence #739,
+Sentence #735,
 Delhi,B-LOC
 :,O
 Road,O
 accident,O
 near,O
 ITO,B-LOC
-"flyover,15",O
 injured,O
 http,O
 :,O
 //articels.co/2019/02/26/delhi-road-accident-near-ito-flyover-15-injured/,O
 pic.twitter.com/eSrgJ9hIp9,O
-Sentence #740,
+Sentence #736,
 :,O
 ITO,B-LOC
 -,O
-Sentence #741,
+Sentence #737,
 #,O
 Delhi,B-LOC
 #,I-LOC
@@ -20958,10 +20926,9 @@ ITO,B-LOC
 flyover,I-LOC
 #,O
 Accident,O
-Sentence #742,
+Sentence #738,
 :,O
-",15",O
-Sentence #743,
+Sentence #739,
 #,O
 Delhi,B-LOC
 #,O
@@ -20971,7 +20938,7 @@ flyover,I-LOC
 #,O
 Accident,O
 pic.twitter.com/IdwNdwy3jZ,O
-Sentence #744,
+Sentence #740,
 Delhi,B-LOC
 :,O
 15,O
@@ -20987,13 +20954,12 @@ Today,B-TIM
 https,O
 :,O
 //delhiinformer.com/90381/delhi-15-injured-in-road-accident-near-ito-flyover-india-today/,O
-Sentence #745,
+Sentence #741,
 Delhi,B-LOC
 :,O
 At,O
 least,O
 2,O
-"dead,15",O
 injured,O
 in,O
 road,B-LOC
@@ -21005,21 +20971,20 @@ http,O
 :,O
 //dnai.in/fXMs,O
 pic.twitter.com/lz2obSY2oh,O
-Sentence #746,
+Sentence #742,
 Delhi,B-LOC
 :,O
 Road,B-LOC
 accident,O
 near,O
 ITO,B-LOC
-"flyover,15",O
 injured,O
 #,O
 Accident,O
 https,O
 :,O
 //www.newsx.com/national/delhi-road-accident-near-ito-flyover-15-injured,O
-Sentence #747,
+Sentence #743,
 Two,O
 killed,O
 three,O
@@ -21037,7 +21002,7 @@ https,O
 :,O
 //www.hindustantimes.com/delhi-news/two-killed-three-injured-in-accident-near-flyover-in-jahangirpuri-in-northwest-delhi/story-URtdfjCNvCOhiJeRfAxhKN.html,O
 pic.twitter.com/Cl77b2ilm9,O
-Sentence #748,
+Sentence #744,
 This,O
 is,O
 not,O
@@ -21085,7 +21050,7 @@ DelhiPolice,O
 Delhipolice,O
 #,O
 jahangirpuripolicestationpic.twitter.com/E6SkSd8MhJ,O
-Sentence #749,
+Sentence #745,
 In,O
 a,O
 road,O
@@ -21117,7 +21082,7 @@ was,O
 injured,O
 .,O
 pic.twitter.com/fSJbTGWxj8,O
-Sentence #750,
+Sentence #746,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21143,7 +21108,7 @@ https,O
 http,O
 :,O
 //bit.ly/1vVRpMB,O
-Sentence #751,
+Sentence #747,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21164,7 +21129,7 @@ accident,O
 http,O
 :,O
 //english.tahlkanews.com/delhi-dumper-truck-hits-motorcycle-jahangirpuri-area-two-bike-riders-injured-accident/40498,O
-Sentence #752,
+Sentence #748,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21186,7 +21151,7 @@ accident,O
 pic.twitter.com/knNTJEFzC2,O
 via,O
 ANI_news,O
-Sentence #753,
+Sentence #749,
 #,O
 NewsUpdates,O
 Delhi,B-LOC
@@ -21208,7 +21173,7 @@ the,O
 accident,O
 .,O
 pic.twitter.com/gxFRsMKb0Q,O
-Sentence #754,
+Sentence #750,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21229,7 +21194,7 @@ accident,O
 .,O
 @,O
 ANI_newspic.twitter.com/7QtMLH8zlb,O
-Sentence #755,
+Sentence #751,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21248,7 +21213,7 @@ in,O
 the,O
 accident,O
 .,O
-Sentence #756,
+Sentence #752,
 Delhi,B-LOC
 :,O
 Dumper,O
@@ -21268,7 +21233,7 @@ the,O
 accident,O
 .,O
 pic.twitter.com/ZjTxW4FIlD,O
-Sentence #757,
+Sentence #753,
 High,O
 #,O
 AQI,O
@@ -21321,7 +21286,7 @@ narendramodi,O
 snehiil,O
 @,O
 Lokeshl85,O
-Sentence #758,
+Sentence #754,
 @,O
 ArvindKejriwal,O
 @,O
@@ -21373,7 +21338,7 @@ to,O
 citizens,O
 of,O
 Delhi,B-LOC
-Sentence #759,
+Sentence #755,
 @,O
 dtptraffic,O
 @,O
@@ -21423,7 +21388,7 @@ Tilak,B-LOC
 Nagar,I-LOC
 circle,I-LOC
 .,O
-Sentence #760,
+Sentence #756,
 @,O
 missanabeem,O
 there,O
@@ -21448,7 +21413,7 @@ the,O
 neighborhood,O
 safer,O
 ?,O
-Sentence #761,
+Sentence #757,
 DF,O
 volunteer,O
 rescued,O
@@ -21504,7 +21469,7 @@ long,O
 .,O
 #,O
 SaveDogspic.twitter.com/4Aqyz2KGMT,O
-Sentence #762,
+Sentence #758,
 6,O
 students,O
 from,O
@@ -21554,7 +21519,7 @@ government,I-ORG
 ensured,O
 .,O
 pic.twitter.com/On3KkXs1Ld,O
-Sentence #763,
+Sentence #759,
 This,O
 gave,O
 rise,O
@@ -21612,7 +21577,7 @@ She,O
 Many,O
 stories,O
 .,O
-Sentence #764,
+Sentence #760,
 #,O
 Delhi,B-LOC
 O+ve,O
@@ -21630,7 +21595,7 @@ Jasola,B-LOC
 Pl,O
 call,O
 09810919028,O
-Sentence #765,
+Sentence #761,
 Urgent,O
 !,O
 A,O
@@ -21656,7 +21621,7 @@ of,O
 https,O
 :,O
 //fb.me/2xoD9gAIP,O
-Sentence #766,
+Sentence #762,
 #,O
 urgent,O
 a,O
@@ -21693,7 +21658,7 @@ person,O
 +91,O
 7503-011034,O
 ),O
-Sentence #767,
+Sentence #763,
 @,O
 tweetndmc,O
 sir,O
@@ -21749,7 +21714,7 @@ future,O
 .,O
 Thanking,O
 you,O
-Sentence #768,
+Sentence #764,
 @,O
 CPCB_OFFICIAL,O
 @,O
@@ -21785,7 +21750,7 @@ prevent,O
 road,O
 accidents,O
 .,O
-Sentence #769,
+Sentence #765,
 Dear,O
 @,O
 ArvindKejriwal,O
@@ -21838,7 +21803,7 @@ should,O
 take,O
 action,O
 .,O
-Sentence #770,
+Sentence #766,
 #,O
 SafetyFirst,O
 A,O
@@ -21889,7 +21854,7 @@ NewDelhi,B-LOC
 Accident,O
 #,O
 Death,O
-Sentence #771,
+Sentence #767,
 @,O
 DCPEastDelhi,O
 @,O
@@ -21930,12 +21895,12 @@ the,O
 case,O
 @,O
 CPDelhipic.twitter.com/QqPw7dElms,O
-Sentence #772,
+Sentence #768,
 @,O
 HyundaiIndia,O
 @,O
 ICICILombard,O
-Sentence #773,
+Sentence #769,
 have,O
 given,O
 my,O
@@ -21978,7 +21943,7 @@ approved,O
 only,O
 mudguard,O
 .,O
-Sentence #774,
+Sentence #770,
 @,O
 ICICILombard,O
 given,O
@@ -22022,7 +21987,7 @@ approved,O
 only,O
 mudguard,O
 .,O
-Sentence #775,
+Sentence #771,
 @,O
 ArvindKejriwal,O
 sir,O
@@ -22073,7 +22038,7 @@ month,O
 Baad,O
 7011612889,O
 sunny,O
-Sentence #776,
+Sentence #772,
 @,O
 PMOIndia,O
 sir,O
@@ -22129,7 +22094,7 @@ time,B-TIM
 1013898357,I-TIM
 ESI,B-LOC
 n,O
-Sentence #777,
+Sentence #773,
 @,O
 ArvindKejriwal,O
 ye,O
@@ -22163,7 +22128,7 @@ accident,O
 hua,O
 hai,O
 pic.twitter.com/6L5GTJdjdf,O
-Sentence #778,
+Sentence #774,
 Unauthorized,O
 Parking,O
 of,O
@@ -22194,7 +22159,7 @@ DelhiPolice,O
 CPDelhi,O
 @,O
 dtptraffic,O
-Sentence #779,
+Sentence #775,
 https,O
 :,O
 //twitter.com/AamAadmiParty/status/1150019959579238401,O
@@ -22219,7 +22184,7 @@ in,O
 the,O
 accident,O
 .,O
-Sentence #780,
+Sentence #776,
 3,O
 men,O
 lost,O
@@ -22241,7 +22206,7 @@ Jhilmil,B-LOC
 Industrial,I-LOC
 area,I-LOC
 .,O
-Sentence #781,
+Sentence #777,
 Avoid,O
 Kalindi,B-LOC
 Kunj,I-LOC
@@ -22263,7 +22228,7 @@ an,O
 accident,O
 @,O
 TrafflineDEL,O
-Sentence #782,
+Sentence #778,
 #,O
 Delhi,B-LOC
 :,O
@@ -22287,7 +22252,7 @@ Reports,O
 @,O
 Vny_Journalist,O
 pic.twitter.com/zEju6Wy3AU,O
-Sentence #783,
+Sentence #779,
 ASI,O
 and,O
 constable,O
@@ -22308,7 +22273,7 @@ for,O
 delhi,B-LOC
 #,O
 shame,O
-Sentence #784,
+Sentence #780,
 Delhi,B-ORG
 Police,I-ORG
 ASI,O
@@ -22331,7 +22296,7 @@ critical,O
 inICU,O
 @,O
 rajuraj,O
-Sentence #785,
+Sentence #781,
 Two,O
 Delhi,B-LOC
 Metro,I-LOC
@@ -22355,7 +22320,7 @@ Garden,I-LOC
 http,O
 :,O
 //fb.me/ZR0TCp19,O
-Sentence #786,
+Sentence #782,
 #,O
 roadaccident,O
 horrible,O
@@ -22379,7 +22344,7 @@ that,O
 time,O
 .,O
 1/2,O
-Sentence #787,
+Sentence #783,
 @,O
 dtptraffic,O
 @,O
@@ -22406,7 +22371,7 @@ Noida,B-LOC
 Kindly,O
 help,O
 .,O
-Sentence #788,
+Sentence #784,
 @,O
 dtptraffic,O
 @,O
@@ -22452,7 +22417,7 @@ accident,O
 happens,O
 .,O
 pic.twitter.com/5BgFRhri7o,O
-Sentence #789,
+Sentence #785,
 It,O
 is,O
 surprising,O
@@ -22507,7 +22472,7 @@ of,O
 all,O
 delhi,B-LOC
 .,O
-Sentence #790,
+Sentence #786,
 Lot,O
 of,O
 Pot,O
@@ -22533,7 +22498,7 @@ congestion,O
 and,O
 accident,O
 .,O
-Sentence #791,
+Sentence #787,
 Please,O
 repair,O
 @,O
@@ -22547,7 +22512,7 @@ TOINoida,O
 CMOfficeUP,O
 @,O
 UPGovtpic.twitter.com/04aHHpKTuA,O
-Sentence #792,
+Sentence #788,
 @,O
 noidatraffic,O
 Complete,O
@@ -22595,7 +22560,7 @@ have,O
 Police,O
 please,O
 ?,O
-Sentence #793,
+Sentence #789,
 Two,O
 killed,O
 in,O
@@ -22612,7 +22577,7 @@ https,O
 :,O
 //delhiinformer.com/46471/two-killed-in-an-accident-at-kalindi-kunj-in-delhi-delhi-video/,O
 pic.twitter.com/hjooCeeIat,O
-Sentence #794,
+Sentence #790,
 #,O
 IndiaHindi,O
 -,O
@@ -22635,7 +22600,7 @@ Video,O
 https,O
 :,O
 //goo.gl/fb/pfPpcv,O
-Sentence #795,
+Sentence #791,
 Two,O
 killed,O
 in,O
@@ -22651,7 +22616,7 @@ https,O
 //youtu.be/ooKIjxljyOk,O
 @,O
 YouTube,O
-Sentence #796,
+Sentence #792,
 Delhi,B-LOC
 -,O
 Driverless,B-ORG
@@ -22673,7 +22638,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #797,
+Sentence #793,
 #,O
 DelhiMetro,O
 #,O
@@ -22723,12 +22688,62 @@ the,O
 brake,O
 system,O
 .,O
-Sentence #798,
+Sentence #794,
 Someone,O
 tweeted,O
 below,O
 tweet,O
 on,O
+#,O
+DelhiMetro,O
+and,O
+Salman,B-PER
+Khan,I-PER
+Sentence #795,
+A,O
+driverless,O
+Magenta,B-LOC
+Line,I-LOC
+Delhi,I-LOC
+Metro,I-LOC
+crashes,O
+into,O
+boundary,O
+in,O
+Kalindi,B-LOC
+Kunj,I-LOC
+!,O
+Sentence #796,
+This,O
+is,O
+the,O
+second,O
+accident,O
+caused,O
+by,O
+a,O
+vehicle,O
+being,O
+operated,O
+without,O
+a,O
+driver,O
+...,O
+Sentence #797,
+First,O
+was,O
+Actor,B-PER
+Salman,I-PER
+Khan,I-PER
+'s,O
+SUV,O
+!,O
+!,O
+Sentence #798,
+Someone,O
+tweeted,O
+below,O
+tweet,O
 #,O
 DelhiMetro,O
 and,O
@@ -22767,63 +22782,13 @@ driver,O
 Sentence #801,
 First,O
 was,O
-Actor,B-PER
-Salman,I-PER
+Salman,B-PER
 Khan,I-PER
 's,O
 SUV,O
 !,O
 !,O
 Sentence #802,
-Someone,O
-tweeted,O
-below,O
-tweet,O
-#,O
-DelhiMetro,O
-and,O
-Salman,B-PER
-Khan,I-PER
-Sentence #803,
-A,O
-driverless,O
-Magenta,B-LOC
-Line,I-LOC
-Delhi,I-LOC
-Metro,I-LOC
-crashes,O
-into,O
-boundary,O
-in,O
-Kalindi,B-LOC
-Kunj,I-LOC
-!,O
-Sentence #804,
-This,O
-is,O
-the,O
-second,O
-accident,O
-caused,O
-by,O
-a,O
-vehicle,O
-being,O
-operated,O
-without,O
-a,O
-driver,O
-...,O
-Sentence #805,
-First,O
-was,O
-Salman,B-PER
-Khan,I-PER
-'s,O
-SUV,O
-!,O
-!,O
-Sentence #806,
 Delhi,B-LOC
 Metro,I-LOC
 train,O
@@ -22848,7 +22813,7 @@ http,O
 ?,O
 a,O
 via,O
-Sentence #807,
+Sentence #803,
 #,O
 New,B-LOC
 Delhi,I-LOC
@@ -22894,7 +22859,7 @@ afternoon,B-TIM
 .,O
 @,O
 delhimetronewspic.twitter.com/IeTz2o3QlB,O
-Sentence #808,
+Sentence #804,
 Accident,O
 at,O
 the,O
@@ -22911,7 +22876,7 @@ to,O
 Delhi,B-LOC
 .,O
 pic.twitter.com/2qthSUC98X,O
-Sentence #809,
+Sentence #805,
 Gurgaon-Delhi,B-LOC
 road,I-LOC
 has,O
@@ -22936,7 +22901,7 @@ all,O
 are,O
 results,O
 .,O
-Sentence #810,
+Sentence #806,
 @,O
 nitin_gadkari,O
 Sir,O
@@ -22961,7 +22926,7 @@ can,O
 be,O
 part,O
 1,O
-Sentence #811,
+Sentence #807,
 In,O
 a,O
 tragic,O
@@ -22991,7 +22956,7 @@ a,O
 dumper,O
 .,O
 pic.twitter.com/Xk6YGEXI6h,O
-Sentence #812,
+Sentence #808,
 Three,O
 people,O
 including,O
@@ -23013,7 +22978,7 @@ Kalindi,B-LOC
 Kunj,I-LOC
 area,I-LOC
 .,O
-Sentence #813,
+Sentence #809,
 I,O
 added,O
 a,O
@@ -23038,7 +23003,7 @@ at,O
 kalkaji,B-LOC
 Mandir,I-LOC
 Delhi,I-LOC
-Sentence #814,
+Sentence #810,
 Master,B-ORG
 Saleem,I-ORG
 Stage,I-ORG
@@ -23050,7 +23015,7 @@ Delhi,I-LOC
 http,O
 :,O
 //fb.me/69t4bULlK,O
-Sentence #815,
+Sentence #811,
 Master,O
 Saleem,I-ORG
 Stage,I-ORG
@@ -23062,7 +23027,7 @@ Delhi,I-LOC
 http,O
 :,O
 //fb.me/89FiBaLcm,O
-Sentence #816,
+Sentence #812,
 Master,B-ORG
 Saleem,I-ORG
 Stage,I-ORG
@@ -23074,7 +23039,7 @@ Delhi,I-LOC
 http,O
 :,O
 //fb.me/8pgcEljwp,O
-Sentence #817,
+Sentence #813,
 School,O
 van,O
 accident,O
@@ -23094,14 +23059,14 @@ children,O
 recount,O
 horrific,O
 experience,O
-Sentence #818,
+Sentence #814,
 @,O
 By,B-PER
 Praveen,I-PER
 Dwivedihttps,I-PER
 :,O
 //buff.ly/2vT8Zwa,O
-Sentence #819,
+Sentence #815,
 It,O
 is,O
 disheartening,O
@@ -23141,7 +23106,7 @@ are,O
 critical,O
 .,O
 1/2,O
-Sentence #820,
+Sentence #816,
 #,O
 Delhi,B-LOC
 :,O
@@ -23168,7 +23133,7 @@ rajshekharTOI,O
 https,O
 :,O
 //twitter.com/rajshekharTOI/status/989342584890834945/photo/1pic.twitter.com/ELPCaYAbEg,O
-Sentence #821,
+Sentence #817,
 Freak,O
 accident,O
 at,O
@@ -23187,7 +23152,7 @@ chowk,I-LOC
 platform,O
 #,O
 delhi,B-LOC
-Sentence #822,
+Sentence #818,
 Aaj,O
 fir,O
 ek,O
@@ -23219,11 +23184,10 @@ jaan,O
 le,O
 rahi,O
 hai,O
-Sentence #823,
+Sentence #819,
 Sudden,B-ORG
 Death,I-ORG
 Skips,I-ORG
-",",I-ORG
 Faced,I-ORG
 Major,I-ORG
 Accident,I-ORG
@@ -23238,7 +23202,7 @@ Delhi,I-LOC
 http,O
 :,O
 //fb.me/8j2bslaTt,O
-Sentence #824,
+Sentence #820,
 SANTOSH,B-MISC
 PEOPERTIES,I-MISC
 IN,O
@@ -23283,7 +23247,7 @@ Akhilesh,B-ORG
 Mo,I-ORG
 9919620086,O
 pic.twitter.com/ENEs2QEVtj,O
-Sentence #825,
+Sentence #821,
 #,O
 SafetyFirst,O
 #,O
@@ -23339,7 +23303,7 @@ Delhi,B-LOC
 https,O
 :,O
 //indianexpress.com/article/india/delhi-karol-bagh-factory-fire-death-toll-5453618/,O
-Sentence #826,
+Sentence #822,
 @,O
 dtptraffic,O
 @,O
@@ -23387,7 +23351,7 @@ Karol,B-LOC
 Bagh,I-LOC
 metro,I-LOC
 pic.twitter.com/QpkYid1mzi,O
-Sentence #827,
+Sentence #823,
 Coaching,O
 centers,O
 in,O
@@ -23431,7 +23395,7 @@ https,O
 //www.ndtv.com/delhi-news/delhis-social-welfare-institutions-to-undergo-fire-safety-audit-2051645,O
 @,O
 safetyacademyin,O
-Sentence #828,
+Sentence #824,
 #,O
 Suratfire,O
 #,O
@@ -23476,7 +23440,7 @@ wealth,O
 .,O
 @,O
 sardesairajdeep,O
-Sentence #829,
+Sentence #825,
 BREAKING,O
 |,O
 Delhi,B-ORG
@@ -23506,10 +23470,10 @@ this,O
 week,O
 .,O
 pic.twitter.com/a1nvHyi0i0,O
-Sentence #830,
+Sentence #826,
 #,O
 MeraParivarBharatKaParivar,O
-Sentence #831,
+Sentence #827,
 Extremely,O
 anguished,O
 by,O
@@ -23547,7 +23511,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #832,
+Sentence #828,
 Why,O
 all,O
 these,O
@@ -23600,7 +23564,7 @@ dilipmandal,O
 RSSorg,O
 @,O
 yadavtejashwi,O
-Sentence #833,
+Sentence #829,
 17,O
 people,O
 were,O
@@ -23620,7 +23584,6 @@ Karol,B-LOC
 Bagh,I-LOC
 on,O
 Feb,O
-"12,2019",O
 .,O
 Follow,O
 the,O
@@ -23637,7 +23600,7 @@ India,B-LOC
 DelhiHotelFirehttps,O
 :,O
 //bit.ly/2WWEUoR,O
-Sentence #834,
+Sentence #830,
 Extremely,O
 saddened,O
 by,O
@@ -23679,7 +23642,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #835,
+Sentence #831,
 @,O
 LtGovDelhi,B-PER
 Respected,O
@@ -23724,7 +23687,7 @@ taken,O
 before,O
 disaster,O
 pic.twitter.com/irsqDlEpsu,O
-Sentence #836,
+Sentence #832,
 Extremely,O
 anguished,O
 by,O
@@ -23762,7 +23725,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #837,
+Sentence #833,
 Extremely,O
 anguished,O
 by,O
@@ -23799,7 +23762,7 @@ who,O
 's,O
 injured,O
 .,O
-Sentence #838,
+Sentence #834,
 Extremely,O
 anguished,O
 by,O
@@ -23841,7 +23804,7 @@ injured,O
 INCIndia,O
 @,O
 INCSocialMedia_pic.twitter.com/o2fATkgAx6,O
-Sentence #839,
+Sentence #835,
 Extremely,O
 sad,O
 to,O
@@ -23884,7 +23847,7 @@ of,O
 those,O
 injured,O
 .,O
-Sentence #840,
+Sentence #836,
 Extremely,O
 pained,O
 by,O
@@ -23925,7 +23888,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #841,
+Sentence #837,
 Very,O
 sad,O
 to,O
@@ -23960,7 +23923,7 @@ those,O
 injured,O
 #,O
 PresidentKovind,O
-Sentence #842,
+Sentence #838,
 #,O
 Deeply,O
 Saddened,O
@@ -24000,7 +23963,7 @@ injured,O
 one,O
 .,O
 pic.twitter.com/mNFt1gOw5a,O
-Sentence #843,
+Sentence #839,
 Anguished,O
 by,O
 the,O
@@ -24040,7 +24003,7 @@ of,O
 those,O
 injured,O
 .,O
-Sentence #844,
+Sentence #840,
 Extremely,O
 anguished,O
 by,O
@@ -24078,7 +24041,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #845,
+Sentence #841,
 RT,O
 AmitShah,O
 :,O
@@ -24121,7 +24084,7 @@ of,O
 those,O
 injured,O
 .,O
-Sentence #846,
+Sentence #842,
 Extremely,O
 anguished,O
 by,O
@@ -24159,7 +24122,7 @@ of,O
 the,O
 injured,O
 .,O
-Sentence #847,
+Sentence #843,
 Anguished,O
 by,O
 the,O
@@ -24199,7 +24162,7 @@ of,O
 those,O
 injured,O
 .,O
-Sentence #848,
+Sentence #844,
 One,O
 Dead,O
 Three,O
@@ -24216,7 +24179,7 @@ http,O
 :,O
 //www.watch-latest-news.com/one-dead-three-injured-in-accident-near-kashmere-gate-isbt-in-delhi/,O
 pic.twitter.com/KPGTTwMdro,O
-Sentence #849,
+Sentence #845,
 The,O
 accident,O
 happened,O
@@ -24238,11 +24201,10 @@ homeless,O
 Delhi,B-LOC
 #,O
 DPS,B-LOC
-Sentence #850,
+Sentence #846,
 UPDATE,O
 :,O
 2,O
-"dead,3",O
 injured,O
 in,O
 accident,O
@@ -24261,13 +24223,12 @@ student,O
 apprehended,O
 reports,O
 ANI,O
-Sentence #851,
+Sentence #847,
 timesofindia,O
 :,O
 UPDATE,O
 :,O
 2,O
-"dead,3",O
 injured,O
 in,O
 accident,O
@@ -24286,11 +24247,10 @@ student,O
 apprehended,O
 reports,O
 ANI,O
-Sentence #852,
+Sentence #848,
 UPDATE,O
 :,O
 2,O
-"dead,3",O
 injured,O
 in,O
 accident,O
@@ -24309,7 +24269,7 @@ student,O
 apprehended,O
 reports,O
 ANI,O
-Sentence #853,
+Sentence #849,
 A,O
 litter,O
 of,O
@@ -24326,7 +24286,7 @@ Delhi,B-LOC
 http,O
 :,O
 //instagram.com/p/sP5z2NCR9o/,O
-Sentence #854,
+Sentence #850,
 13,O
 injured,O
 in,O
@@ -24344,7 +24304,7 @@ http,O
 ?,O
 p=2393,O
 pic.twitter.com/3U5M4lNQds,O
-Sentence #855,
+Sentence #851,
 Who,O
 hs,O
 authorised,O
@@ -24368,7 +24328,7 @@ on,O
 road,O
 @,O
 Toyota_India,B-LOC
-Sentence #856,
+Sentence #852,
 Who,O
 hs,O
 authorised,O
@@ -24392,7 +24352,7 @@ on,O
 road,O
 @,O
 anandmahindra,O
-Sentence #857,
+Sentence #853,
 Who,O
 hs,O
 authorised,O
@@ -24416,7 +24376,7 @@ on,O
 road,O
 @,O
 HyundaiIndia,O
-Sentence #858,
+Sentence #854,
 Who,O
 hs,O
 authorised,O
@@ -24440,7 +24400,7 @@ on,O
 road,O
 @,O
 Maruti_Corp,O
-Sentence #859,
+Sentence #855,
 Who,O
 hs,O
 authorised,O
@@ -24464,7 +24424,7 @@ on,O
 road,O
 @,O
 msisodia,O
-Sentence #860,
+Sentence #856,
 Who,O
 hs,O
 authorised,O
@@ -24488,7 +24448,7 @@ on,O
 road,O
 @,O
 nitin_gadkari,O
-Sentence #861,
+Sentence #857,
 Due,O
 to,O
 agitation,O
@@ -24512,7 +24472,7 @@ Idiots,O
 ?,O
 #,O
 SaalEkShuruaatAnek,O
-Sentence #862,
+Sentence #858,
 #,O
 news,O
 #,O
@@ -24626,7 +24586,7 @@ e0,O
 a5,O
 %,O
 87/,O
-Sentence #863,
+Sentence #859,
 Sir,O
 UP,B-LOC
 Gate,I-LOC
@@ -24686,7 +24646,7 @@ dark,O
 https,O
 :,O
 //twitter.com/Gzbtrafficpol/status/1062706355700621312,O
-Sentence #864,
+Sentence #860,
 @,O
 dm_ghaziabad,O
 kindly,O
@@ -24727,7 +24687,7 @@ yogiji,O
 also,O
 @,O
 YogiAdityanatha,O
-Sentence #865,
+Sentence #861,
 Massive,O
 Fire,O
 Accident,O
@@ -24750,7 +24710,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #866,
+Sentence #862,
 @,O
 LtGovDelhi,O
 sir,O
@@ -24774,7 +24734,7 @@ lead,O
 to,O
 accidents,O
 .,O
-Sentence #867,
+Sentence #863,
 Car,O
 flips,O
 thrice,O
@@ -24797,7 +24757,7 @@ injured,O
 #,O
 accident,O
 pic.twitter.com/QdYrvxvFPE,O
-Sentence #868,
+Sentence #864,
 Thanks,O
 .,O
 I,O
@@ -24845,7 +24805,7 @@ places,O
 in,O
 delhi,B-LOC
 .,O
-Sentence #869,
+Sentence #865,
 #,O
 BREAKING,O
 -,O
@@ -24869,7 +24829,7 @@ also,O
 sustained,O
 injuries,O
 pic.twitter.com/3Ifr4V2AIb,O
-Sentence #870,
+Sentence #866,
 #,O
 BREAKING,O
 -,O
@@ -24892,7 +24852,7 @@ also,O
 sustained,O
 injuries,O
 pic.twitter.com/cueCZpulmx,O
-Sentence #871,
+Sentence #867,
 Five,O
 children,O
 are,O
@@ -24934,7 +24894,7 @@ accident,O
 .,O
 @,O
 TOIDelhi,O
-Sentence #872,
+Sentence #868,
 Just,O
 received,O
 this,O
@@ -24970,7 +24930,7 @@ a,O
 crossing,O
 .,O
 Prayers,O
-Sentence #873,
+Sentence #869,
 A,O
 school,O
 bus,O
@@ -25005,7 +24965,7 @@ Atleast,O
 children,O
 grievously,O
 injured,O
-Sentence #874,
+Sentence #870,
 Delhi,B-LOC
 :,O
 Fire,O
@@ -25047,7 +25007,7 @@ NewsUpdate,O
 NewsAlert,O
 #,O
 NedrickNews,O
-Sentence #875,
+Sentence #871,
 New,B-ORG
 Delhi,I-ORG
 Municipal,I-ORG
@@ -25068,7 +25028,7 @@ Sify,O
 http,O
 :,O
 //uxp.in/26136637,O
-Sentence #876,
+Sentence #872,
 MyNews.in,O
 Road,B-LOC
 rage,O
@@ -25098,7 +25058,7 @@ http,O
 :,O
 //bit.ly/e2PKnh,O
 MyNews.in,O
-Sentence #877,
+Sentence #873,
 Delhi,B-LOC
 rage,O
 :,O
@@ -25125,7 +25085,7 @@ Rage,O
 Pilot,O
 #,O
 City,O
-Sentence #878,
+Sentence #874,
 Yesterday,B-TIM
 a,O
 restaurant,O
@@ -25147,7 +25107,7 @@ airways,O
 hit,O
 him,O
 .,O
-Sentence #879,
+Sentence #875,
 delhi,O
 #,O
 traffic,O
@@ -25162,7 +25122,7 @@ SARAI,B-LOC
 KALE,I-LOC
 KHAN,I-LOC
 .,O
-Sentence #880,
+Sentence #876,
 AJAD,B-LOC
 MARKET,I-LOC
 GOING,O
@@ -25170,7 +25130,7 @@ GOING,O
 http,O
 :,O
 //fb.me/YmS5Pf1g,O
-Sentence #881,
+Sentence #877,
 Shocked,O
 to,O
 hear,O
@@ -25213,7 +25173,7 @@ market,I-LOC
 in,O
 Delhi,B-LOC
 ..,O
-Sentence #882,
+Sentence #878,
 RS,O
 .,O
 I,O
@@ -25270,7 +25230,7 @@ of,O
 Dynasty,O
 ?,O
 ?,O
-Sentence #883,
+Sentence #879,
 Accident,O
 at,O
 Kirti,B-LOC
@@ -25279,7 +25239,7 @@ Nagar,I-LOC
 delhi,B-LOC
 #,O
 whatsuppic.twitter.com/s9zMptnV4s,O
-Sentence #884,
+Sentence #880,
 Major,O
 Fire,O
 Accident,O
@@ -25295,7 +25255,7 @@ http,O
 //youtu.be/xPZI3D0By1k,O
 ?,O
 a,O
-Sentence #885,
+Sentence #881,
 Delhi,B-LOC
 :,O
 Police,I-ORG
@@ -25326,7 +25286,7 @@ Krishna,B-LOC
 Nagar,I-LOC
 area,I-LOC
 .,O
-Sentence #886,
+Sentence #882,
 @,O
 DelhiPolice,O
 Sir,O
@@ -25375,7 +25335,7 @@ New,B-LOC
 Delhi,I-LOC
 110008,I-LOC
 pic.twitter.com/JJZROXlyQG,O
-Sentence #887,
+Sentence #883,
 #,O
 delhi,O
 #,O
@@ -25395,7 +25355,7 @@ DEFENCE,B-LOC
 COLONY,I-LOC
 .,O
 8.30am,O
-Sentence #888,
+Sentence #884,
 DMC,B-ORG
 Chief,B-LOC
 Sreedharan,I-LOC
@@ -25420,7 +25380,7 @@ surekhapillai,O
 http,O
 :,O
 //is.gd/1vQmW,O
-Sentence #889,
+Sentence #885,
 Speeding,O
 bus,O
 mows,O
@@ -25444,7 +25404,7 @@ le,O
 http,O
 :,O
 //bit.ly/QLFkpv,O
-Sentence #890,
+Sentence #886,
 https,O
 :,O
 //m.facebook.com/story.php,O
@@ -25471,7 +25431,7 @@ flyover,I-LOC
 Wake,O
 up,O
 time,O
-Sentence #891,
+Sentence #887,
 Retweeted,O
 Delhi,B-ORG
 Traffic,I-ORG
@@ -25481,7 +25441,7 @@ Police,I-ORG
 dtptraffic,O
 ),O
 :,O
-Sentence #892,
+Sentence #888,
 Traffic,B-ORG
 Alert,I-ORG
 Obstruction,I-ORG
@@ -25510,7 +25470,7 @@ avoid,O
 the,O
 stretch,O
 .,O
-Sentence #893,
+Sentence #889,
 Sir,O
 ..,O
 Delhi,B-LOC
@@ -25561,18 +25521,18 @@ Tilak,B-LOC
 Nagar,I-LOC
 new,B-LOC
 mor,I-LOC
-Sentence #894,
+Sentence #890,
 PWD,B-LOC
 flyover,I-LOC
 Lajpat,B-LOC
 Nagar,I-LOC
 Delhi,I-LOC
 -,O
-Sentence #895,
+Sentence #891,
 ...,O
-Sentence #896,
+Sentence #892,
 Accidents,O
-Sentence #897,
+Sentence #893,
 LG,O
 ...,O
 @,O
@@ -25583,22 +25543,22 @@ ArvindKejriwal,O
 mukeskrnarang,O
 #,O
 hindumkn,O
-Sentence #898,
+Sentence #894,
 PWD,B-LOC
 flyover,I-LOC
 Lajpat,B-LOC
 Nagar,I-LOC
 Delhi,I-LOC
 -,I-LOC
-Sentence #899,
+Sentence #895,
 ...,O
-Sentence #900,
+Sentence #896,
 Accidents,O
-Sentence #901,
+Sentence #897,
 LG,O
 ...,O
 pic.twitter.com/dCZf7Havms,O
-Sentence #902,
+Sentence #898,
 Dear,O
 people,O
 .,O
@@ -25637,10 +25597,10 @@ Lajpat,B-LOC
 Nagar,I-LOC
 #,O
 Delhi,B-LOC
-Sentence #903,
+Sentence #899,
 Contact:9811411284,O
 .,O
-Sentence #904,
+Sentence #900,
 @,O
 PMOIndia,O
 @,O
@@ -25694,7 +25654,7 @@ parts,O
 of,O
 body,O
 .,O
-Sentence #905,
+Sentence #901,
 @,O
 dtptraffic,O
 two,O
@@ -25739,7 +25699,7 @@ Delhi,B-LOC
 since,B-TIM
 few,I-TIM
 months,O
-Sentence #906,
+Sentence #902,
 @,O
 Olacabs,B-GPE
 today,B-TIM
@@ -25791,7 +25751,7 @@ and,O
 safety,O
 department,O
 1/2,O
-Sentence #907,
+Sentence #903,
 Myself,O
 pranav,B-PER
 Agarwal,I-PER
@@ -25835,7 +25795,7 @@ who,O
 is,O
 responsible,O
 .,O
-Sentence #908,
+Sentence #904,
 Myself,O
 pranav,O
 Agarwal,O
@@ -25864,6 +25824,188 @@ police,O
 nor,O
 delhi,B-LOC
 police,O
+doing,O
+anything,O
+in,O
+lajpat,B-LOC
+nagar,I-LOC
+3,O
+.,O
+if,O
+someone,O
+dies,O
+because,O
+of,O
+accident,O
+who,O
+is,O
+responsible,O
+.,O
+Sentence #905,
+Myself,O
+pranav,B-LOC
+Agarwal,I-LOC
+south,B-LOC
+Delhi,I-LOC
+city,I-LOC
+president,O
+Anti,O
+crime,O
+cell,O
+wan,O
+na,O
+inform,O
+lot,O
+of,O
+two,O
+wheelers,O
+without,O
+helmet,O
+roams,O
+daily,O
+and,O
+nor,O
+traffic,O
+police,O
+nor,O
+delhi,B-ORG
+police,I-ORG
+doing,O
+anything,O
+in,O
+lajpat,B-LOC
+nagar,I-LOC
+3.if,O
+someone,O
+dies,O
+because,O
+of,O
+accident,O
+who,O
+is,O
+responsible,O
+.,O
+Sentence #906,
+Myself,O
+pranav,O
+Agarwal,O
+south,B-LOC
+Delhi,I-LOC
+city,I-LOC
+president,O
+Anti,O
+crime,O
+cell,O
+wan,O
+na,O
+inform,O
+lot,O
+of,O
+two,O
+wheelers,O
+without,O
+helmet,O
+roams,O
+daily,O
+and,O
+nor,O
+traffic,O
+police,O
+nor,O
+delhi,B-ORG
+police,I-ORG
+doing,O
+anything,O
+in,O
+lajpat,B-LOC
+nagar,I-LOC
+3,O
+.,O
+if,O
+someone,O
+dies,O
+because,O
+of,O
+accident,O
+who,O
+is,O
+responsible,O
+.,O
+Sentence #907,
+Myself,O
+pranav,B-LOC
+Agarwal,I-LOC
+south,B-LOC
+Delhi,I-LOC
+city,I-LOC
+president,O
+Anti,O
+crime,O
+cell,O
+wan,O
+na,O
+inform,O
+lot,O
+of,O
+two,O
+wheelers,O
+without,O
+helmet,O
+roams,O
+daily,O
+and,O
+nor,O
+traffic,O
+police,O
+nor,O
+delhi,B-LOC
+police,O
+doing,O
+anything,O
+in,O
+lajpat,B-LOC
+nagar,I-LOC
+3,O
+.,O
+if,O
+someone,O
+dies,O
+because,O
+of,O
+accident,O
+who,O
+is,O
+responsible,O
+.,O
+Sentence #908,
+Myself,O
+pranav,B-LOC
+Agarwal,I-LOC
+south,B-LOC
+Delhi,I-LOC
+city,I-LOC
+president,O
+Anti,O
+crime,O
+cell,O
+wan,O
+na,O
+inform,O
+lot,O
+of,O
+two,O
+wheelers,O
+without,O
+helmet,O
+roams,O
+daily,O
+and,O
+nor,O
+traffic,O
+police,O
+nor,O
+delhi,B-ORG
+police,I-ORG
 doing,O
 anything,O
 in,O
@@ -25915,7 +26057,9 @@ anything,O
 in,O
 lajpat,B-LOC
 nagar,I-LOC
-3.if,O
+3,O
+.,O
+if,O
 someone,O
 dies,O
 because,O
@@ -25926,190 +26070,6 @@ is,O
 responsible,O
 .,O
 Sentence #910,
-Myself,O
-pranav,O
-Agarwal,O
-south,B-LOC
-Delhi,I-LOC
-city,I-LOC
-president,O
-Anti,O
-crime,O
-cell,O
-wan,O
-na,O
-inform,O
-lot,O
-of,O
-two,O
-wheelers,O
-without,O
-helmet,O
-roams,O
-daily,O
-and,O
-nor,O
-traffic,O
-police,O
-nor,O
-delhi,B-ORG
-police,I-ORG
-doing,O
-anything,O
-in,O
-lajpat,B-LOC
-nagar,I-LOC
-3,O
-.,O
-if,O
-someone,O
-dies,O
-because,O
-of,O
-accident,O
-who,O
-is,O
-responsible,O
-.,O
-Sentence #911,
-Myself,O
-pranav,B-LOC
-Agarwal,I-LOC
-south,B-LOC
-Delhi,I-LOC
-city,I-LOC
-president,O
-Anti,O
-crime,O
-cell,O
-wan,O
-na,O
-inform,O
-lot,O
-of,O
-two,O
-wheelers,O
-without,O
-helmet,O
-roams,O
-daily,O
-and,O
-nor,O
-traffic,O
-police,O
-nor,O
-delhi,B-LOC
-police,O
-doing,O
-anything,O
-in,O
-lajpat,B-LOC
-nagar,I-LOC
-3,O
-.,O
-if,O
-someone,O
-dies,O
-because,O
-of,O
-accident,O
-who,O
-is,O
-responsible,O
-.,O
-Sentence #912,
-Myself,O
-pranav,B-LOC
-Agarwal,I-LOC
-south,B-LOC
-Delhi,I-LOC
-city,I-LOC
-president,O
-Anti,O
-crime,O
-cell,O
-wan,O
-na,O
-inform,O
-lot,O
-of,O
-two,O
-wheelers,O
-without,O
-helmet,O
-roams,O
-daily,O
-and,O
-nor,O
-traffic,O
-police,O
-nor,O
-delhi,B-ORG
-police,I-ORG
-doing,O
-anything,O
-in,O
-lajpat,B-LOC
-nagar,I-LOC
-3,O
-.,O
-if,O
-someone,O
-dies,O
-because,O
-of,O
-accident,O
-who,O
-is,O
-responsible,O
-.,O
-Sentence #913,
-Myself,O
-pranav,B-LOC
-Agarwal,I-LOC
-south,B-LOC
-Delhi,I-LOC
-city,I-LOC
-president,O
-Anti,O
-crime,O
-cell,O
-wan,O
-na,O
-inform,O
-lot,O
-of,O
-two,O
-wheelers,O
-without,O
-helmet,O
-roams,O
-daily,O
-and,O
-nor,O
-traffic,O
-police,O
-nor,O
-delhi,B-ORG
-police,I-ORG
-doing,O
-anything,O
-in,O
-lajpat,B-LOC
-nagar,I-LOC
-3,O
-.,O
-if,O
-someone,O
-dies,O
-because,O
-of,O
-accident,O
-who,O
-is,O
-responsible,O
-.,O
-Sentence #914,
 @,O
 SudhirRTI,O
 Myself,O
@@ -26157,7 +26117,7 @@ who,O
 is,O
 responsible,O
 .,O
-Sentence #915,
+Sentence #911,
 Myself,O
 pranav,B-PER
 Agarwal,I-PER
@@ -26203,7 +26163,7 @@ who,O
 is,O
 responsible,O
 .,O
-Sentence #916,
+Sentence #912,
 Myself,O
 pranav,B-LOC
 Agarwal,I-LOC
@@ -26249,7 +26209,7 @@ who,O
 is,O
 responsible,O
 .,O
-Sentence #917,
+Sentence #913,
 @,O
 TrafficCP,O
 my,O
@@ -26297,7 +26257,7 @@ because,O
 of,O
 rash,O
 driving,O
-Sentence #918,
+Sentence #914,
 @,O
 TrafficCP,O
 my,O
@@ -26345,7 +26305,7 @@ because,O
 of,O
 rash,O
 driving,O
-Sentence #919,
+Sentence #915,
 @,O
 TrafficCP,O
 my,O
@@ -26393,7 +26353,7 @@ because,O
 of,O
 rash,O
 driving,O
-Sentence #920,
+Sentence #916,
 @,O
 TrafficCP,O
 my,O
@@ -26441,7 +26401,7 @@ because,O
 of,O
 rash,O
 driving,O
-Sentence #921,
+Sentence #917,
 @,O
 TrafficCP,O
 my,O
@@ -26489,7 +26449,7 @@ because,O
 of,O
 rash,O
 driving,O
-Sentence #922,
+Sentence #918,
 Tragic,O
 Accident,O
 :,O
@@ -26512,7 +26472,7 @@ Daily,O
 http,O
 :,O
 //fb.me/4A5a62P39,O
-Sentence #923,
+Sentence #919,
 Tragic,O
 Accident,O
 :,O
@@ -26538,7 +26498,7 @@ Happened,O
 http,O
 :,O
 //fb.me/7s284vCSF,O
-Sentence #924,
+Sentence #920,
 Afcons,O
 took,O
 numerous,O
@@ -26564,7 +26524,7 @@ shameless,O
 more,O
 bold,O
 .,O
-Sentence #925,
+Sentence #921,
 https,O
 :,O
 //youtu.be/vryEX96nfPs,O
@@ -26581,7 +26541,7 @@ New,B-LOC
 Delhi,I-LOC
 #,O
 MSG2Crossed375,O
-Sentence #926,
+Sentence #922,
 #,O
 Delhi,B-LOC
 had,O
@@ -26591,7 +26551,7 @@ trend,O
 ma'am,O
 .,O
 ...,O
-Sentence #927,
+Sentence #923,
 Laxmi,B-LOC
 Nagar,I-LOC
 accident,O
@@ -26605,7 +26565,7 @@ metro,B-LOC
 lines,I-LOC
 there,O
 .,O
-Sentence #928,
+Sentence #924,
 @,O
 gulpanag,O
 Its,O
@@ -26633,7 +26593,7 @@ in,O
 #,O
 Manipur,B-LOC
 doesnt,O
-Sentence #929,
+Sentence #925,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26643,7 +26603,7 @@ accident,O
 http,O
 :,O
 //goo.gl/fb/0KFsN,O
-Sentence #930,
+Sentence #926,
 Manipur,B-LOC
 #,O
 legislator,O
@@ -26665,7 +26625,7 @@ aug,O
 congress,O
 #,O
 congressmember,O
-Sentence #931,
+Sentence #927,
 News_4m_Assam,O
 :,O
 Manipur,B-LOC
@@ -26677,7 +26637,7 @@ accident,O
 http,O
 :,O
 //dlvr.it/gvfMx,O
-Sentence #932,
+Sentence #928,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26704,7 +26664,7 @@ Legislative,I-ORG
 http,O
 :,O
 //mtrm.nl/gvfJd,O
-Sentence #933,
+Sentence #929,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26718,7 +26678,7 @@ http,O
 -,O
 #,O
 elangbamsurajsingh,O
-Sentence #934,
+Sentence #930,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26736,7 +26696,7 @@ NewDelhi,O
 India,B-LOC
 #,O
 Travel,O
-Sentence #935,
+Sentence #931,
 delhi24X7,O
 8/19/2011,O
 :,O
@@ -26762,7 +26722,7 @@ http,O
 :,O
 //feedzil.la/or4T2T,O
 delhi24X7,O
-Sentence #936,
+Sentence #932,
 HeadlinesIndia.com,O
 :,O
 Manipur,B-LOC
@@ -26775,7 +26735,7 @@ accident,O
 http,O
 :,O
 //bit.ly/ruj3PA,O
-Sentence #937,
+Sentence #933,
 Manipur,B-ORG
 Congress,I-ORG
 MLA,I-ORG
@@ -26791,7 +26751,7 @@ http,O
 India,B-LOC
 #,O
 News,O
-Sentence #938,
+Sentence #934,
 MyNews.in,O
 Manipur,B-LOC
 legislator,O
@@ -26814,7 +26774,7 @@ http,O
 :,O
 //bit.ly/oTcPmw,O
 MyNews.in,O
-Sentence #939,
+Sentence #935,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26824,7 +26784,7 @@ accident,O
 http,O
 :,O
 //clz.co/oDrG1T,O
-Sentence #940,
+Sentence #936,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26848,7 +26808,7 @@ roa,O
 http,O
 :,O
 //bit.ly/oiAj5I,O
-Sentence #941,
+Sentence #937,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -26872,7 +26832,7 @@ assemb,O
 http,O
 :,O
 //bit.ly/rcy14D,O
-Sentence #942,
+Sentence #938,
 Manipur,B-LOC
 #,O
 legislator,O
@@ -26889,7 +26849,7 @@ http,O
 politics,O
 #,O
 sinclair,O
-Sentence #943,
+Sentence #939,
 Manipur,B-LOC
 legislator,O
 killed,O
@@ -26913,7 +26873,7 @@ road,O
 http,O
 :,O
 //bit.ly/pE4so8,O
-Sentence #944,
+Sentence #940,
 Manipur,B-LOC
 jawan,O
 dies,O
@@ -26931,12 +26891,12 @@ http,O
 http,O
 :,O
 //ift.tt/1SRtU1P,O
-Sentence #945,
+Sentence #941,
 thenortheast,O
 http,O
 :,O
 //ift.tt/1I7QF02,O
-Sentence #946,
+Sentence #942,
 #,O
 Manipur,B-LOC
 #,O
@@ -26955,7 +26915,7 @@ http,O
 //thenortheasttoday.com/,O
 ?,O
 p=38046,O
-Sentence #947,
+Sentence #943,
 Manipur,B-LOC
 jawan,O
 dies,O
@@ -26973,12 +26933,12 @@ http,O
 http,O
 :,O
 //ift.tt/1NtTb00,O
-Sentence #948,
+Sentence #944,
 thenortheast,O
 http,O
 :,O
 //ift.tt/1J3Ds9n,O
-Sentence #949,
+Sentence #945,
 @,O
 Swamy39,O
 @,O
@@ -27007,7 +26967,7 @@ many,O
 days,O
 #,O
 silence,O
-Sentence #950,
+Sentence #946,
 NIA,O
 arrests,O
 Manipur,B-LOC
@@ -27027,7 +26987,7 @@ India,B-LOC
 National,O
 #,O
 Terrorism,O
-Sentence #951,
+Sentence #947,
 @,O
 nitin_gadkari,O
 Sir,O
@@ -27074,7 +27034,7 @@ look,O
 into,O
 this,O
 matter,O
-Sentence #952,
+Sentence #948,
 (,O
 :,O
 YouTube,O
@@ -27099,7 +27059,7 @@ http,O
 ?,O
 v=RfHCPF-bziU,O
 pic.twitter.com/WTdnKrYt0Z,O
-Sentence #953,
+Sentence #949,
 (,O
 :,O
 YouTube,O
@@ -27122,7 +27082,7 @@ http,O
 ?,O
 v=q5zfzMKUCVs,O
 pic.twitter.com/cTahc5RMtn,O
-Sentence #954,
+Sentence #950,
 Doctor,O
 dies,O
 in,O
@@ -27141,7 +27101,7 @@ https,O
 via,O
 @,O
 indiatoday,B-TIM
-Sentence #955,
+Sentence #951,
 Doctor,O
 dies,O
 in,O
@@ -27160,7 +27120,7 @@ https,O
 via,O
 @,O
 indiatoday,B-TIM
-Sentence #956,
+Sentence #952,
 A,O
 52-year-old,O
 doctor,O
@@ -27210,7 +27170,7 @@ the,O
 news,O
 @,O
 TVMohandasPai,O
-Sentence #957,
+Sentence #953,
 This,O
 is,O
 what,O
@@ -27263,7 +27223,7 @@ MCDdelhi,O
 SDMC_Official,O
 @,O
 bsesdelhipic.twitter.com/u7Hlhu9RcK,O
-Sentence #958,
+Sentence #954,
 #,O
 thread,O
 #,O
@@ -27315,7 +27275,7 @@ this,O
 accident,O
 .,O
 pic.twitter.com/s4IEIa5zMQ,O
-Sentence #959,
+Sentence #955,
 Sad,O
 to,O
 hear,O
@@ -27340,7 +27300,7 @@ such,O
 accidents,O
 .,O
 pic.twitter.com/bVSk109nhk,O
-Sentence #960,
+Sentence #956,
 I,O
 added,O
 a,O
@@ -27367,7 +27327,7 @@ Nagar,I-LOC
 Delhi,B-LOC
 |,O
 Bharattoday,B-TIM
-Sentence #961,
+Sentence #957,
 Sir,O
 ..,O
 Delhi,B-LOC
@@ -27418,10 +27378,10 @@ Tilak,B-LOC
 Nagar,I-LOC
 new,I-LOC
 mor,I-LOC
-Sentence #962,
+Sentence #958,
 Happy,O
 Diwali,O
-Sentence #963,
+Sentence #959,
 With,O
 regards,O
 Delhi,B-ORG
@@ -27435,14 +27395,14 @@ Nagar,I-LOC
 Metro,B-LOC
 Station,I-LOC
 .,O
-Sentence #964,
+Sentence #960,
 #,O
 FridayThe13,O
 #,O
 Accident,O
 #,O
 Crippled,O
-Sentence #965,
+Sentence #961,
 Video,O
 :,O
 24,B-TIM
@@ -27551,7 +27511,7 @@ e0,O
 a5,O
 %,O
 87/,O
-Sentence #966,
+Sentence #962,
 Delhi,B-LOC
 :,O
 Bike,O
@@ -27569,7 +27529,7 @@ http,O
 :,O
 //bit.ly/2w0j0Xo,O
 pic.twitter.com/qYmjMpwwwj,O
-Sentence #967,
+Sentence #963,
 D,B-PER
 K,I-PER
 Chopra,I-PER
@@ -27616,7 +27576,7 @@ house,I-LOC
 to,O
 Parliament,O
 pic.twitter.com/fwOn4xtGnd,O
-Sentence #968,
+Sentence #964,
 A,O
 32,O
 B,B-ORG
@@ -27649,7 +27609,7 @@ last,O
 days,O
 .,O
 pic.twitter.com/yxykbn1Q3m,O
-Sentence #969,
+Sentence #965,
 5,O
 Delhi,B-ORG
 University,I-ORG
@@ -27671,7 +27631,7 @@ http,O
 http,O
 :,O
 //www.deccanherald.com/content/254123/five-du-profs-get-bail.html,O
-Sentence #970,
+Sentence #966,
 delhi,B-LOC
 #,O
 traffic,O
@@ -27686,13 +27646,13 @@ SLOW,O
 MOVEMENT,O
 TOWARDS,O
 MAYAPURI,B-LOC
-Sentence #971,
+Sentence #967,
 PEDESTRIAN,O
 ...,O
 http,O
 :,O
 //fb.me/JXSJFNvj,O
-Sentence #972,
+Sentence #968,
 delhi,B-LOC
 traffic,O
 A,O
@@ -27715,7 +27675,7 @@ WATER,O
 http,O
 :,O
 //fb.me/TchoBrsB,O
-Sentence #973,
+Sentence #969,
 #,O
 Delhi,B-LOC
 RT,O
@@ -27738,7 +27698,7 @@ accident,O
 http,O
 :,O
 //bit.ly/aRdta8,O
-Sentence #974,
+Sentence #970,
 Govt,O
 raps,O
 DU,O
@@ -27761,7 +27721,7 @@ Universi,I-PER
 http,O
 :,O
 //bit.ly/dBWp9F,O
-Sentence #975,
+Sentence #971,
 @,O
 ManojTiwariMP,O
 @,O
@@ -27806,7 +27766,7 @@ get,O
 this,O
 checked,O
 ?,O
-Sentence #976,
+Sentence #972,
 @,O
 harleydavidson,O
 @,O
@@ -27861,10 +27821,10 @@ in,O
 providing,O
 parts,O
 .,O
-Sentence #977,
+Sentence #973,
 @,O
 HarleyIndia,O
-Sentence #978,
+Sentence #974,
 My,O
 bike,O
 met,O
@@ -27916,7 +27876,7 @@ in,O
 providing,O
 parts,O
 .,O
-Sentence #979,
+Sentence #975,
 Let,O
 us,O
 remember,O
@@ -27946,7 +27906,7 @@ https,O
 //www.youtube.com/watch,O
 ?,O
 v=WQHqXSs-a1o,O
-Sentence #980,
+Sentence #976,
 Here,O
 is,O
 an,O
@@ -27955,7 +27915,7 @@ of,O
 your,O
 modern,O
 safety,O
-Sentence #981,
+Sentence #977,
 In,O
 April,B-TIM
 2010,I-TIM
@@ -27995,8 +27955,7 @@ in,O
 Mayapuri,B-LOC
 on,O
 Feb,O
-"26,2010",O
-Sentence #982,
+Sentence #978,
 #,O
 Breaking,O
 :,O
@@ -28012,7 +27971,7 @@ Mayapuri,B-LOC
 5,O
 injured,O
 .,O
-Sentence #983,
+Sentence #979,
 ``,O
 @,O
 NBTDilli,O
@@ -28033,7 +27992,7 @@ injured.,O
 #,O
 BJPWedsCongress,O
 '',O
-Sentence #984,
+Sentence #980,
 #,O
 Breaking,O
 :,O
@@ -28044,13 +28003,13 @@ Metro,I-LOC
 construction,O
 site,O
 in,O
-",O
+"""",O
 Mayapuri,B-LOC
 5,O
-",O
+"""",O
 injured,O
 .,O
-Sentence #985,
+Sentence #981,
 Accident,O
 at,O
 Delhi,B-LOC
@@ -28058,10 +28017,10 @@ Metro,I-LOC
 project,O
 site,O
 in,O
-",O
+"""",O
 Mayapuri,B-LOC
 3,B-LOC
-",O
+"""",O
 workers,O
 injured,O
 .,O
@@ -28071,7 +28030,7 @@ Flash,O
 http,O
 :,O
 //goo.gl/vH4mnO,O
-Sentence #986,
+Sentence #982,
 RT,O
 @,O
 arora_c,O
@@ -28097,7 +28056,7 @@ go,O
 via,O
 Mayapuri,B-LOC
 .,O
-Sentence #987,
+Sentence #983,
 @,O
 DelhiPwd,O
 There,O
@@ -28142,7 +28101,7 @@ avoid,O
 any,O
 accident/damages,O
 .,O
-Sentence #988,
+Sentence #984,
 Four,O
 hurt,O
 in,O
@@ -28165,7 +28124,7 @@ Mayapuri,B-LOC
 https,O
 :,O
 //bit.ly/2IuPkqm,O
-Sentence #989,
+Sentence #985,
 .,O
 @,O
 KirenRijiju,O
@@ -28198,7 +28157,7 @@ https,O
 story_fbid=10155513096438894,O
 &,O
 id=586093893,O
-Sentence #990,
+Sentence #986,
 Delhi,B-LOC
 people,O
 avoid,O
@@ -28222,7 +28181,7 @@ flyover,I-LOC
 delhitraffic,O
 @,O
 DelhiTrafficPol,O
-Sentence #991,
+Sentence #987,
 @,O
 PiyushGoyal,O
 Request,O
@@ -28249,7 +28208,7 @@ power,O
 supply,O
 has,O
 failed,O
-Sentence #992,
+Sentence #988,
 Yaiskul,B-PER
 Kendra,I-PER
 MLA,I-PER
@@ -28276,7 +28235,7 @@ by,O
 http,O
 :,O
 //fb.me/1eACswnzy,O
-Sentence #993,
+Sentence #989,
 @,O
 epriyo1,O
 early,O
@@ -28289,7 +28248,7 @@ mayur,B-LOC
 vihar,I-LOC
 new,B-LOC
 delhi,I-LOC
-Sentence #994,
+Sentence #990,
 Pls,B-ORG
 RT,I-ORG
 -,I-ORG
@@ -28318,7 +28277,7 @@ Hope,O
 someone,O
 sees,O
 this,O
-Sentence #995,
+Sentence #991,
 sad,O
 to,O
 write,O
@@ -28341,7 +28300,7 @@ highway,I-LOC
 Delhi,B-LOC
 drive,O
 safe,O
-Sentence #996,
+Sentence #992,
 @,O
 YahooReporterLD,O
 Delhi,B-LOC
@@ -28362,7 +28321,7 @@ Mayur,B-LOC
 Vihar,I-LOC
 Phase,I-LOC
 3,I-LOC
-Sentence #997,
+Sentence #993,
 Whoa,O
 !,O
 RT,O
@@ -28387,7 +28346,7 @@ Mayur,B-LOC
 Vihar,I-LOC
 Phase,I-LOC
 3,I-LOC
-Sentence #998,
+Sentence #994,
 Delhi,B-LOC
 :,O
 a,O
@@ -28406,7 +28365,7 @@ Mayur,B-LOC
 Vihar,I-LOC
 Phase,I-LOC
 3,I-LOC
-Sentence #999,
+Sentence #995,
 In,O
 Delhi,B-LOC
 so,O
@@ -28435,7 +28394,7 @@ stupid,O
 ?,O
 !,O
 !,O
-Sentence #1000,
+Sentence #996,
 Mob,O
 set,O
 on,O
@@ -28464,7 +28423,7 @@ tensed,O
 .,O
 #,O
 Delhi,B-LOC
-Sentence #1001,
+Sentence #997,
 @,O
 ArvindKejriwal,O
 Sir,O
@@ -28490,7 +28449,7 @@ just,O
 avoided,O
 an,O
 accident,O
-Sentence #1002,
+Sentence #998,
 @,O
 nitin_gadkari,O
 Sir,O
@@ -28517,7 +28476,7 @@ avoided,O
 a,O
 accident,O
 .,O
-Sentence #1003,
+Sentence #999,
 Fatal,O
 Accident,O
 in,O
@@ -28532,7 +28491,7 @@ border,I-LOC
 .,O
 #,O
 speedthrillsbutkillspic.twitter.com/u8WDdYBPD1,O
-Sentence #1004,
+Sentence #1000,
 NBTDilli,O
 :,O
 Just,O
@@ -28557,7 +28516,7 @@ flyover,I-LOC
 pic.twitter.com/muZ5xRdVSU,O
 #,O
 mufflerMan,O
-Sentence #1005,
+Sentence #1001,
 Just,O
 In,O
 :,O
@@ -28578,7 +28537,7 @@ Vihar,I-LOC
 flyover,I-LOC
 .,O
 pic.twitter.com/2z57PoNdxZ,O
-Sentence #1006,
+Sentence #1002,
 I,O
 liked,O
 a,O
@@ -28602,7 +28561,7 @@ accident,O
 near,O
 Mayur,B-LOC
 vihar,I-LOC
-Sentence #1007,
+Sentence #1003,
 E,O
 RICKSHAW,O
 SOULD,O
@@ -28624,7 +28583,7 @@ DELHI,B-LOC
 YESTERDAY,O
 .,O
 .,O
-Sentence #1008,
+Sentence #1004,
 Delhi,B-LOC
 :,O
 2,O
@@ -28644,7 +28603,7 @@ destekleyin,O
 http,O
 :,O
 //wp.me/p45fj1-px0,O
-Sentence #1009,
+Sentence #1005,
 Delhi,B-LOC
 :,O
 2,O
@@ -28660,7 +28619,7 @@ vihar,I-LOC
 http,O
 :,O
 //wp.me/p4zw8b-2Wz,O
-Sentence #1010,
+Sentence #1006,
 Delhi,B-LOC
 2,O
 killed,O
@@ -28676,7 +28635,7 @@ Phase-1,I-LOC
 http,O
 :,O
 //wp.me/p4zw8b-2Wi,O
-Sentence #1011,
+Sentence #1007,
 Just,O
 In,O
 :,O
@@ -28693,7 +28652,7 @@ Phase,I-LOC
 #,O
 Delhi,B-LOC
 pic.twitter.com/EsTU9a6a6B,I-LOC
-Sentence #1012,
+Sentence #1008,
 RT,O
 @,O
 NBTDilli,O
@@ -28712,7 +28671,7 @@ accident,O
 .,O
 #,O
 Delhi,B-LOC
-Sentence #1013,
+Sentence #1009,
 Heavy,O
 jam,O
 on,O
@@ -28727,7 +28686,7 @@ accident,O
 .,O
 #,O
 Delhi,B-LOC
-Sentence #1014,
+Sentence #1010,
 @,O
 dtptraffic,O
 A,O
@@ -28753,7 +28712,7 @@ awaiting,O
 to,O
 happen,O
 .,O
-Sentence #1015,
+Sentence #1011,
 If,O
 some,O
 major,O
@@ -28784,7 +28743,7 @@ CPDelhi,O
 DelhiPolice,O
 @,O
 dtptraffic,O
-Sentence #1016,
+Sentence #1012,
 @,O
 aajtak,O
 due,O
@@ -28828,7 +28787,7 @@ over,O
 neighbour,O
 house,O
 pic.twitter.com/C8Mu3mhC2Q,O
-Sentence #1017,
+Sentence #1013,
 @,O
 nitin_gadkari,O
 #,O
@@ -28859,7 +28818,7 @@ accident,O
 .,O
 Thankyou,O
 sir,O
-Sentence #1018,
+Sentence #1014,
 @,O
 dtptraffic,O
 @,O
@@ -28906,7 +28865,7 @@ order,O
 .,O
 @,O
 msisodia,O
-Sentence #1019,
+Sentence #1015,
 Dr,B-LOC
 Narang,I-LOC
 murder,O
@@ -28929,7 +28888,7 @@ on,O
 u,O
 delhi,B-ORG
 police,I-ORG
-Sentence #1020,
+Sentence #1016,
 #,O
 delhi,B-LOC
 @,O
@@ -28947,7 +28906,7 @@ gaziabad,B-LOC
 #,O
 traffic,O
 jampic.twitter.com/RMqaNxVR9b,O
-Sentence #1021,
+Sentence #1017,
 @,O
 dtptraffic,O
 Violation,O
@@ -28973,7 +28932,7 @@ causes,O
 fatal,O
 accidents,O
 .,O
-Sentence #1022,
+Sentence #1018,
 ndtv,O
 :,O
 Delhi,B-LOC
@@ -28997,7 +28956,7 @@ https,O
 //twitter.com/ndtv/status/890078652628697089,O
 ),O
 pic.twitter.com/vZbBLoWvSS,O
-Sentence #1023,
+Sentence #1019,
 Six,O
 dead,O
 three,O
@@ -29020,7 +28979,7 @@ Delhi,B-LOC
 Accident,O
 #,O
 Collisionpic.twitter.com/iwFKYGdeeX,O
-Sentence #1024,
+Sentence #1020,
 U,O
 r,O
 busy,O
@@ -29049,7 +29008,7 @@ shame,O
 on,O
 Delhi,B-ORG
 Govt,I-ORG
-Sentence #1025,
+Sentence #1021,
 @,O
 dtptraffic,O
 when,O
@@ -29077,7 +29036,7 @@ Caused,O
 accident,O
 last,O
 night,O
-Sentence #1026,
+Sentence #1022,
 @,O
 DelhiTrafficPol,O
 DND,B-LOC
@@ -29103,14 +29062,14 @@ wrong,O
 side,O
 .,O
 Shame,O
-Sentence #1027,
+Sentence #1023,
 @,O
 CommEDMC,O
 @,O
 EastDelhiMCD,O
 @,O
 Bipin_Bi_Singh,B-LOC
-Sentence #1028,
+Sentence #1024,
 Manhole,O
 is,O
 broken,O
@@ -29127,18 +29086,18 @@ Phase,I-LOC
 East,B-LOC
 Delhi,I-LOC
 110091,I-LOC
-Sentence #1029,
+Sentence #1025,
 Inviting,O
 the,O
 accidents,O
 .,O
-Sentence #1030,
+Sentence #1026,
 Please,O
 look,O
 into,O
 it,O
 .,O
-Sentence #1031,
+Sentence #1027,
 On,O
 my,O
 way,O
@@ -29156,7 +29115,7 @@ phase,I-LOC
 1,I-LOC
 delhi,B-LOC
 .,O
-Sentence #1032,
+Sentence #1028,
 Baby,O
 gaumata,O
 accident,O
@@ -29171,13 +29130,13 @@ asked,O
 for,O
 help,O
 ..,O
-Sentence #1033,
+Sentence #1029,
 Pray,O
 for,O
 baby,O
 please,O
 ...,O
-Sentence #1034,
+Sentence #1030,
 Accidents,O
 take,O
 place,O
@@ -29229,7 +29188,7 @@ dtptraffic,O
 msisodia,O
 please,O
 intervene.pic.twitter.com/TCtsrMVcH3,O
-Sentence #1035,
+Sentence #1031,
 Airtel,O
 @,O
 airtelindia,O
@@ -29285,7 +29244,7 @@ junctions,O
 Photo,O
 visual,O
 pic.twitter.com/a4SNtYsic7,O
-Sentence #1036,
+Sentence #1032,
 @,O
 dtptraffic,O
 @,O
@@ -29340,7 +29299,7 @@ can,O
 happen,O
 anytime,O
 .,O
-Sentence #1037,
+Sentence #1033,
 Rip,O
 Bhai,O
 surjeet,B-PER
@@ -29373,7 +29332,7 @@ ManojTiwariMP,O
 rajnathsingh,O
 @,O
 GautamGambhirpic.twitter.com/dQOuQQVowS,O
-Sentence #1038,
+Sentence #1034,
 #,O
 RT,O
 @,O
@@ -29430,7 +29389,7 @@ accident,O
 prone,O
 .,O
 pic.twitter.com/tkQfkwD20N,O
-Sentence #1039,
+Sentence #1035,
 RT,O
 sayantan_gh,O
 :,O
@@ -29485,7 +29444,7 @@ Delhi,B-ORG
 govt,I-ORG
 to,O
 pic.twitter.com/BmFB0xfgxt,O
-Sentence #1040,
+Sentence #1036,
 RT,O
 sayantan_gh,O
 :,O
@@ -29540,7 +29499,7 @@ Delhi,B-LOC
 govt,I-LOC
 to,O
 pic.twitter.com/vePKGJXjGP,O
-Sentence #1041,
+Sentence #1037,
 If,O
 some,O
 major,O
@@ -29571,7 +29530,7 @@ CPDelhi,O
 DelhiPolice,O
 @,O
 dtptraffic,O
-Sentence #1042,
+Sentence #1038,
 need,O
 urgent,O
 attention,O
@@ -29598,7 +29557,7 @@ happen,O
 for,O
 action,O
 .,O
-Sentence #1043,
+Sentence #1039,
 Traffic,O
 movement,O
 is,O
@@ -29623,7 +29582,7 @@ to,O
 an,O
 accident,O
 .,O
-Sentence #1044,
+Sentence #1040,
 [,O
 New,B-LOC
 Delhi,I-LOC
@@ -29654,7 +29613,7 @@ Low,O
 http,O
 :,O
 //fb.me/1F8Gb2Mgj,O
-Sentence #1045,
+Sentence #1041,
 #,O
 Delhi,B-LOC
 please,O
@@ -29679,7 +29638,7 @@ but,O
 no,O
 response,O
 .,O
-Sentence #1046,
+Sentence #1042,
 @,O
 TrafflineDEL,O
 jam,O
@@ -29701,7 +29660,7 @@ Other,O
 side,O
 clear,O
 .,O
-Sentence #1047,
+Sentence #1043,
 &,O
 toll,O
 collection,O
@@ -29723,7 +29682,7 @@ Not,O
 all,O
 look,O
 authorised,O
-Sentence #1048,
+Sentence #1044,
 Another,O
 accident,O
 on,O
@@ -29745,7 +29704,7 @@ Delhi,B-LOC
 gurgaonpolice,O
 @,O
 dtptraffic,O
-Sentence #1049,
+Sentence #1045,
 @,O
 nitin_gadkari,O
 @,O
@@ -29805,7 +29764,7 @@ at,O
 Pul,B-LOC
 Pehlad,I-LOC
 Pur,I-LOC
-Sentence #1050,
+Sentence #1046,
 A,O
 motorcyclist,O
 has,O
@@ -29859,7 +29818,7 @@ ironic,O
 news18dotcom,O
 @,O
 dcptsr,O
-Sentence #1051,
+Sentence #1047,
 sir,O
 pls,O
 look,O
@@ -29885,7 +29844,7 @@ town,I-LOC
 Hisar,B-LOC
 .,O
 Hry,O
-Sentence #1052,
+Sentence #1048,
 @,O
 dtptraffic,O
 This,O
@@ -29943,7 +29902,7 @@ happen,O
 any,O
 day,O
 .,O
-Sentence #1053,
+Sentence #1049,
 8,O
 year,O
 old,O
@@ -29998,7 +29957,7 @@ in,O
 Delhi,B-LOC
 .,O
 pic.twitter.com/zELV7h7Qi8,O
-Sentence #1054,
+Sentence #1050,
 8,O
 year,O
 old,O
@@ -30052,7 +30011,7 @@ town,I-LOC
 in,O
 Delhi,B-LOC
 .,O
-Sentence #1055,
+Sentence #1051,
 ``,O
 Innovative,O
 way,O
@@ -30106,7 +30065,7 @@ KapilMishra_IND,O
 @,O
 LtGovDelhipic.twitter.com/Uereiy8fqb,O
 '',O
-Sentence #1056,
+Sentence #1052,
 Delhi,B-LOC
 :,O
 A,O
@@ -30140,7 +30099,7 @@ site,O
 of,O
 accident,O
 .,O
-Sentence #1057,
+Sentence #1053,
 #,O
 RT,O
 @,O
@@ -30179,7 +30138,7 @@ site,O
 of,O
 accident,O
 .,O
-Sentence #1058,
+Sentence #1054,
 Delhi,B-LOC
 :,O
 A,O
@@ -30213,7 +30172,7 @@ site,O
 of,O
 accident,O
 .,O
-Sentence #1059,
+Sentence #1055,
 Horrific,O
 Accident,O
 Speeding,O
@@ -30306,7 +30265,7 @@ a4,O
 %,O
 9f/,O
 pic.twitter.com/ikLyQzzQLU,O
-Sentence #1060,
+Sentence #1056,
 Very,O
 dangerous,O
 condition,O
@@ -30344,7 +30303,7 @@ akhilesht84,O
 SatyendarJain,O
 @,O
 ManojTiwariMPpic.twitter.com/ef5BytCGP1,O
-Sentence #1061,
+Sentence #1057,
 @,O
 NorthDmc,O
 @,O
@@ -30353,7 +30312,6 @@ site,O
 coordinate,O
 s,O
 are,O
-"28.712569,77.193755",O
 and,O
 is,O
 on,O
@@ -30400,7 +30358,7 @@ waste,O
 https,O
 :,O
 //twitter.com/NorthDmc/status/1095628609358725121,O
-Sentence #1062,
+Sentence #1058,
 Accident,O
 Prone,O
 Delhi,O
@@ -30421,7 +30379,7 @@ requirement,O
 https,O
 :,O
 //youtu.be/4RZjo5tDA0U,O
-Sentence #1063,
+Sentence #1059,
 Accident,O
 Prone,O
 Delhi,O
@@ -30444,7 +30402,7 @@ https,O
 v=4RZjo5tDA0U,O
 &,O
 feature=share,O
-Sentence #1064,
+Sentence #1060,
 @,O
 TimesNow,O
 @,O
@@ -30469,7 +30427,7 @@ Estate,I-LOC
 Mathura,B-LOC
 Road,I-LOC
 Delhi,B-LOC
-Sentence #1065,
+Sentence #1061,
 Truck,O
 accident,O
 at,O
@@ -30488,7 +30446,7 @@ Delhi,B-LOC
 dtptraffic,O
 #,O
 trafficjampic.twitter.com/m8lZ19I3Ix,O
-Sentence #1066,
+Sentence #1062,
 Ma'am,O
 new,O
 bus,O
@@ -30538,7 +30496,7 @@ h.,O
 https,O
 :,O
 //twitter.com/dm_ghaziabad/status/1067844302167044096,O
-Sentence #1067,
+Sentence #1063,
 Today,B-TIM
 I,O
 was,O
@@ -30591,7 +30549,7 @@ holes,O
 on,O
 the,O
 road,O
-Sentence #1068,
+Sentence #1064,
 7,O
 people,O
 injured,O
@@ -30620,7 +30578,7 @@ https,O
 ||,O
 #,O
 Hindi,B-LOC
-Sentence #1069,
+Sentence #1065,
 Sewer,O
 mainhole,O
 cover,O
@@ -30669,7 +30627,7 @@ Sharma,I-PER
 Mob-9868543317,I-PER
 @,O
 Ceo_djb,O
-Sentence #1070,
+Sentence #1066,
 Sewer,O
 mainhole,O
 cover,O
@@ -30716,7 +30674,7 @@ Lalit,B-PER
 Mohan,I-PER
 Sharma,I-PER
 Mob-9868543317,I-PER
-Sentence #1071,
+Sentence #1067,
 @,O
 Ceo_djb,O
 Sewer,O
@@ -30765,7 +30723,7 @@ Lalit,B-PER
 Mohan,I-PER
 Sharma,I-PER
 Mob-9868543317,I-PER
-Sentence #1072,
+Sentence #1068,
 I,O
 wonder,O
 when,O
@@ -30794,7 +30752,7 @@ cars,O
 to,O
 shits,O
 !,O
-Sentence #1073,
+Sentence #1069,
 tht,O
 ws,O
 a,O
@@ -30814,7 +30772,7 @@ mrng,O
 ...,O
 #,O
 delhi,B-LOC
-Sentence #1074,
+Sentence #1070,
 delhi,B-LOC
 #,O
 traffic,O
@@ -30833,13 +30791,13 @@ MOVEMENT,O
 OF,O
 TRAFFIC,O
 .,O
-Sentence #1075,
+Sentence #1071,
 MEDIUM,O
 ...,O
 http,O
 :,O
 //fb.me/1n8IxCtUd,O
-Sentence #1076,
+Sentence #1072,
 Retweeted,O
 Delhi,B-ORG
 Traffic,I-ORG
@@ -30849,7 +30807,7 @@ Police,I-ORG
 dtptraffic,O
 ),O
 :,O
-Sentence #1077,
+Sentence #1073,
 Traffic,O
 Alert,O
 Obstruction,O
@@ -30879,7 +30837,7 @@ avoid,O
 the,O
 stretch,O
 .,O
-Sentence #1078,
+Sentence #1074,
 @,O
 SatyendarJain,O
 @,O
@@ -30922,7 +30880,7 @@ is,O
 no,O
 response,O
 .,O
-Sentence #1079,
+Sentence #1075,
 Dear,O
 people,O
 .,O
@@ -30961,10 +30919,10 @@ Lajpat,B-LOC
 Nagar,I-LOC
 #,O
 Delhi,B-LOC
-Sentence #1080,
+Sentence #1076,
 Contact:9811411284,O
 .,O
-Sentence #1081,
+Sentence #1077,
 @,O
 ArvindKejriwal,O
 Dear,O
@@ -31016,7 +30974,7 @@ help,O
 me,O
 out,O
 .,O
-Sentence #1082,
+Sentence #1078,
 @,O
 DCPSouthDelhi,O
 My,O
@@ -31065,7 +31023,7 @@ it,O
 is,O
 not,O
 closed,O
-Sentence #1083,
+Sentence #1079,
 @,O
 Toyota_India,B-LOC
 @,O
@@ -31093,7 +31051,7 @@ shop,O
 in,O
 moti,B-LOC
 nagar-Delhi,O
-Sentence #1084,
+Sentence #1080,
 At,O
 the,O
 flyover,I-LOC
@@ -31130,7 +31088,7 @@ for,O
 public,O
 and,O
 animals,O
-Sentence #1085,
+Sentence #1081,
 At,O
 the,O
 front,O
@@ -31146,7 +31104,7 @@ pic.twitter.com/xrgsT3C2sG,O
 at,O
 Moti,B-LOC
 Nagar,I-LOC
-Sentence #1086,
+Sentence #1082,
 Dog,O
 met,O
 with,O
@@ -31170,7 +31128,7 @@ treatment.,O
 DogsRescue,O
 #,O
 AnimalBrigadepic.twitter.com/TYvzsMsfUC,O
-Sentence #1087,
+Sentence #1083,
 @,O
 anandmahindra,O
 very,O
@@ -31194,7 +31152,6 @@ on,O
 time,O
 paid,O
 and,O
-"free,2times",O
 my,O
 vehicle,O
 got,O
@@ -31217,7 +31174,7 @@ regularly,O
 mentioning,O
 same,O
 complaint,O
-Sentence #1088,
+Sentence #1084,
 Sir,O
 at,O
 the,O
@@ -31232,7 +31189,7 @@ stand,O
 moti,B-LOC
 nagar,I-LOC
 Delhi-15,I-LOC
-Sentence #1089,
+Sentence #1085,
 At,O
 the,O
 footpath,O
@@ -31268,7 +31225,7 @@ you,O
 very,O
 much,O
 pic.twitter.com/cimELsBhlC,O
-Sentence #1090,
+Sentence #1086,
 @,O
 SkodaIndia,O
 Yesterday,B-TIM
@@ -31319,7 +31276,7 @@ to,O
 him,O
 @,O
 SkodaIndia,O
-Sentence #1091,
+Sentence #1087,
 @,O
 BMW,B-ORG
 @,O
@@ -31374,7 +31331,7 @@ customers,O
 need,O
 urgenthelp,O
 .,O
-Sentence #1092,
+Sentence #1088,
 @,O
 NewMahindraCars,O
 the,O
@@ -31421,7 +31378,7 @@ local,O
 paint,O
 Disappointed,O
 8377068488,O
-Sentence #1093,
+Sentence #1089,
 A,O
 26-year-old,O
 kanwariya,O
@@ -31461,7 +31418,7 @@ https,O
 utm_source=ig_twitter_share,O
 &,O
 igshid=g7y6f5k62nev,O
-Sentence #1094,
+Sentence #1090,
 Moti,B-LOC
 nagar,I-LOC
 kawariya,O
@@ -31509,7 +31466,7 @@ policemen,O
 ...,O
 #,O
 shame,O
-Sentence #1095,
+Sentence #1091,
 Moti,B-LOC
 nagar,I-LOC
 kawariya,O
@@ -31536,7 +31493,7 @@ v=2M1X8yYodbU,O
 https,O
 :,O
 //delhiinformer.com/62824/moti-nagar-kawariya-accident-kawariya-destroyed-car-in-motinagar-delhi-live-on-camera-delhi-video/,O
-Sentence #1096,
+Sentence #1092,
 On,O
 minor,O
 accident,O
@@ -31571,7 +31528,7 @@ arrested,O
 https,O
 :,O
 //www.facebook.com/Jobsplane/posts/1968467913221183,O
-Sentence #1097,
+Sentence #1093,
 On,O
 minor,O
 accident,O
@@ -31603,7 +31560,7 @@ all,O
 be,O
 arrested,O
 ?,O
-Sentence #1098,
+Sentence #1094,
 These,O
 people,O
 ca,O
@@ -31620,7 +31577,7 @@ this,O
 https,O
 :,O
 //www.facebook.com/TheIrritatedIndian/videos/1791402504306850/,O
-Sentence #1099,
+Sentence #1095,
 The,O
 petrol,O
 pump,O
@@ -31667,7 +31624,7 @@ to,O
 b,O
 catastrophic,O
 .,O
-Sentence #1100,
+Sentence #1096,
 @,O
 tapansinghel,O
 @,O
@@ -31694,7 +31651,7 @@ with,O
 an,O
 accident,O
 .,O
-Sentence #1101,
+Sentence #1097,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -31719,7 +31676,7 @@ rem,O
 http,O
 :,O
 //bit.ly/WnqjhP,O
-Sentence #1102,
+Sentence #1098,
 Powerful,O
 BJP,O
 leader,O
@@ -31732,7 +31689,7 @@ a,O
 accident,O
 in,O
 Delhi,B-LOC
-Sentence #1103,
+Sentence #1099,
 I,O
 knw,O
 WIP,O
@@ -31765,7 +31722,7 @@ material,O
 openly,O
 on,O
 road,O
-Sentence #1104,
+Sentence #1100,
 Driver,O
 dies,O
 as,O
@@ -31782,7 +31739,7 @@ Car,O
 https,O
 :,O
 //tmblr.co/Zoquue2IEofxj,O
-Sentence #1105,
+Sentence #1101,
 Car,O
 caught,O
 fire,O
@@ -31799,7 +31756,7 @@ Delhi,B-LOC
 #,O
 Accident,O
 pic.twitter.com/CRe1nnX4Pc,O
-Sentence #1106,
+Sentence #1102,
 Back,O
 to,O
 back,O
@@ -31807,7 +31764,7 @@ FIRE,O
 ACCIDENTS,O
 in,O
 DELHI,B-LOC
-Sentence #1107,
+Sentence #1103,
 Last,O
 week,O
 #,O
@@ -31826,8 +31783,7 @@ far,O
 23,O
 dead,O
 ),O
-Sentence #1108,
-Sentence #1109,
+Sentence #1104,
 (,O
 Delhi,B-LOC
 already,O
@@ -31836,12 +31792,12 @@ severe,O
 Air,O
 pollution,O
 ),O
-Sentence #1110,
+Sentence #1105,
 #,O
 delhifireaccident,O
 #,O
 Delhi,B-LOC
-Sentence #1111,
+Sentence #1106,
 @,O
 _sachinbansal,O
 gokd,O
@@ -31898,7 +31854,7 @@ na,O
 salary,O
 di,O
 gai,O
-Sentence #1112,
+Sentence #1107,
 #,O
 VoteForIndia,O
 these,O
@@ -31950,7 +31906,7 @@ to,O
 accidents,O
 @,O
 NavbharatTimespic.twitter.com/jeRqpn6izU,O
-Sentence #1113,
+Sentence #1108,
 #,O
 VoteForIndia,O
 these,O
@@ -32002,7 +31958,7 @@ to,O
 accidents,O
 @,O
 NavbharatTimespic.twitter.com/jeRqpn6izU,O
-Sentence #1114,
+Sentence #1109,
 Traffic,O
 is,O
 affected,O
@@ -32025,7 +31981,7 @@ dumper,O
 and,O
 car,O
 .,O
-Sentence #1115,
+Sentence #1110,
 @,O
 ndtvtweet,O
 ye,O
@@ -32045,7 +32001,7 @@ hua,O
 hua,O
 ?,O
 -,O
-Sentence #1116,
+Sentence #1111,
 @,O
 ndtvtweets,O
 ye,O
@@ -32064,7 +32020,7 @@ accident,O
 hua,O
 hua,O
 ?,O
-Sentence #1117,
+Sentence #1112,
 Major,B-LOC
 accident,O
 and,O
@@ -32085,7 +32041,7 @@ route,O
 delhi,B-LOC
 #,O
 traffic,O
-Sentence #1118,
+Sentence #1113,
 Major,B-LOC
 accident,O
 at,O
@@ -32113,7 +32069,7 @@ Delhi,B-ORG
 RT,I-ORG
 pls,O
 .,O
-Sentence #1119,
+Sentence #1114,
 ..,O
 home,O
 after,O
@@ -32142,7 +32098,7 @@ AIIMS,B-LOC
 &,O
 ..,O
 2/,O
-Sentence #1120,
+Sentence #1115,
 ``,O
 @,O
 dtptraffic,O
@@ -32168,7 +32124,7 @@ is,O
 there,O
 pic.twitter.com/7LiQh2bD4z,O
 '',O
-Sentence #1121,
+Sentence #1116,
 The,O
 driver,O
 was,O
@@ -32187,7 +32143,6 @@ Time,O
 of,O
 accident,O
 6.30,O
-"AM,12",B-ORG
 Mar,O
 17,O
 .,O
@@ -32197,7 +32152,7 @@ Munirka,B-LOC
 -,O
 IIT,B-LOC
 Delhi,I-LOC
-Sentence #1122,
+Sentence #1117,
 #,O
 Munirka,B-LOC
 accident,O
@@ -32214,7 +32169,7 @@ been,O
 arrested,O
 by,O
 Police,O
-Sentence #1123,
+Sentence #1118,
 https,O
 :,O
 //twitter.com/ANI_news/status/823458166922887168ANI_news,O
@@ -32235,7 +32190,7 @@ been,O
 arrested,O
 by,O
 Police,O
-Sentence #1124,
+Sentence #1119,
 #,O
 UPDATE,O
 Munirka,B-LOC
@@ -32252,7 +32207,7 @@ been,O
 arrested,O
 by,O
 Police,O
-Sentence #1125,
+Sentence #1120,
 Delhi,B-LOC
 :,O
 Cab,O
@@ -32275,7 +32230,7 @@ Munirka,B-LOC
 today,B-TIM
 .,O
 pic.twitter.com/KLnkE1n07V,O
-Sentence #1126,
+Sentence #1121,
 #,O
 Delhi,B-LOC
 :,O
@@ -32298,7 +32253,7 @@ near,O
 Munirka,B-LOC
 today,B-TIM
 .,O
-Sentence #1127,
+Sentence #1122,
 #,O
 Delhi,B-LOC
 :,O
@@ -32321,7 +32276,7 @@ near,O
 Munirka,B-LOC
 today,B-TIM
 pic.twitter.com/YMhaw6hOmy,O
-Sentence #1128,
+Sentence #1123,
 Cab,O
 drivers,O
 protest,O
@@ -32346,7 +32301,7 @@ Delhi,I-LOC
 on,O
 Monday,B-TIM
 morning,I-TIM
-Sentence #1129,
+Sentence #1124,
 Delhi,B-LOC
 :,O
 Cab,O
@@ -32369,7 +32324,7 @@ Munirka,B-LOC
 today,B-TIM
 .,O
 pic.twitter.com/cuE2tZG7TQ,O
-Sentence #1130,
+Sentence #1125,
 Mai,O
 bhi,O
 face,O
@@ -32406,7 +32361,7 @@ Bich,O
 me,O
 munirka,B-LOC
 pada,O
-Sentence #1131,
+Sentence #1126,
 #,O
 CoronaTerror,O
 #,O
@@ -32457,7 +32412,7 @@ ArvindKejriwal,O
 NitishKumar,O
 @,O
 ManojTiwariMP,O
-Sentence #1132,
+Sentence #1127,
 @,O
 DelhiPwd,O
 @,O
@@ -32507,7 +32462,7 @@ look,O
 into,O
 it,O
 .,O
-Sentence #1133,
+Sentence #1128,
 @,O
 pwddelhi,O
 Sir,O
@@ -32557,7 +32512,7 @@ look,O
 into,O
 it,O
 .,O
-Sentence #1134,
+Sentence #1129,
 @,O
 DCPSWestDelhi,O
 @,O
@@ -32607,7 +32562,7 @@ to,O
 intervene,O
 urgently,O
 pic.twitter.com/IDeEmfmcZ9,O
-Sentence #1135,
+Sentence #1130,
 #,O
 Delhi,B-LOC
 http,O
@@ -32619,7 +32574,7 @@ Najafgarh,B-LOC
 Accident,O
 #,O
 Charteredplanepic.twitter.com/poe1we08nj,O
-Sentence #1136,
+Sentence #1131,
 Accident,O
 on,O
 Najafgarh,B-LOC
@@ -32641,7 +32596,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1137,
+Sentence #1132,
 @,O
 PMOIndia,O
 Shikarpur,B-LOC
@@ -32666,7 +32621,7 @@ are,O
 major,O
 issues,O
 .,O
-Sentence #1138,
+Sentence #1133,
 @,O
 narendramodi,O
 Sir,O
@@ -32693,7 +32648,7 @@ eve,O
 teasing,O
 issue,O
 .,O
-Sentence #1139,
+Sentence #1134,
 Navneet,B-PER
 Kumar,I-PER
 resident,O
@@ -32713,7 +32668,7 @@ http,O
 :,O
 //ift.tt/2lpH6py,O
 pic.twitter.com/vJOgmvaZIf,O
-Sentence #1140,
+Sentence #1135,
 @,O
 bsesdelhi,O
 @,O
@@ -32764,7 +32719,7 @@ for,O
 peoples,O
 and,O
 animal,O
-Sentence #1141,
+Sentence #1136,
 @,O
 sudhirchaudhary,O
 Sir,O
@@ -32816,7 +32771,7 @@ life,O
 from,O
 accident,O
 .,O
-Sentence #1142,
+Sentence #1137,
 @,O
 narendramodi,O
 Sir,O
@@ -32869,7 +32824,7 @@ life,O
 from,O
 accident,O
 .,O
-Sentence #1143,
+Sentence #1138,
 @,O
 nitin_gadkari,O
 Sir,O
@@ -32922,7 +32877,7 @@ life,O
 from,O
 accident,O
 .,O
-Sentence #1144,
+Sentence #1139,
 @,O
 ArvindKejriwal,O
 Rathi,B-LOC
@@ -32980,7 +32935,7 @@ admitted-,O
 16-09-2019,O
 .,O
 pic.twitter.com/Mt3oIPy95y,O
-Sentence #1145,
+Sentence #1140,
 @,O
 SatyendarJain,O
 hello,O
@@ -33034,7 +32989,7 @@ bear,O
 karegi,O
 ....,O
 pic.twitter.com/B3MUoQCmYw,O
-Sentence #1146,
+Sentence #1141,
 @,O
 ArvindKejriwal,O
 please,O
@@ -33083,7 +33038,7 @@ accidents,O
 at,O
 night,B-TIM
 .,O
-Sentence #1147,
+Sentence #1142,
 @,O
 ArvindKejriwal,O
 @,O
@@ -33139,7 +33094,7 @@ in,O
 this,O
 .,O
 pic.twitter.com/aNUfBHyZrt,O
-Sentence #1148,
+Sentence #1143,
 @,O
 dtptraffic,O
 @,O
@@ -33188,7 +33143,7 @@ is,O
 in,O
 waiting,O
 ..,O
-Sentence #1149,
+Sentence #1144,
 https,O
 :,O
 //itsenuf.com/report/cLWOW0HwL,O
@@ -33238,7 +33193,7 @@ DDC_Delhi,O
 DelhiPwd,O
 #,O
 itsenufpic.twitter.com/A4X4101tJm,O
-Sentence #1150,
+Sentence #1145,
 ILLEGAL,O
 CONSTRUCTION,O
 IN,O
@@ -33288,7 +33243,7 @@ ANY,O
 MOMENT,O
 .,O
 pic.twitter.com/NJk4Cv0f82,O
-Sentence #1151,
+Sentence #1146,
 @,O
 dtptraffic,O
 @,O
@@ -33338,7 +33293,7 @@ Tilak,B-LOC
 Nagar,I-LOC
 circle,I-LOC
 .,O
-Sentence #1152,
+Sentence #1147,
 Very,O
 #,O
 Sad,B-ORG
@@ -33360,7 +33315,7 @@ person,O
 was,O
 my,O
 cousin,O
-Sentence #1153,
+Sentence #1148,
 I,O
 added,O
 a,O
@@ -33378,7 +33333,7 @@ a,O
 accident,O
 nangloi,B-LOC
 delhi,I-LOC
-Sentence #1154,
+Sentence #1149,
 Three,O
 boys,O
 run,O
@@ -33426,7 +33381,7 @@ on,O
 Monday,B-TIM
 morning,I-TIM
 .,O
-Sentence #1155,
+Sentence #1150,
 @,O
 bsesdelhi,O
 Bad,O
@@ -33450,7 +33405,7 @@ big,O
 accident,O
 accur,O
 .,O
-Sentence #1156,
+Sentence #1151,
 @,O
 ArvindKejriwal,O
 Rathi,B-LOC
@@ -33509,7 +33464,7 @@ admitted,O
 16-09-2019,O
 .,O
 pic.twitter.com/Mt3oIPy95y,O
-Sentence #1157,
+Sentence #1152,
 @,O
 SatyendarJain,O
 hello,O
@@ -33563,7 +33518,7 @@ bear,O
 karegi,O
 ....,O
 pic.twitter.com/B3MUoQCmYw,O
-Sentence #1158,
+Sentence #1153,
 @,O
 ArvindKejriwal,O
 @,O
@@ -33619,7 +33574,7 @@ in,O
 this,O
 .,O
 pic.twitter.com/aNUfBHyZrt,O
-Sentence #1159,
+Sentence #1154,
 @,O
 SatyendarJain,O
 Please,O
@@ -33671,7 +33626,7 @@ Delhi,I-LOC
 -41,I-LOC
 .,O
 pic.twitter.com/2y3rXyq3qb,O
-Sentence #1160,
+Sentence #1155,
 @,O
 ArvindKejriwal,O
 sir,O
@@ -33718,7 +33673,7 @@ kirari,O
 vidhansabha,B-LOC
 area,I-LOC
 pic.twitter.com/Ry3c2a0rCe,O
-Sentence #1161,
+Sentence #1156,
 @,O
 CMO_Delhi,O
 Sir,O
@@ -33768,7 +33723,7 @@ and,O
 avert,O
 any,O
 accident,O
-Sentence #1162,
+Sentence #1157,
 @,O
 tweetndmc,O
 @,O
@@ -33821,7 +33776,7 @@ ASAP,O
 !,O
 !,O
 pic.twitter.com/N7FXg2IZ6L,O
-Sentence #1163,
+Sentence #1158,
 Mini,B-ORG
 Cooper,I-ORG
 Countryman,I-ORG
@@ -33834,7 +33789,6 @@ Year,O
 2014,O
 Km,O
 :,O
-"18,000",O
 Fuel,O
 :,O
 Petrol,O
@@ -33858,7 +33812,7 @@ accidents,O
 No,O
 repainted,O
 .,O
-Sentence #1164,
+Sentence #1159,
 Visit,O
 :,O
 E30,B-LOC
@@ -33874,13 +33828,13 @@ minicoopers,B-ORG
 cars,O
 #,O
 carsforsalepic.twitter.com/EZknwkHwmJ,O
-Sentence #1165,
+Sentence #1160,
 Audi,B-ORG
 Q3,B-MISC
 Premium,I-MISC
 Plus,I-MISC
 .,O
-Sentence #1166,
+Sentence #1161,
 Make,O
 year,O
 :,O
@@ -33891,7 +33845,6 @@ no,O
 DL,B-LOC
 Km,O
 :,O
-"33,000",O
 Fuel,O
 :,O
 Diesel,O
@@ -33914,7 +33867,7 @@ accidents,O
 No,O
 repainted,O
 .,O
-Sentence #1167,
+Sentence #1162,
 Visit,O
 :,O
 E30,B-LOC
@@ -33922,7 +33875,7 @@ Naraina,B-LOC
 Vihar,I-LOC
 Delhi,B-LOC
 -110028,I-LOC
-Sentence #1168,
+Sentence #1163,
 #,O
 CarStreetIndia,O
 #,O
@@ -33931,7 +33884,7 @@ CarStreet,O
 AudiQ3,B-LOC
 #,O
 carspic.twitter.com/icHb2e0tAT,O
-Sentence #1169,
+Sentence #1164,
 PORSCHE,B-ORG
 MACAN,I-ORG
 2017,O
@@ -33962,7 +33915,7 @@ accidents,O
 no,O
 repainted,O
 .,O
-Sentence #1170,
+Sentence #1165,
 Visit,O
 :,O
 E-30,B-PER
@@ -33971,7 +33924,7 @@ Vihar,I-LOC
 New,B-LOC
 Delhi,I-LOC
 -110028,I-LOC
-Sentence #1171,
+Sentence #1166,
 #,O
 carsforsale,O
 #,O
@@ -33980,7 +33933,7 @@ usedcars,O
 cardealer,O
 #,O
 cardealershippic.twitter.com/AspMFeTn1L,O
-Sentence #1172,
+Sentence #1167,
 @,O
 ArvindKejriwal,O
 @,O
@@ -34035,7 +33988,7 @@ Job,O
 https,O
 :,O
 //twitter.com/AnkurAroraRss/status/1188126883356921856,O
-Sentence #1173,
+Sentence #1168,
 recently,O
 meet,O
 with,O
@@ -34061,7 +34014,7 @@ concern,O
 http,O
 :,O
 //fb.me/1rsKKH1Rc,O
-Sentence #1174,
+Sentence #1169,
 Only,O
 wish,O
 officials,O
@@ -34116,7 +34069,7 @@ apartments,I-LOC
 ...,O
 shocking,O
 pic.twitter.com/dAoDl1R8yT,O
-Sentence #1175,
+Sentence #1170,
 Breaking,B-ORG
 News,I-ORG
 -,I-ORG
@@ -34140,7 +34093,7 @@ person,O
 reportedly,O
 dead,O
 .,O
-Sentence #1176,
+Sentence #1171,
 Due,O
 to,O
 accident,O
@@ -34166,7 +34119,7 @@ is,O
 there,O
 till,O
 now,O
-Sentence #1177,
+Sentence #1172,
 Rs,O
 2000,O
 To,O
@@ -34192,7 +34145,7 @@ At,O
 New,B-LOC
 Delhi,I-LOC
 Station,I-LOC
-Sentence #1178,
+Sentence #1173,
 Traffic,O
 is,O
 heavy,O
@@ -34221,7 +34174,7 @@ avoid,O
 the,O
 stretch,O
 .,O
-Sentence #1179,
+Sentence #1174,
 Delhi,B-LOC
 :,O
 Two,O
@@ -34236,7 +34189,7 @@ Nagar,I-LOC
 http,O
 :,O
 //indiareckoner.net/2015/05/delhi-two-killed-in-road-accident-in-new-ashok-nagar/,O
-Sentence #1180,
+Sentence #1175,
 Delhi,B-LOC
 :,O
 Two,O
@@ -34251,7 +34204,7 @@ Nagar,I-LOC
 http,O
 :,O
 //dlvr.it/9x1j82,O
-Sentence #1181,
+Sentence #1176,
 Delhi,B-LOC
 :,O
 Two,O
@@ -34272,7 +34225,7 @@ news,O
 breakingnews,O
 #,O
 breakingpic.twitter.com/SXyJt1bqw6,O
-Sentence #1182,
+Sentence #1177,
 Delhi,B-LOC
 :,O
 Two,O
@@ -34288,7 +34241,7 @@ Nagar,I-LOC
 http,O
 :,O
 //www.newspipe.in/delhi-two-killed-in-road-accident-in-new-ashok-nagar/,O
-Sentence #1183,
+Sentence #1178,
 @,O
 dtptraffic,O
 app,O
@@ -34334,7 +34287,7 @@ pedal,O
 yatri,O
 kidar,O
 chale,O
-Sentence #1184,
+Sentence #1179,
 @,O
 dial100,O
 @,O
@@ -34378,7 +34331,7 @@ it,O
 's,O
 serious,O
 pic.twitter.com/QGWBHYpfP0,O
-Sentence #1185,
+Sentence #1180,
 @,O
 delhi,B-ORG
 traffic,I-ORG
@@ -34409,7 +34362,7 @@ against,O
 him,O
 .,O
 pic.twitter.com/W7ViHzlZJg,O
-Sentence #1186,
+Sentence #1181,
 New,B-LOC
 Delhi,I-LOC
 residents,O
@@ -34431,7 +34384,7 @@ accidents,O
 http,O
 :,O
 //tinyurl.com/2kapu3,O
-Sentence #1187,
+Sentence #1182,
 Dawn,O
 18,O
 wedding,O
@@ -34443,7 +34396,7 @@ accident,O
 in,O
 India,B-LOC
 :,O
-Sentence #1188,
+Sentence #1183,
 NEW,B-LOC
 DELHI,I-LOC
 India,B-LOC
@@ -34458,7 +34411,7 @@ peop,O
 http,O
 :,O
 //tinyurl.com/2y8o4l,O
-Sentence #1189,
+Sentence #1184,
 Cop,O
 killed,O
 in,O
@@ -34488,7 +34441,7 @@ spe,O
 http,O
 :,O
 //bit.ly/9uzJMb,O
-Sentence #1190,
+Sentence #1185,
 Garage-owner,O
 not,O
 liable,O
@@ -34517,7 +34470,7 @@ De,O
 http,O
 :,O
 //ow.ly/17S1n2,O
-Sentence #1191,
+Sentence #1186,
 News,B-ORG
 India,I-ORG
 :,O
@@ -34544,7 +34497,7 @@ Jun,O
 http,O
 :,O
 //bit.ly/9fQZTr,O
-Sentence #1192,
+Sentence #1187,
 Yahind,B-ORG
 News,I-ORG
 Indian,B-GPE
@@ -34570,7 +34523,7 @@ tro,O
 http,O
 :,O
 //bit.ly/dpUpoY,O
-Sentence #1193,
+Sentence #1188,
 @,O
 iamsrk,O
 gud,O
@@ -34589,7 +34542,7 @@ flight,O
 in,O
 New,B-LOC
 Delhi,I-LOC
-Sentence #1194,
+Sentence #1189,
 Air,B-ORG
 India,I-ORG
 Fight,I-ORG
@@ -34613,7 +34566,7 @@ Over,O
 http,O
 :,O
 //goo.gl/fb/gQyNm,O
-Sentence #1195,
+Sentence #1190,
 News,B-ORG
 India,I-ORG
 :,O
@@ -34644,7 +34597,7 @@ Cl,I-MISC
 http,O
 :,O
 //bit.ly/bXNKHe,O
-Sentence #1196,
+Sentence #1191,
 Precise,O
 #,O
 News,O
@@ -34676,7 +34629,7 @@ c,O
 http,O
 :,O
 //bit.ly/93Ee8y,O
-Sentence #1197,
+Sentence #1192,
 Tragdie,O
 de,O
 Bhopal,B-LOC
@@ -34701,7 +34654,7 @@ par,O
 http,O
 :,O
 //bit.ly/bhf14f,O
-Sentence #1198,
+Sentence #1193,
 Tragdie,O
 de,O
 Bhopal,B-LOC
@@ -34726,9 +34679,8 @@ par,O
 http,O
 :,O
 //bit.ly/bhf14f,O
-Sentence #1199,
+Sentence #1194,
 Six,O
-"killed,20",O
 injured,O
 in,O
 West,B-LOC
@@ -34753,7 +34705,7 @@ municipal,O
 http,O
 :,O
 //bit.ly/97NcUP,O
-Sentence #1200,
+Sentence #1195,
 News,B-ORG
 India,I-ORG
 :,O
@@ -34782,7 +34734,7 @@ returnin,O
 http,O
 :,O
 //bit.ly/a0YsQo,O
-Sentence #1201,
+Sentence #1196,
 #,O
 taxi,O
 Delhi,B-LOC
@@ -34810,7 +34762,7 @@ l,O
 http,O
 :,O
 //bit.ly/93JEt4,O
-Sentence #1202,
+Sentence #1197,
 DTN,B-ORG
 Fashion,I-ORG
 :,O
@@ -34839,7 +34791,7 @@ Fri,B-LOC
 http,O
 :,O
 //bit.ly/bamLfs,O
-Sentence #1203,
+Sentence #1198,
 BSP,B-ORG
 leader,B-PER
 's,O
@@ -34871,7 +34823,7 @@ nomine,O
 http,O
 :,O
 //bit.ly/bC0nq7,O
-Sentence #1204,
+Sentence #1199,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -34893,7 +34845,7 @@ investigate,O
 air,O
 accidents,O
 .,O
-Sentence #1205,
+Sentence #1200,
 Reports,O
 say,O
 30,O
@@ -34921,7 +34873,7 @@ including,O
 http,O
 :,O
 //bit.ly/d7Q7Kq,O
-Sentence #1206,
+Sentence #1201,
 Reports,O
 say,O
 30,O
@@ -34947,7 +34899,7 @@ k,O
 http,O
 :,O
 //bit.ly/9HoxXT,O
-Sentence #1207,
+Sentence #1202,
 News,B-ORG
 India,I-ORG
 :,O
@@ -34976,7 +34928,7 @@ di,O
 http,O
 :,O
 //bit.ly/btmx0n,O
-Sentence #1208,
+Sentence #1203,
 #,O
 News,O
 Two,O
@@ -35005,7 +34957,7 @@ in,O
 http,O
 :,O
 //bit.ly/btmx0n,O
-Sentence #1209,
+Sentence #1204,
 News,O
 Updates,O
 :,O
@@ -35032,7 +34984,7 @@ Air,B-ORG
 http,O
 :,O
 //tinyurl.com/yzp7ghs,O
-Sentence #1210,
+Sentence #1205,
 News,B-ORG
 India,I-ORG
 :,O
@@ -35059,7 +35011,7 @@ substan,O
 http,O
 :,O
 //bit.ly/1vLj9u,O
-Sentence #1211,
+Sentence #1206,
 M,B-LOC
 &,O
 C,I-LOC
@@ -35085,7 +35037,7 @@ sea,O
 http,O
 :,O
 //bit.ly/rgiVG,O
-Sentence #1212,
+Sentence #1207,
 In,O
 Freak,B-ORG
 Accident,I-ORG
@@ -35114,7 +35066,7 @@ a,O
 http,O
 :,O
 //tinyurl.com/ydtr7xj,O
-Sentence #1213,
+Sentence #1208,
 M,B-ORG
 &,O
 C,B-ORG
@@ -35143,7 +35095,7 @@ dro,O
 http,O
 :,O
 //bit.ly/lOOz,O
-Sentence #1214,
+Sentence #1209,
 M,B-ORG
 &,O
 C,B-ORG
@@ -35173,7 +35125,7 @@ dr,O
 http,O
 :,O
 //bit.ly/46nr4B,O
-Sentence #1215,
+Sentence #1210,
 ubAlert,O
 :,O
 School,O
@@ -35200,7 +35152,7 @@ ch,O
 http,O
 :,O
 //url4.eu/Y7XI,O
-Sentence #1216,
+Sentence #1211,
 India,B-LOC
 to,O
 use,O
@@ -35225,7 +35177,7 @@ Faceb,O
 http,O
 :,O
 //twurl.nl/h1ykqy,O
-Sentence #1217,
+Sentence #1212,
 India,B-LOC
 to,O
 use,O
@@ -35250,7 +35202,7 @@ Faceb,O
 http,O
 :,O
 //bit.ly/4luOmb,O
-Sentence #1218,
+Sentence #1213,
 20,O
 school,O
 children,O
@@ -35261,7 +35213,6 @@ bus,O
 accident,O
 :,O
 May,B-TIM
-"30th,2009",I-TIM
 NEW,B-LOC
 DELHI,I-LOC
 -,O
@@ -35274,7 +35225,7 @@ dangerously,O
 http,O
 :,O
 //bit.ly/12Q6RQ,O
-Sentence #1219,
+Sentence #1214,
 India,B-LOC
 to,O
 use,O
@@ -35290,7 +35241,6 @@ Lead,O
 ),O
 :,O
 September,B-TIM
-"28th,2009",I-TIM
 NEW,B-LOC
 DELHI,I-LOC
 -,O
@@ -35300,7 +35250,7 @@ Minis,O
 http,O
 :,O
 //bit.ly/15R1vO,O
-Sentence #1220,
+Sentence #1215,
 India,B-LOC
 to,O
 use,O
@@ -35326,7 +35276,7 @@ Facebook,B-ORG
 http,O
 :,O
 //ow.ly/15RDqW,O
-Sentence #1221,
+Sentence #1216,
 Please,O
 RT,O
 :,O
@@ -35353,7 +35303,7 @@ net,O
 http,O
 :,O
 //bit.ly/NTC3h,O
-Sentence #1222,
+Sentence #1217,
 India,B-LOC
 to,O
 use,O
@@ -35379,12 +35329,11 @@ Facebo,O
 http,O
 :,O
 //bit.ly/2Zsy92,O
-Sentence #1223,
+Sentence #1218,
 News,B-ORG
 India,I-ORG
 :,O
 Three,O
-"killed,38",O
 injured,O
 in,O
 Delhi,B-LOC
@@ -35405,7 +35354,7 @@ wer,O
 http,O
 :,O
 //bit.ly/9OjrP,O
-Sentence #1224,
+Sentence #1219,
 News,B-ORG
 India,I-ORG
 :,O
@@ -35432,7 +35381,7 @@ wer,O
 http,O
 :,O
 //bit.ly/qO1pn,O
-Sentence #1225,
+Sentence #1220,
 India,B-LOC
 to,O
 use,O
@@ -35458,7 +35407,7 @@ Facebo,O
 http,O
 :,O
 //bit.ly/28BkOY,O
-Sentence #1226,
+Sentence #1221,
 India,B-LOC
 to,O
 use,O
@@ -35487,7 +35436,7 @@ S,B-ORG
 http,O
 :,O
 //twurl.nl/wj6sza,O
-Sentence #1227,
+Sentence #1222,
 India,B-LOC
 to,O
 use,O
@@ -35516,7 +35465,7 @@ S,B-ORG
 http,O
 :,O
 //bit.ly/btgYA,O
-Sentence #1228,
+Sentence #1223,
 India,B-LOC
 to,O
 use,O
@@ -35542,7 +35491,7 @@ sit,O
 http,O
 :,O
 //twurl.nl/oleq80,O
-Sentence #1229,
+Sentence #1224,
 Two,O
 minors,O
 killed,O
@@ -35570,7 +35519,7 @@ by,O
 http,O
 :,O
 //bit.ly/h9f2Fl,O
-Sentence #1230,
+Sentence #1225,
 Minor,O
 girl,O
 raped,O
@@ -35598,7 +35547,7 @@ in,O
 http,O
 :,O
 //bit.ly/gfV09J,O
-Sentence #1231,
+Sentence #1226,
 Pay,O
 Rs,O
 4,O
@@ -35629,7 +35578,7 @@ Co,I-ORG
 http,O
 :,O
 //on-msn.com/eBongQ,O
-Sentence #1232,
+Sentence #1227,
 Girl,O
 shot,O
 dead,O
@@ -35657,7 +35606,7 @@ incide,O
 http,O
 :,O
 //bit.ly/ggkgt0,O
-Sentence #1233,
+Sentence #1228,
 LATEST,O
 :,O
 CISF,B-ORG
@@ -35685,7 +35634,7 @@ of,O
 heightened,O
 t,O
 ...,O
-Sentence #1234,
+Sentence #1229,
 New,B-LOC
 Delhi,I-LOC
 Mar,O
@@ -35711,7 +35660,7 @@ cit,O
 http,O
 :,O
 //bit.ly/eiFsbb,O
-Sentence #1235,
+Sentence #1230,
 Rs22,O
 lakh,O
 compensation,O
@@ -35738,7 +35687,7 @@ has,O
 awarded,O
 compensatio,O
 ...,O
-Sentence #1236,
+Sentence #1231,
 CBI,O
 searches,O
 Prasar,B-ORG
@@ -35765,7 +35714,7 @@ I,I-ORG
 http,O
 :,O
 //bit.ly/glIoaQ,O
-Sentence #1237,
+Sentence #1232,
 Indian,B-GPE
 girl,O
 Nigerian,B-GPE
@@ -35793,7 +35742,7 @@ an,O
 http,O
 :,O
 //bit.ly/gRC2ua,O
-Sentence #1238,
+Sentence #1233,
 Four,O
 burglars,O
 arrested,O
@@ -35820,7 +35769,7 @@ arrest,O
 http,O
 :,O
 //bit.ly/fp44Ad,O
-Sentence #1239,
+Sentence #1234,
 Dwarka,B-LOC
 Times,I-LOC
 Two,O
@@ -35848,7 +35797,7 @@ http,O
 //bit.ly/gCo7uA,O
 Dwarka,B-LOC
 Times,I-LOC
-Sentence #1240,
+Sentence #1235,
 Dwarka,B-LOC
 Times,I-LOC
 Two,O
@@ -35877,7 +35826,7 @@ http,O
 //bit.ly/hRueSg,O
 Dwarka,B-LOC
 Times,I-LOC
-Sentence #1241,
+Sentence #1236,
 MyNews.in,O
 Two,O
 killed,O
@@ -35904,7 +35853,7 @@ http,O
 :,O
 //bit.ly/ff9IFh,O
 MyNews.in,O
-Sentence #1242,
+Sentence #1237,
 Two,O
 killed,O
 one,O
@@ -35933,7 +35882,7 @@ crit,O
 http,O
 :,O
 //bit.ly/dVeoay,O
-Sentence #1243,
+Sentence #1238,
 Two,O
 killed,O
 one,O
@@ -35962,7 +35911,7 @@ killed,O
 http,O
 :,O
 //feedzil.la/h72dvL,O
-Sentence #1244,
+Sentence #1239,
 New,B-LOC
 Delhi,I-LOC
 Feb,B-TIM
@@ -35989,7 +35938,7 @@ Ca,O
 http,O
 :,O
 //bit.ly/gymKmy,O
-Sentence #1245,
+Sentence #1240,
 Girl,O
 held,O
 with,O
@@ -36018,7 +35967,7 @@ w,O
 http,O
 :,O
 //bit.ly/esu9xB,O
-Sentence #1246,
+Sentence #1241,
 Two,O
 Myanmarese,B-GPE
 youths,O
@@ -36043,7 +35992,7 @@ to,O
 http,O
 :,O
 //tinyurl.com/6deysu8,O
-Sentence #1247,
+Sentence #1242,
 Three,O
 killed,O
 in,O
@@ -36069,7 +36018,7 @@ natio,O
 http,O
 :,O
 //tinyurl.com/4t8fsxg,O
-Sentence #1248,
+Sentence #1243,
 MyNews.in,O
 Two,O
 Myanmarese,B-GPE
@@ -36095,7 +36044,7 @@ http,O
 :,O
 //bit.ly/hLuAzN,O
 MyNews.in,O
-Sentence #1249,
+Sentence #1244,
 WORLD,O
 :,O
 Man,O
@@ -36123,7 +36072,7 @@ h,O
 http,O
 :,O
 //tinyurl.com/7cee5s,O
-Sentence #1250,
+Sentence #1245,
 http,O
 :,O
 //indiarailinfo.com/train/1351,O
@@ -36145,7 +36094,7 @@ Railway,B-LOC
 Station,I-LOC
 (,O
 pro,O
-Sentence #1251,
+Sentence #1246,
 Three,O
 killed,O
 in,O
@@ -36172,7 +36121,7 @@ kil,O
 http,O
 :,O
 //tinyurl.com/6784p9,O
-Sentence #1252,
+Sentence #1247,
 Bus,O
 accident,O
 kills,O
@@ -36199,7 +36148,7 @@ acc,O
 http,O
 :,O
 //poprl.com/3yS,O
-Sentence #1253,
+Sentence #1248,
 M,B-ORG
 &,I-ORG
 C,I-ORG
@@ -36224,7 +36173,7 @@ peo,O
 http,O
 :,O
 //tinyurl.com/5efkcb,O
-Sentence #1254,
+Sentence #1249,
 M,B-ORG
 &,I-ORG
 C,I-ORG
@@ -36249,7 +36198,7 @@ T,O
 http,O
 :,O
 //tinyurl.com/59qrtz,O
-Sentence #1255,
+Sentence #1250,
 M,B-ORG
 &,I-ORG
 C,I-ORG
@@ -36273,7 +36222,7 @@ lea,O
 http,O
 :,O
 //tinyurl.com/5t29d8,O
-Sentence #1256,
+Sentence #1251,
 12,O
 killed,O
 in,O
@@ -36298,7 +36247,7 @@ the,O
 http,O
 :,O
 //tinyurl.com/6xmf3q,O
-Sentence #1257,
+Sentence #1252,
 Dawn,O
 12,O
 killed,O
@@ -36308,7 +36257,7 @@ construction,O
 site,O
 accident,O
 :,O
-Sentence #1258,
+Sentence #1253,
 NEW,B-LOC
 DELHI,I-LOC
 May,B-TIM
@@ -36327,7 +36276,7 @@ bu,O
 http,O
 :,O
 //tinyurl.com/69xytr,O
-Sentence #1259,
+Sentence #1254,
 Road,O
 accident,O
 deaths,O
@@ -36356,7 +36305,7 @@ th,O
 http,O
 :,O
 //bit.ly/ZmiBtL,O
-Sentence #1260,
+Sentence #1255,
 Leaders,O
 condole,O
 deaths,O
@@ -36381,7 +36330,7 @@ President,B-PER
 Pranab,I-PER
 Mukherjee,I-PER
 Prim,B-LOC
-Sentence #1261,
+Sentence #1256,
 Leaders,O
 condole,O
 deaths,O
@@ -36407,7 +36356,7 @@ http,O
 //bit.ly/YMGevq,O
 @,O
 yahoonews,O
-Sentence #1262,
+Sentence #1257,
 Leaders,O
 condole,O
 deaths,O
@@ -36433,7 +36382,7 @@ http,O
 Via,O
 @,O
 hoteldealphuket,O
-Sentence #1263,
+Sentence #1258,
 President,B-PER
 PM,B-PER
 condole,O
@@ -36457,7 +36406,7 @@ N,O
 http,O
 :,O
 //bit.ly/1mPHU2b,O
-Sentence #1264,
+Sentence #1259,
 President,B-PER
 PM,B-PER
 condole,O
@@ -36483,7 +36432,7 @@ http,O
 //bit.ly/YL6tSK,O
 @,O
 yahoonews,O
-Sentence #1265,
+Sentence #1260,
 President,B-PER
 PM,O
 condole,O
@@ -36508,7 +36457,7 @@ IANS,O
 President,B-PER
 Pranab,I-PER
 Mukherjee,I-PER
-Sentence #1266,
+Sentence #1261,
 Man,O
 tweets,O
 while,O
@@ -36535,7 +36484,7 @@ usi,O
 http,O
 :,O
 //bit.ly/YRYGSU,O
-Sentence #1267,
+Sentence #1262,
 Man,O
 tweets,O
 while,O
@@ -36562,7 +36511,7 @@ usi,O
 http,O
 :,O
 //bit.ly/YRYGSU,O
-Sentence #1268,
+Sentence #1263,
 President,B-PER
 condoles,O
 deaths,O
@@ -36587,7 +36536,7 @@ http,O
 //bit.ly/YKTJf7,O
 @,O
 yahoonews,O
-Sentence #1269,
+Sentence #1264,
 President,B-PER
 condoles,O
 deaths,O
@@ -36612,7 +36561,7 @@ President,B-PER
 Pranab,I-PER
 Mukherjee,I-PER
 co,O
-Sentence #1270,
+Sentence #1265,
 @,O
 valerieboucaud,O
 @,O
@@ -36638,7 +36587,7 @@ blanc,O
 s'en,O
 prend,O
 quelqu'un,O
-Sentence #1271,
+Sentence #1266,
 What,O
 's,O
 New,B-LOC
@@ -36648,7 +36597,7 @@ ACCIDENT,O
 http,O
 :,O
 //wp.me/p4zw8b-7wY,O
-Sentence #1272,
+Sentence #1267,
 New,B-LOC
 Delhi,I-LOC
 Zoo,I-LOC
@@ -36658,7 +36607,7 @@ RIP,O
 http,O
 :,O
 //fb.me/2fGkVCFvz,O
-Sentence #1273,
+Sentence #1268,
 Shilpa,B-PER
 Shetty,I-PER
 Raj,B-ORG
@@ -36681,7 +36630,7 @@ her,O
 http,O
 :,O
 //newsr.in/n/Lifestyle/750mopzy7/Shilpa-Shetty-Raj-Kundra-unhurt-in-road-accident.htm,O
-Sentence #1274,
+Sentence #1269,
 New,B-LOC
 Delhi,I-LOC
 Zoo,I-LOC
@@ -36689,7 +36638,7 @@ Accident,I-LOC
 http,O
 :,O
 //wp.me/p4zw8b-7q2,O
-Sentence #1275,
+Sentence #1270,
 J,B-ORG
 &,I-ORG
 K,I-ORG
@@ -36721,7 +36670,7 @@ aft,O
 http,O
 :,O
 //bit.ly/1viWKie,O
-Sentence #1276,
+Sentence #1271,
 President,O
 condoles,O
 loss,O
@@ -36744,7 +36693,7 @@ Thursday,B-TIM
 http,O
 :,O
 //bit.ly/1vg5ENv,O
-Sentence #1277,
+Sentence #1272,
 President,O
 condoles,O
 loss,O
@@ -36770,7 +36719,7 @@ http,O
 //bit.ly/1vg4lOo,O
 @,O
 yahoonews,O
-Sentence #1278,
+Sentence #1273,
 President,O
 condoles,O
 loss,O
@@ -36796,7 +36745,7 @@ http,O
 Via,O
 @,O
 hoteldealphuket,O
-Sentence #1279,
+Sentence #1274,
 11,O
 People,O
 Killed,O
@@ -36814,7 +36763,7 @@ http,O
 accident,O
 #,O
 fb,O
-Sentence #1280,
+Sentence #1275,
 11,O
 People,B-PER
 Killed,I-PER
@@ -36832,7 +36781,7 @@ http,O
 accident,O
 #,O
 fb,O
-Sentence #1281,
+Sentence #1276,
 Drivers,O
 should,O
 be,O
@@ -36860,7 +36809,7 @@ http,O
 Via,O
 @,O
 phuketD,O
-Sentence #1282,
+Sentence #1277,
 Rajasthan,B-ORG
 Roadways,I-ORG
 gets,O
@@ -36887,7 +36836,7 @@ S,I-PER
 http,O
 :,O
 //ift.tt/1maBZBo,O
-Sentence #1283,
+Sentence #1278,
 *,O
 A,O
 car,O
@@ -36903,7 +36852,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 .,O
-Sentence #1284,
+Sentence #1279,
 #,O
 mahanews24,O
 #,O
@@ -36913,7 +36862,7 @@ NewDelhi,O
 http,O
 :,O
 //fb.me/6ENsCPJHf,O
-Sentence #1285,
+Sentence #1280,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -36938,7 +36887,7 @@ a,O
 road,O
 accident,O
 today,B-TIM
-Sentence #1286,
+Sentence #1281,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -36963,37 +36912,7 @@ a,O
 road,O
 accident,O
 today,B-TIM
-Sentence #1287,
-New,B-LOC
-Delhi,I-LOC
-:,O
-In,O
-the,O
-Indian,B-GPE
-State,I-GPE
-of,O
-#,O
-Maharashtra,B-LOC
-at,O
-least,O
-9,O
-people,O
-were,O
-killed,O
-and,O
-4,O
-injured,O
-in,O
-a,O
-road,O
-accident,O
-today,B-TIM
-Rept,I-TIM
-:,O
-Abdul,B-PER
-Qayoom,I-PER
-Rind,I-PER
-Sentence #1288,
+Sentence #1282,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -37023,7 +36942,37 @@ Rept,I-TIM
 Abdul,B-PER
 Qayoom,I-PER
 Rind,I-PER
-Sentence #1289,
+Sentence #1283,
+New,B-LOC
+Delhi,I-LOC
+:,O
+In,O
+the,O
+Indian,B-GPE
+State,I-GPE
+of,O
+#,O
+Maharashtra,B-LOC
+at,O
+least,O
+9,O
+people,O
+were,O
+killed,O
+and,O
+4,O
+injured,O
+in,O
+a,O
+road,O
+accident,O
+today,B-TIM
+Rept,I-TIM
+:,O
+Abdul,B-PER
+Qayoom,I-PER
+Rind,I-PER
+Sentence #1284,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -37050,7 +36999,7 @@ a,O
 http,O
 :,O
 //fb.me/1SN2LSDKx,O
-Sentence #1290,
+Sentence #1285,
 Nine,O
 die,O
 in,O
@@ -37078,7 +37027,7 @@ railway,O
 crash,O
 #,O
 accident,O
-Sentence #1291,
+Sentence #1286,
 Over,O
 40,O
 killed,O
@@ -37105,7 +37054,7 @@ i,O
 http,O
 :,O
 //bit.ly/1df25f3,O
-Sentence #1292,
+Sentence #1287,
 Over,O
 40,O
 killed,O
@@ -37132,7 +37081,7 @@ i,O
 http,O
 :,O
 //bit.ly/1df0Dco,O
-Sentence #1293,
+Sentence #1288,
 Over,O
 40,O
 killed,O
@@ -37159,7 +37108,7 @@ i,O
 http,O
 :,O
 //bit.ly/1kdSpdQ,O
-Sentence #1294,
+Sentence #1289,
 Rs,O
 5,O
 lakh,O
@@ -37180,7 +37129,7 @@ Minister,I-PER
 http,O
 :,O
 //goo.gl/fb/cW8bh,O
-Sentence #1295,
+Sentence #1290,
 ``,O
 Haha,O
 ``,O
@@ -37213,7 +37162,7 @@ turn,O
 and,O
 hit,O
 bus,O
-Sentence #1296,
+Sentence #1291,
 Just,O
 reported,O
 an,O
@@ -37238,7 +37187,7 @@ waze,O
 Social,B-ORG
 GPS,I-ORG
 .,O
-Sentence #1297,
+Sentence #1292,
 4,O
 Killed,O
 in,O
@@ -37268,11 +37217,10 @@ ro,O
 http,O
 :,O
 //ow.ly/2Cdcn5,O
-Sentence #1298,
+Sentence #1293,
 Dense,O
 fog,O
 covers,O
-"Delhi,4",O
 killed,O
 in,O
 road,O
@@ -37296,11 +37244,10 @@ http,O
 pakistan,O
 #,O
 news,O
-Sentence #1299,
+Sentence #1294,
 Dense,O
 fog,O
 covers,O
-"Delhi,4",O
 killed,O
 in,O
 road,B-LOC
@@ -37324,7 +37271,7 @@ roa,O
 http,O
 :,O
 //adf.ly/aq3MH,O
-Sentence #1300,
+Sentence #1295,
 Lalu,B-PER
 Prasad,I-PER
 injured,O
@@ -37336,7 +37283,7 @@ in,O
 his,O
 head,O
 face,O
-Sentence #1301,
+Sentence #1296,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -37349,7 +37296,7 @@ sustained,O
 http,O
 :,O
 //fb.me/LUBBdQRO,O
-Sentence #1302,
+Sentence #1297,
 YN,O
 325,O
 highly,O
@@ -37377,7 +37324,7 @@ mos,O
 http,O
 :,O
 //bit.ly/12cjjnJ,O
-Sentence #1303,
+Sentence #1298,
 325,O
 highly,O
 accident,O
@@ -37404,7 +37351,7 @@ http,O
 //bit.ly/12cjjnJ,O
 @,O
 yahoonews,O
-Sentence #1304,
+Sentence #1299,
 325,O
 highly,O
 accident,O
@@ -37432,7 +37379,7 @@ ac,O
 http,O
 :,O
 //bit.ly/12cjjnJ,O
-Sentence #1305,
+Sentence #1300,
 #,O
 NEWS,O
 :,O
@@ -37461,7 +37408,7 @@ peo,O
 http,O
 :,O
 //bit.ly/14Hja2s,O
-Sentence #1306,
+Sentence #1301,
 #,O
 NEWS,O
 :,O
@@ -37490,7 +37437,7 @@ peo,O
 http,O
 :,O
 //bit.ly/14Hja2s,O
-Sentence #1307,
+Sentence #1302,
 #,O
 NEWS,O
 :,O
@@ -37519,7 +37466,7 @@ peo,O
 http,O
 :,O
 //bit.ly/14Hja2s,O
-Sentence #1308,
+Sentence #1303,
 #,O
 News,O
 :,O
@@ -37548,7 +37495,7 @@ peo,O
 http,O
 :,O
 //bit.ly/12IHcWA,O
-Sentence #1309,
+Sentence #1304,
 #,O
 NEWS,O
 :,O
@@ -37577,7 +37524,7 @@ peo,O
 http,O
 :,O
 //bit.ly/14Hj76N,O
-Sentence #1310,
+Sentence #1305,
 YN,O
 Man,O
 killed,O
@@ -37604,7 +37551,7 @@ people,O
 http,O
 :,O
 //bit.ly/12bHAKv,O
-Sentence #1311,
+Sentence #1306,
 Man,O
 killed,O
 in,O
@@ -37631,7 +37578,7 @@ in,O
 http,O
 :,O
 //bit.ly/14GPIK2,O
-Sentence #1312,
+Sentence #1307,
 Drivers,O
 cause,O
 77.5,O
@@ -37656,7 +37603,7 @@ art,O
 crime,O
 #,O
 delhi,O
-Sentence #1313,
+Sentence #1308,
 YN,O
 Drivers,O
 cause,O
@@ -37683,7 +37630,7 @@ road,O
 http,O
 :,O
 //bit.ly/12bz3az,O
-Sentence #1314,
+Sentence #1309,
 @,O
 TOIDelhiNews,O
 Govindpuri,B-LOC
@@ -37708,7 +37655,7 @@ accidents,O
 .,O
 :,O
 (,O
-Sentence #1315,
+Sentence #1310,
 @,O
 ndtv,O
 Govindpuri,B-LOC
@@ -37733,7 +37680,7 @@ accidents,O
 .,O
 :,O
 (,O
-Sentence #1316,
+Sentence #1311,
 @,O
 dibang,O
 Govindpuri,B-LOC
@@ -37758,7 +37705,7 @@ accidents,O
 .,O
 :,O
 (,O
-Sentence #1317,
+Sentence #1312,
 @,O
 RavishKumarNDTV,O
 Govindpuri,B-LOC
@@ -37783,7 +37730,7 @@ accidents,O
 .,O
 :,O
 (,O
-Sentence #1318,
+Sentence #1313,
 Anger,O
 over,O
 public,O
@@ -37810,7 +37757,7 @@ f,O
 http,O
 :,O
 //bit.ly/11pkjqN,O
-Sentence #1319,
+Sentence #1314,
 Three,O
 killed,O
 by,O
@@ -37839,7 +37786,7 @@ the,O
 http,O
 :,O
 //bit.ly/179h0o4,O
-Sentence #1320,
+Sentence #1315,
 YN,B-ORG
 Three,O
 killed,O
@@ -37868,7 +37815,7 @@ in,O
 http,O
 :,O
 //bit.ly/ZZAa2A,O
-Sentence #1321,
+Sentence #1316,
 MyNews.in,O
 Abhishek,B-PER
 's,O
@@ -37895,7 +37842,7 @@ http,O
 :,O
 //bit.ly/toRwkw,O
 MyNews.in,O
-Sentence #1322,
+Sentence #1317,
 Abhishek,B-PER
 's,O
 Al,B-ORG
@@ -37925,7 +37872,7 @@ of,O
 http,O
 :,O
 //bit.ly/sbz5za,O
-Sentence #1323,
+Sentence #1318,
 Abhishek,B-PER
 's,O
 Al,B-MISC
@@ -37955,7 +37902,7 @@ of,O
 http,O
 :,O
 //tinyurl.com/d3mjlhh,O
-Sentence #1324,
+Sentence #1319,
 At,O
 least,O
 15,O
@@ -37984,7 +37931,7 @@ a,O
 http,O
 :,O
 //bit.ly/t1zWYC,O
-Sentence #1325,
+Sentence #1320,
 Concert-,O
 Slow,O
 Joe,O
@@ -38010,7 +37957,7 @@ you,O
 http,O
 :,O
 //bit.ly/tz6lS6,O
-Sentence #1326,
+Sentence #1321,
 @,O
 pr4ful,O
 just,O
@@ -38037,7 +37984,7 @@ was,O
 imidiatly,O
 operated,O
 .,O
-Sentence #1327,
+Sentence #1322,
 Five,O
 Haj,B-LOC
 pilgrims,B-PER
@@ -38063,7 +38010,7 @@ th,O
 http,O
 :,O
 //tinyurl.com/6wppop7,O
-Sentence #1328,
+Sentence #1323,
 Cricketer,B-PER
 Joginder,I-PER
 Sharma,I-PER
@@ -38086,7 +38033,7 @@ an,O
 http,O
 :,O
 //bit.ly/t2An7R,O
-Sentence #1329,
+Sentence #1324,
 T20,B-ORG
 WC,I-ORG
 star,O
@@ -38110,7 +38057,7 @@ http,O
 //bit.ly/rGTSjd,O
 Dwarka,B-LOC
 Times,I-LOC
-Sentence #1330,
+Sentence #1325,
 Dwarka,B-ORG
 Times,I-ORG
 Cricketer,B-PER
@@ -38135,7 +38082,7 @@ http,O
 //bit.ly/rQ2dmD,O
 Dwarka,B-LOC
 Times,I-LOC
-Sentence #1331,
+Sentence #1326,
 Three,O
 train,O
 mishaps,O
@@ -38162,7 +38109,7 @@ less,O
 http,O
 :,O
 //bit.ly/w4bD6c,O
-Sentence #1332,
+Sentence #1327,
 Train,O
 fire,O
 accident,O
@@ -38191,11 +38138,10 @@ india,B-LOC
 muslim,O
 #,O
 news,O
-Sentence #1333,
+Sentence #1328,
 RT,O
 @,O
 MichaelEhline2011One,O
-"dead,9",O
 injured,O
 in,O
 train,O
@@ -38218,9 +38164,8 @@ Wednesday,B-TIM
 in,O
 a,O
 ...,O
-Sentence #1334,
+Sentence #1329,
 One,O
-"dead,9",O
 injured,O
 in,O
 train,O
@@ -38246,7 +38191,7 @@ a,O
 http,O
 :,O
 //bit.ly/w1gMw0,O
-Sentence #1335,
+Sentence #1330,
 Train,O
 fire,O
 accident,O
@@ -38272,7 +38217,7 @@ Nov,B-TIM
 http,O
 :,O
 //bit.ly/sPmJX7,O
-Sentence #1336,
+Sentence #1331,
 Train,O
 fire,O
 accident,O
@@ -38301,7 +38246,7 @@ Cir,I-LOC
 http,O
 :,O
 //bit.ly/vNkHo7,O
-Sentence #1337,
+Sentence #1332,
 Two,O
 killed,O
 in,O
@@ -38328,7 +38273,7 @@ kille,O
 http,O
 :,O
 //tinyurl.com/87eeank,O
-Sentence #1338,
+Sentence #1333,
 Two,O
 killed,O
 in,O
@@ -38357,7 +38302,7 @@ i,O
 http,O
 :,O
 //bit.ly/uF9Apn,O
-Sentence #1339,
+Sentence #1334,
 Pizza,B-ORG
 Hut,I-ORG
 delivery,B-PER
@@ -38384,7 +38329,7 @@ h,O
 http,O
 :,O
 //bit.ly/st2riN,O
-Sentence #1340,
+Sentence #1335,
 Pizza,B-ORG
 Hut,I-ORG
 delivery,B-PER
@@ -38411,7 +38356,7 @@ h,O
 http,O
 :,O
 //bit.ly/sRFOLf,O
-Sentence #1341,
+Sentence #1336,
 A,O
 motor,O
 accident,O
@@ -38435,7 +38380,7 @@ an,O
 accident,O
 case,O
 .,O
-Sentence #1342,
+Sentence #1337,
 A,O
 motor,O
 accident,O
@@ -38459,7 +38404,7 @@ an,O
 accident,O
 case,O
 .,O
-Sentence #1343,
+Sentence #1338,
 DTC,B-ORG
 Bus,O
 accident,O
@@ -38471,7 +38416,7 @@ https,O
 :,O
 //goo.gl/JSn3or,O
 pic.twitter.com/Pfa42F9Lkm,O
-Sentence #1344,
+Sentence #1339,
 A,O
 motor,O
 accident,O
@@ -38496,7 +38441,7 @@ an,O
 accident,O
 case,O
 .,O
-Sentence #1345,
+Sentence #1340,
 A,O
 motor,O
 accident,O
@@ -38521,7 +38466,7 @@ an,O
 accident,O
 case,O
 .,O
-Sentence #1346,
+Sentence #1341,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -38547,7 +38492,7 @@ http,O
 :,O
 //ift.tt/2wWH7mt,O
 pic.twitter.com/cREafT4SlN,O
-Sentence #1347,
+Sentence #1342,
 Chief,B-PER
 Minister,I-PER
 grieved,O
@@ -38570,7 +38515,7 @@ Mufti,I-PER
 http,O
 :,O
 //fb.me/7IyD40EkZ,O
-Sentence #1348,
+Sentence #1343,
 Wings,O
 of,O
 two,O
@@ -38600,7 +38545,7 @@ travel,O
 airline,B-MISC
 #,O
 accident,O
-Sentence #1349,
+Sentence #1344,
 http,O
 :,O
 //hiindia.com,O
@@ -38630,7 +38575,7 @@ utm_medium=twitter,O
 INDIAhttp,O
 :,O
 //hiindia.com,O
-Sentence #1350,
+Sentence #1345,
 @,O
 dtptraffic,O
 @,O
@@ -38657,7 +38602,7 @@ police,O
 do,O
 for,O
 him,O
-Sentence #1351,
+Sentence #1346,
 Two,O
 people,O
 talking,O
@@ -38682,7 +38627,7 @@ bad,O
 news,O
 comes,O
 .,O
-Sentence #1352,
+Sentence #1347,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -38711,13 +38656,13 @@ http,O
 :,O
 //ift.tt/2tWQtOa,O
 pic.twitter.com/X9wIgtvL62,O
-Sentence #1353,
+Sentence #1348,
 Memories,O
 from,O
 my,O
 past,O
 .,O
-Sentence #1354,
+Sentence #1349,
 19-01-92,O
 met,O
 with,O
@@ -38738,25 +38683,25 @@ at,O
 http,O
 :,O
 //fb.me/4fyFhlYnA,O
-Sentence #1355,
+Sentence #1350,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
 India,B-LOC
 's,O
-Sentence #1356,
+Sentence #1351,
 Aircraft,B-ORG
 Accident,I-ORG
 Investigation,I-ORG
 Bureau,I-ORG
-Sentence #1357,
+Sentence #1352,
 (,O
 AAIB,B-ORG
 ),O
 has,O
 asked,O
 the,O
-Sentence #1358,
+Sentence #1353,
 Directorate,B-PER
 General,I-PER
 of,O
@@ -38766,7 +38711,7 @@ http,O
 :,O
 //ift.tt/2hazqG8,O
 pic.twitter.com/7MT6H3NJKV,O
-Sentence #1359,
+Sentence #1354,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -38782,7 +38727,7 @@ Innova,B-MISC
 dead,O
 .,O
 pic.twitter.com/Zd1pTxTCpI,O
-Sentence #1360,
+Sentence #1355,
 Bought,O
 Honda,B-ORG
 Jazz,O
@@ -38807,7 +38752,7 @@ of,I-TIM
 July,I-TIM
 2017,I-TIM
 .,O
-Sentence #1361,
+Sentence #1356,
 Nearly,O
 53,O
 pc,O
@@ -38838,7 +38783,7 @@ of,O
 rail,O
 accide,O
 ...,O
-Sentence #1362,
+Sentence #1357,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -38853,10 +38798,10 @@ a,O
 total,O
 of,O
 586,O
-Sentence #1363,
+Sentence #1358,
 rail,O
 accidents,O
-Sentence #1364,
+Sentence #1359,
 in,O
 last,O
 five,B-TIM
@@ -38867,7 +38812,7 @@ http,O
 :,O
 //ift.tt/2vjt3n1,O
 pic.twitter.com/sklHyoSgVn,O
-Sentence #1365,
+Sentence #1360,
 Unless,O
 there,O
 are,O
@@ -38894,7 +38839,7 @@ be,O
 set,O
 right,O
 .,O
-Sentence #1366,
+Sentence #1361,
 Traffic,O
 jam,O
 is,O
@@ -38911,7 +38856,7 @@ of,O
 Delhi,B-LOC
 New,B-LOC
 Delhi,I-LOC
-Sentence #1367,
+Sentence #1362,
 New,B-LOC
 Delhi,I-LOC
 |,O
@@ -38938,7 +38883,7 @@ matter,O
 http,O
 :,O
 //dlvr.it/Mm67wL,O
-Sentence #1368,
+Sentence #1363,
 No,O
 friendship,O
 is,O
@@ -38956,7 +38901,7 @@ Delhi-17,I-LOC
 https,O
 :,O
 //www.instagram.com/p/BNRUk6Mhh19/,O
-Sentence #1369,
+Sentence #1364,
 GWG,O
 Special,O
 Week,O
@@ -38983,7 +38928,7 @@ course,O
 http,O
 :,O
 //fb.me/5fEfWdG9K,O
-Sentence #1370,
+Sentence #1365,
 New,B-LOC
 Delhi,I-LOC
 |,O
@@ -39006,7 +38951,7 @@ Kanpur,B-LOC
 http,O
 :,O
 //dlvr.it/MkKwyJ,O
-Sentence #1371,
+Sentence #1366,
 Sad,O
 news,O
 .,O
@@ -39034,7 +38979,7 @@ in,O
 a,O
 lorry,O
 .,O
-Sentence #1372,
+Sentence #1367,
 New,B-LOC
 Delhi,I-LOC
 |,O
@@ -39057,7 +39002,7 @@ Kanpur,B-LOC
 http,O
 :,O
 //dlvr.it/Mk4dQB,O
-Sentence #1373,
+Sentence #1368,
 Kanpur,B-LOC
 train,O
 accident,O
@@ -39084,7 +39029,7 @@ Indore-Patna,I-LOC
 http,O
 :,O
 //fb.me/1BNnnGhlr,O
-Sentence #1374,
+Sentence #1369,
 Green,B-ORG
 World,I-ORG
 Group,I-ORG
@@ -39116,7 +39061,7 @@ Accident,O
 http,O
 :,O
 //fb.me/6ACAesIeN,O
-Sentence #1375,
+Sentence #1370,
 Russia,B-LOC
 France,B-LOC
 Condole,O
@@ -39136,7 +39081,7 @@ NewsTrendsToday,O
 http,O
 :,O
 //ouo.io/sMzsgW,O
-Sentence #1376,
+Sentence #1371,
 Reasons,O
 behind,O
 train,O
@@ -39157,7 +39102,7 @@ Sunday,B-TIM
 https,O
 :,O
 //goo.gl/fb/TJhnyT,O
-Sentence #1377,
+Sentence #1372,
 Sand,O
 artist,O
 Subal,B-PER
@@ -39180,7 +39125,7 @@ toiphotogallery,O
 TOIIndiaNews,O
 @,O
 TOICitiesNewspic.twitter.com/fP8rrP3tzh,O
-Sentence #1378,
+Sentence #1373,
 bTelangana/b,O
 :,O
 5,O
@@ -39199,7 +39144,7 @@ Delhi,I-LOC
 https,O
 :,O
 //goo.gl/fb/AOkde1,O
-Sentence #1379,
+Sentence #1374,
 UP,B-LOC
 to,O
 pay,O
@@ -39229,7 +39174,7 @@ Minister,I-PER
 http,O
 :,O
 //fb.me/848RzH28n,O
-Sentence #1380,
+Sentence #1375,
 Bkg,O
 News-Bharat,O
 Currency,O
@@ -39254,7 +39199,7 @@ from,O
 all,O
 spheres,O
 .,O
-Sentence #1381,
+Sentence #1376,
 Lok,B-LOC
 Sabha,I-LOC
 Speaker,B-PER
@@ -39280,7 +39225,7 @@ Sumitra,I-PER
 http,O
 :,O
 //fb.me/ZHB8agsF,O
-Sentence #1382,
+Sentence #1377,
 Sonia,B-PER
 Rahul,B-PER
 Gandhi,I-PER
@@ -39305,7 +39250,7 @@ Sonia,I-PER
 http,O
 :,O
 //fb.me/7nbWEyAIo,O
-Sentence #1383,
+Sentence #1378,
 PM,O
 expresses,O
 grief,O
@@ -39325,7 +39270,7 @@ http,O
 :,O
 //ift.tt/2g7Ht4M,O
 pic.twitter.com/c9PoMcCN45,O
-Sentence #1384,
+Sentence #1379,
 PM,O
 expresses,O
 grief,O
@@ -39351,7 +39296,7 @@ expressed,O
 http,O
 :,O
 //fb.me/8kOYVbGvp,O
-Sentence #1385,
+Sentence #1380,
 Two,O
 train,O
 accidents,O
@@ -39365,7 +39310,7 @@ my,O
 New,B-LOC
 Delhi,I-LOC
 Vacations,O
-Sentence #1386,
+Sentence #1381,
 In,O
 a,O
 tragic,O
@@ -39396,7 +39341,7 @@ the,O
 spot,O
 .,O
 pic.twitter.com/8uzKuJivpf,O
-Sentence #1387,
+Sentence #1382,
 Engineer,O
 's,O
 parents,O
@@ -39425,7 +39370,7 @@ MA,O
 http,O
 :,O
 //bit.ly/S1H53N,O
-Sentence #1388,
+Sentence #1383,
 http,O
 :,O
 //goo.gl/bJn8Q,O
@@ -39449,7 +39394,7 @@ returning,O
 http,O
 :,O
 //mtrm.nl/20tV24,O
-Sentence #1389,
+Sentence #1384,
 In,O
 New,B-LOC
 Delhi,I-LOC
@@ -39463,7 +39408,7 @@ people,O
 in,O
 accidents,O
 .,O
-Sentence #1390,
+Sentence #1385,
 Today,B-TIM
 a,O
 Blue-line,O
@@ -39474,7 +39419,7 @@ saved,O
 http,O
 :,O
 //fb.me/1fn2dlh50,O
-Sentence #1391,
+Sentence #1386,
 DTN,B-ORG
 Fashion,I-ORG
 :,O
@@ -39506,7 +39451,7 @@ o,O
 http,O
 :,O
 //bit.ly/P7RBUh,O
-Sentence #1392,
+Sentence #1387,
 MyNews.in,O
 Minor,O
 girl,O
@@ -39531,7 +39476,7 @@ http,O
 :,O
 //bit.ly/MCXwV0,O
 MyNews.in,O
-Sentence #1393,
+Sentence #1388,
 Minor,O
 girl,O
 two,O
@@ -39559,7 +39504,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG94,O
-Sentence #1394,
+Sentence #1389,
 Minor,O
 girl,O
 two,O
@@ -39587,7 +39532,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG8b,O
-Sentence #1395,
+Sentence #1390,
 Minor,O
 girl,O
 two,O
@@ -39615,7 +39560,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG8H,O
-Sentence #1396,
+Sentence #1391,
 Minor,O
 girl,O
 two,O
@@ -39643,7 +39588,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG7l,O
-Sentence #1397,
+Sentence #1392,
 Minor,O
 girl,O
 two,O
@@ -39671,7 +39616,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG6j,O
-Sentence #1398,
+Sentence #1393,
 Minor,O
 girl,O
 two,O
@@ -39699,7 +39644,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG6f,O
-Sentence #1399,
+Sentence #1394,
 Minor,O
 girl,O
 two,O
@@ -39727,7 +39672,7 @@ were,O
 http,O
 :,O
 //dlvr.it/1zMG5g,O
-Sentence #1400,
+Sentence #1395,
 Taiwanese,B-GPE
 student,O
 killed,O
@@ -39754,7 +39699,7 @@ volunte,O
 http,O
 :,O
 //bit.ly/QP8wQF,O
-Sentence #1401,
+Sentence #1396,
 Two,O
 killed,O
 in,O
@@ -39783,7 +39728,7 @@ road,O
 http,O
 :,O
 //bit.ly/RxUGRU,O
-Sentence #1402,
+Sentence #1397,
 MyNews.in,O
 Two,O
 killed,O
@@ -39809,7 +39754,7 @@ http,O
 :,O
 //bit.ly/S0ulaS,O
 MyNews.in,O
-Sentence #1403,
+Sentence #1398,
 GBU,B-ORG
 Two,O
 killed,O
@@ -39839,7 +39784,7 @@ road,O
 http,O
 :,O
 //dlvr.it/1yqml0,O
-Sentence #1404,
+Sentence #1399,
 GBU,O
 Two,O
 killed,O
@@ -39869,7 +39814,7 @@ road,O
 http,O
 :,O
 //dlvr.it/1yqmjl,O
-Sentence #1405,
+Sentence #1400,
 GBU,O
 Two,O
 killed,O
@@ -39899,7 +39844,7 @@ road,O
 http,O
 :,O
 //dlvr.it/1yqmfQ,O
-Sentence #1406,
+Sentence #1401,
 GBU,B-ORG
 Two,O
 killed,O
@@ -39929,7 +39874,7 @@ road,O
 http,O
 :,O
 //dlvr.it/1yqmj3,O
-Sentence #1407,
+Sentence #1402,
 GBU,O
 Two,O
 killed,O
@@ -39959,7 +39904,7 @@ road,O
 http,O
 :,O
 //dlvr.it/1yqmgh,O
-Sentence #1408,
+Sentence #1403,
 Former,O
 captain,O
 of,O
@@ -39985,7 +39930,7 @@ of,O
 http,O
 :,O
 //fb.me/6yXTxZNtw,O
-Sentence #1409,
+Sentence #1404,
 Duronto,O
 saved,O
 from,O
@@ -40008,7 +39953,7 @@ at,O
 http,O
 :,O
 //fb.me/36mH6VNvt,O
-Sentence #1410,
+Sentence #1405,
 UK,B-LOC
 :,O
 2,O
@@ -40033,7 +39978,7 @@ vehicles,O
 http,O
 :,O
 //bit.ly/1TxXL2F,O
-Sentence #1411,
+Sentence #1406,
 Indian,B-GPE
 soldiers,O
 injured,O
@@ -40059,7 +40004,7 @@ http,O
 //bit.ly/1HXExiv,O
 @,O
 yahoonews,O
-Sentence #1412,
+Sentence #1407,
 Indian,B-GPE
 Air,B-ORG
 Force,I-ORG
@@ -40085,7 +40030,7 @@ rate,O
 http,O
 :,O
 //tinyurl.com/nnnc9nd,O
-Sentence #1413,
+Sentence #1408,
 President,O
 condoles,O
 Uttar,B-LOC
@@ -40110,7 +40055,7 @@ http,O
 //bit.ly/1Tl2btG,O
 @,O
 yahoonews,O
-Sentence #1414,
+Sentence #1409,
 Road,B-LOC
 accident,O
 kills,O
@@ -40135,7 +40080,7 @@ Saturday,B-TIM
 http,O
 :,O
 //en-pk.newswaver.com/11330,O
-Sentence #1415,
+Sentence #1410,
 Road,B-LOC
 accident,O
 kills,O
@@ -40160,7 +40105,7 @@ Saturday,B-TIM
 http,O
 :,O
 //en-pk.newswaver.com/11330,O
-Sentence #1416,
+Sentence #1411,
 Two,O
 road,O
 accidents,O
@@ -40170,7 +40115,6 @@ nearly,O
 in,O
 India,B-LOC
 :,O
-"Sat,2015-06-13",O
 16:20,O
 NEW,B-LOC
 DELHI,I-LOC
@@ -40185,7 +40129,7 @@ pe,O
 http,O
 :,O
 //bit.ly/1L5LEEk,O
-Sentence #1417,
+Sentence #1412,
 Road,O
 accident,O
 kills,O
@@ -40212,7 +40156,7 @@ early,O
 http,O
 :,O
 //dlvr.it/BBs1HL,O
-Sentence #1418,
+Sentence #1413,
 #,O
 pakistan,B-LOC
 #,O
@@ -40242,7 +40186,7 @@ Hi,O
 http,O
 :,O
 //bit.ly/1QV26J2,O
-Sentence #1419,
+Sentence #1414,
 DunyaNews,O
 :,O
 Road,B-LOC
@@ -40270,7 +40214,7 @@ Hindu,O
 http,O
 :,O
 //bit.ly/1QV243X,O
-Sentence #1420,
+Sentence #1415,
 #,O
 Pakistan,B-LOC
 #,O
@@ -40300,7 +40244,7 @@ pilgrims,O
 early,O
 Sa,O
 ...,O
-Sentence #1421,
+Sentence #1416,
 PM,O
 Sonia,B-PER
 express,O
@@ -40323,7 +40267,7 @@ condoled,O
 http,O
 :,O
 //news.abomus.com/en/india/news/top-novosti/pm-sonia-express-grief-over-rajasthan-accident,O
-Sentence #1422,
+Sentence #1417,
 https,O
 :,O
 //youtu.be/SUtAfV2_3Kw,O
@@ -40334,7 +40278,6 @@ Border,O
 .,O
 Screened,O
 on,O
-"June13,1997",O
 at,O
 Uphaar,B-LOC
 New,B-LOC
@@ -40349,7 +40292,7 @@ out,O
 lives,O
 .,O
 RIP,O
-Sentence #1423,
+Sentence #1418,
 Modi,B-PER
 condoles,O
 deaths,O
@@ -40374,7 +40317,7 @@ pilgrims,B-PER
 who,O
 w,O
 ...,O
-Sentence #1424,
+Sentence #1419,
 Modi,B-PER
 condoles,O
 deaths,O
@@ -40400,7 +40343,7 @@ pilgrims,B-EPR
 who,O
 w,O
 ...,O
-Sentence #1425,
+Sentence #1420,
 Road,B-LOC
 accident,O
 kills,O
@@ -40422,7 +40365,7 @@ Hindu,B-ORG
 http,O
 :,O
 //goo.gl/fb/ZlhmVK,O
-Sentence #1426,
+Sentence #1421,
 @,O
 DrRaisYatim,O
 Road,O
@@ -40448,7 +40391,7 @@ pilgr,B-PER
 http,O
 :,O
 //bit.ly/1QUiGsL,O
-Sentence #1427,
+Sentence #1422,
 Popular,B-PER
 Tamil,I-PER
 actor,I-PER
@@ -40474,7 +40417,7 @@ acto,O
 http,O
 :,O
 //ln.is/www.oneindia.com/ind/JBV8Z,O
-Sentence #1428,
+Sentence #1423,
 Popular,B-PER
 Tamil,I-PER
 actor,I-PER
@@ -40500,7 +40443,7 @@ S,I-PER
 http,O
 :,O
 //ift.tt/1SIeDog,O
-Sentence #1429,
+Sentence #1424,
 @,O
 nitin_gadkari,O
 witnessed,O
@@ -40528,7 +40471,7 @@ old,O
 aged,O
 rickshaw,O
 puller,O
-Sentence #1430,
+Sentence #1425,
 Yamuna,B-LOC
 Expressway,I-LOC
 accident,O
@@ -40551,7 +40494,7 @@ Delhi,I-LOC
 http,O
 :,O
 //ln.is/www.oneindia.com/ind/IEyNm,O
-Sentence #1431,
+Sentence #1426,
 Yamuna,B-LOC
 Expressway,I-LOC
 accident,O
@@ -40573,7 +40516,7 @@ Mar,O
 http,O
 :,O
 //ift.tt/1QNJPxu,O
-Sentence #1432,
+Sentence #1427,
 Good,O
 news,O
 !,O
@@ -40598,7 +40541,7 @@ good,O
 http,O
 :,O
 //ift.tt/1Ue0QFT,O
-Sentence #1433,
+Sentence #1428,
 Good,O
 news,O
 !,O
@@ -40624,7 +40567,7 @@ a,O
 http,O
 :,O
 //ln.is/www.oneindia.com/ind/YPNnh,O
-Sentence #1434,
+Sentence #1429,
 Cave,O
 in,O
 at,O
@@ -40645,7 +40588,7 @@ https,O
 v=CCN25XmMJMc,O
 #,O
 Accident,O
-Sentence #1435,
+Sentence #1430,
 Yamuna,B-LOC
 Expressway,I-LOC
 accident,O
@@ -40669,7 +40612,7 @@ M,I-PER
 http,O
 :,O
 //bit.ly/1TqCNEG,O
-Sentence #1436,
+Sentence #1431,
 #,O
 Rail,O
 #,O
@@ -40687,7 +40630,7 @@ http,O
 :,O
 //ift.tt/1THkkUP,O
 -,O
-Sentence #1437,
+Sentence #1432,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -40700,7 +40643,7 @@ of,O
 the,O
 total,O
 29,O
-Sentence #1438,
+Sentence #1433,
 #,O
 Rail,O
 #,O
@@ -40724,7 +40667,7 @@ rail,O
 http,O
 :,O
 //goo.gl/fb/qWOsuZ,O
-Sentence #1439,
+Sentence #1434,
 204,O
 rail,O
 accidents,O
@@ -40752,7 +40695,7 @@ total,O
 http,O
 :,O
 //ift.tt/21VhSen,O
-Sentence #1440,
+Sentence #1435,
 204,O
 rail,O
 accidents,O
@@ -40781,7 +40724,7 @@ tot,O
 http,O
 :,O
 //ln.is/www.oneindia.com/ind/XPeBp,O
-Sentence #1441,
+Sentence #1436,
 Smriti,B-PER
 Irani,I-PER
 's,O
@@ -40807,7 +40750,7 @@ spoke,O
 http,O
 :,O
 //ift.tt/1X6p440,O
-Sentence #1442,
+Sentence #1437,
 After,O
 accident,O
 I,O
@@ -40833,7 +40776,7 @@ Nagar,I-LOC
 http,O
 :,O
 //bit.ly/1YkT7pT,O
-Sentence #1443,
+Sentence #1438,
 After,O
 accident,O
 I,O
@@ -40859,7 +40802,7 @@ Nagar,I-LOC
 http,O
 :,O
 //bit.ly/1YkT7pT,O
-Sentence #1444,
+Sentence #1439,
 Narrow,O
 escape,O
 for,O
@@ -40874,14 +40817,14 @@ Expressway,I-LOC
 New,B-LOC
 Delhi,I-LOC
 :,O
-Sentence #1445,
+Sentence #1440,
 http,O
 :,O
 //bandranews24x7.blogspot.in/2016/03/narrow-escape-for-smriti-irani-in-car.html,O
 ?,O
 m=1,O
 pic.twitter.com/onTiChXb4R,O
-Sentence #1446,
+Sentence #1441,
 #,O
 Narrow,O
 escape,O
@@ -40911,7 +40854,7 @@ n,O
 http,O
 :,O
 //bit.ly/21P228E,O
-Sentence #1447,
+Sentence #1442,
 DTN,B-ORG
 Kerala,I-ORG
 :,O
@@ -40937,7 +40880,7 @@ was,O
 http,O
 :,O
 //bit.ly/1YhlZPL,O
-Sentence #1448,
+Sentence #1443,
 Smriti,B-PER
 Irani,I-PER
 escapes,O
@@ -40965,7 +40908,7 @@ na,O
 http,O
 :,O
 //ln.is/www.oneindia.com/ind/b2VTK,O
-Sentence #1449,
+Sentence #1444,
 Accident,O
 at,O
 PSU,B-ORG
@@ -41009,7 +40952,7 @@ http,O
 :,O
 //hiindia.com,O
 pic.twitter.com/6UOGlHvI3W,O
-Sentence #1450,
+Sentence #1445,
 Yes,O
 my,O
 nephew,O
@@ -41042,7 +40985,7 @@ you,O
 ArvindKejriwal,O
 sir,O
 .,O
-Sentence #1451,
+Sentence #1446,
 Road,B-ORG
 Safety,I-ORG
 Policy,I-ORG
@@ -41100,7 +41043,7 @@ Awareness,O
 Accidents,O
 #,O
 Design,O
-Sentence #1452,
+Sentence #1447,
 New,B-LOC
 Delhi,I-LOC
 Road,B-ORG
@@ -41121,7 +41064,7 @@ utm_source=dlvr.it,O
 &,O
 utm_medium=twitter,O
 pic.twitter.com/E1z02wInMw,O
-Sentence #1453,
+Sentence #1448,
 New,B-LOC
 Delhi,I-LOC
 Road,B-ORG
@@ -41170,7 +41113,7 @@ might,O
 have,O
 ...,O
 pic.twitter.com/kpr9iuKNDL,O
-Sentence #1454,
+Sentence #1449,
 New,B-ORG
 Delhi,I-ORG
 Road,B-ORG
@@ -41198,7 +41141,7 @@ https,O
 ||,O
 #,O
 Auto,O
-Sentence #1455,
+Sentence #1450,
 New,B-ORG
 Delhi,I-ORG
 Road,B-ORG
@@ -41219,7 +41162,7 @@ via,O
 carandbike,O
 #,O
 RoadSafetyWeek,O
-Sentence #1456,
+Sentence #1451,
 NEW,B-LOC
 DELHI,I-LOC
 Thirteen,O
@@ -41257,7 +41200,7 @@ was,O
 wearing,O
 earphones,O
 .,O
-Sentence #1457,
+Sentence #1452,
 The,O
 Minister,O
 of,O
@@ -41300,7 +41243,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/P8mmBnSD6q,O
-Sentence #1458,
+Sentence #1453,
 RT,O
 PIB_India,O
 :,O
@@ -41329,7 +41272,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/TonD9E3sI0,O
-Sentence #1459,
+Sentence #1454,
 MoS,O
 for,O
 MoHFW_INDIA,O
@@ -41357,7 +41300,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/FDFeMqoTW2,O
-Sentence #1460,
+Sentence #1455,
 MoS,O
 for,O
 MoHFW_INDIA,O
@@ -41383,7 +41326,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/vPTsStMAyA,O
-Sentence #1461,
+Sentence #1456,
 MoS,O
 for,O
 @,O
@@ -41411,7 +41354,7 @@ in,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/Uo6Rsbynn9,O
-Sentence #1462,
+Sentence #1457,
 Mos,O
 Health,O
 and,O
@@ -41441,7 +41384,7 @@ week,O
 New,B-LOC
 Delhi,I-LOC
 pic.twitter.com/XczdJr4pEh,O
-Sentence #1463,
+Sentence #1458,
 Schoolgirl,O
 killed,O
 in,O
@@ -41491,7 +41434,7 @@ http,O
 :,O
 //hiindia.com,O
 pic.twitter.com/G7CGERHdo4,O
-Sentence #1464,
+Sentence #1459,
 President,B-PER
 PM,B-ORG
 condole,O
@@ -41541,7 +41484,7 @@ http,O
 :,O
 //hiindia.com,O
 pic.twitter.com/3WzbYqhEYQ,O
-Sentence #1465,
+Sentence #1460,
 Most,O
 of,O
 the,O
@@ -41555,16 +41498,15 @@ below,O
 years,O
 of,O
 age,O
-Sentence #1466,
+Sentence #1461,
 New,B-LOC
 Delhi,I-LOC
 :,O
-Sentence #1467,
+Sentence #1462,
 In,O
 a,O
 tragic,O
-"accident,1",O
-Sentence #1468,
+Sentence #1463,
 1,O
 school,O
 children,O
@@ -41575,7 +41517,7 @@ and,O
 others,O
 were,O
 injured,O
-Sentence #1469,
+Sentence #1464,
 after,O
 their,O
 school,O
@@ -41597,7 +41539,7 @@ https,O
 :,O
 //ift.tt/2HrkMao,O
 pic.twitter.com/thhwM9FNim,O
-Sentence #1470,
+Sentence #1465,
 13,O
 school,O
 children,O
@@ -41646,7 +41588,7 @@ http,O
 :,O
 //hiindia.com,O
 pic.twitter.com/10nGoSiq6L,O
-Sentence #1471,
+Sentence #1466,
 @,O
 MoHFW_INDIA,O
 yesterday,B-TIM
@@ -41693,7 +41635,7 @@ clean,O
 her,O
 blood,O
 .,O
-Sentence #1472,
+Sentence #1467,
 @,O
 RailMinIndia,O
 @,O
@@ -41744,7 +41686,7 @@ future,O
 https,O
 :,O
 //twitter.com/RailwaySeva/status/1180129153812615168,O
-Sentence #1473,
+Sentence #1468,
 Not,O
 good,O
 to,O
@@ -41771,7 +41713,7 @@ delhi,B-ORG
 government,I-ORG
 #,O
 RoadSafetypic.twitter.com/LdRTPATIg6,O
-Sentence #1474,
+Sentence #1469,
 @,O
 IntrepidSaffron,O
 Plz,O
@@ -41825,7 +41767,7 @@ Mo,O
 ..,O
 7985645510,O
 pic.twitter.com/XiXKBe40Ip,O
-Sentence #1475,
+Sentence #1470,
 @,O
 gaur_bhavna,O
 @,O
@@ -41867,12 +41809,12 @@ Diseases,O
 and,O
 Accident,O
 everywhere,O
-Sentence #1476,
+Sentence #1471,
 Anyone,O
 please,O
 save,O
 us,O
-Sentence #1477,
+Sentence #1472,
 @,O
 DelhiPolice,O
 Sir,O
@@ -41921,7 +41863,7 @@ New,B-LOC
 Delhi,I-LOC
 110008,I-LOC
 pic.twitter.com/JJZROXlyQG,O
-Sentence #1478,
+Sentence #1473,
 Amit,B-PER
 Shah,I-PER
 sir,O
@@ -41981,11 +41923,11 @@ ilag,O
 hoga,O
 ab,O
 hum,O
-Sentence #1479,
+Sentence #1474,
 New,B-LOC
 Delhi,I-LOC
 :,O
-Sentence #1480,
+Sentence #1475,
 A,O
 two-year-old,O
 child,O
@@ -42015,7 +41957,7 @@ others,O
 were,O
 injured,O
 .,O
-Sentence #1481,
+Sentence #1476,
 The,O
 accident,O
 took,O
@@ -42039,7 +41981,7 @@ ambulance,O
 and,O
 a,O
 truck,O
-Sentence #1482,
+Sentence #1477,
 Rajneeti,B-ORG
 News,I-ORG
 (,O
@@ -42055,7 +41997,7 @@ of,O
 accident,O
 victims,O
 ),O
-Sentence #1483,
+Sentence #1478,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -42091,7 +42033,7 @@ News,I-ORG
 -,O
 ...,O
 pic.twitter.com/bws6eUYTFd,O
-Sentence #1484,
+Sentence #1479,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -42101,7 +42043,7 @@ News,O
 http,O
 :,O
 //www.pioneerhindi.com/two-dead-four-injured-including-a-child-in-a-road-accident/,O
-Sentence #1485,
+Sentence #1480,
 Husband,O
 of,O
 doc,O
@@ -42118,7 +42060,7 @@ https,O
 delhi,B-LOC
 #,O
 newdelhi,O
-Sentence #1486,
+Sentence #1481,
 ``,O
 Transporters,O
 ',O
@@ -42172,7 +42114,7 @@ Transportersstrike,O
 motoeVehicleAct,O
 #,O
 cartoonistKaakpic.twitter.com/PnDFlpVDh4,O
-Sentence #1487,
+Sentence #1482,
 Accident,O
 at,O
 NH,B-LOC
@@ -42185,7 +42127,7 @@ https,O
 :,O
 //dailyworld.in/accident-at-nh-24-in-new-delhi/,O
 pic.twitter.com/O4cvjTfzuj,O
-Sentence #1488,
+Sentence #1483,
 Had,O
 the,O
 President,B-PER
@@ -42200,7 +42142,7 @@ accident,O
 would,O
 have,O
 occurred,O
-Sentence #1489,
+Sentence #1484,
 Radar,B-LOC
 helps,O
 determine,O
@@ -42221,22 +42163,21 @@ major,O
 fault,O
 occurs,O
 .,O
-Sentence #1490,
+Sentence #1485,
 New,B-LOC
 delhi,I-LOC
 date,O
 .,O
 September,B-TIM
-"16,2019",I-TIM
 Monday,B-TIM
-Sentence #1491,
+Sentence #1486,
 President,B-PER
 Ramnath,I-PER
 https,O
 :,O
 //ift.tt/2LZ0zZ1,O
 pic.twitter.com/28RKZZsIHn,O
-Sentence #1492,
+Sentence #1487,
 Find,O
 out,O
 where,O
@@ -42250,14 +42191,12 @@ fined,O
 Rs,O
 6.5,O
 lakh,O
-Sentence #1493,
+Sentence #1488,
 New,B-LOC
 Delhi,I-LOC
 September,B-TIM
-"14,2019",I-TIM
-",",I-TIM
 Saturday,I-TIM
-Sentence #1494,
+Sentence #1489,
 As,O
 the,O
 number,O
@@ -42288,7 +42227,7 @@ https,O
 :,O
 //ift.tt/3015DFd,O
 pic.twitter.com/ZeSCPqppFX,O
-Sentence #1495,
+Sentence #1490,
 Drunk,O
 MNC,B-ORG
 managers,B-PER
@@ -42321,7 +42260,7 @@ divide,O
 https,O
 :,O
 //timesofindia.indiatimes.com/city/delhi/drunk-mnc-managers-injured-in-car-accident/articleshow/71131371.cms,O
-Sentence #1496,
+Sentence #1491,
 Friday,B-TIM
 The,O
 13th,O
@@ -42374,7 +42313,7 @@ things,O
 a,O
 little,O
 'spookier'-,O
-Sentence #1497,
+Sentence #1492,
 https,O
 :,O
 //goo.gl/search/road+accident+deaths+in+india+2018,O
@@ -42424,7 +42363,7 @@ Naveen_Odisha,B-PER
 nitin_gadkarihttps,O
 :,O
 //twitter.com/DattatreyaDash/status/1171802750964916224,O
-Sentence #1498,
+Sentence #1493,
 Plz,O
 take,O
 care,O
@@ -42450,7 +42389,7 @@ and,O
 other,O
 mishappenings,O
 pic.twitter.com/zk8jDMmLYh,O
-Sentence #1499,
+Sentence #1494,
 My,O
 dear,O
 pm,O
@@ -42505,7 +42444,7 @@ you,O
 to,O
 help,O
 .,O
-Sentence #1500,
+Sentence #1495,
 Treatment,O
 of,O
 both,O
@@ -42520,7 +42459,7 @@ to,O
 upload,O
 videos,O
 ...,O
-Sentence #1501,
+Sentence #1496,
 Today,B-TIM
 we,O
 did,O
@@ -42536,7 +42475,7 @@ and,O
 New,B-LOC
 Delhi,I-LOC
 ...,O
-Sentence #1502,
+Sentence #1497,
 Enjoy,O
 little,O
 babies,O
@@ -42551,10 +42490,10 @@ if,O
 you,O
 can,O
 .,O
-Sentence #1503,
+Sentence #1498,
 @,O
 NaanOfficialpic.twitter.com/wk7Dpoak09,O
-Sentence #1504,
+Sentence #1499,
 #,O
 BringBackOverseas,O
 Islamabad/New,B-ORG
@@ -42596,7 +42535,7 @@ Islamabad,B-LOC
 A_Kh_4,O
 @,O
 TeamPKGuardian,O
-Sentence #1505,
+Sentence #1500,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -42636,7 +42575,7 @@ Mumbai,B-LOC
 https,O
 :,O
 //twitter.com/fayedsouza/status/1272899310028546048,O
-Sentence #1506,
+Sentence #1501,
 Last,O
 night,B-TIM
 the,O
@@ -42687,7 +42626,7 @@ https,O
 :,O
 //aspeniaonline.it/why-india-and-china-are-deadlocked-in-the-himalayas/,O
 pic.twitter.com/vkwgaNu4iV,O
-Sentence #1507,
+Sentence #1502,
 ``,O
 NEW,B-LOC
 DELHI,I-LOC
@@ -42725,7 +42664,7 @@ https,O
 :,O
 //bit.ly/2YzZzkg,O
 '',O
-Sentence #1508,
+Sentence #1503,
 I,O
 am,O
 cheated,O
@@ -42761,7 +42700,7 @@ https,O
 :,O
 //twitter.com/KiaMotorsIN/status/1267765344254525440,O
 pic.twitter.com/F1WizpldAI,O
-Sentence #1509,
+Sentence #1504,
 I,O
 face,O
 accident,O
@@ -42794,7 +42733,7 @@ delhi,I-LOC
 https,O
 :,O
 //twitter.com/chandelpankaj25/status/1266418704012709888,O
-Sentence #1510,
+Sentence #1505,
 Fowl,O
 ...,O
 Play,O
@@ -42856,7 +42795,7 @@ Guinea-Bissau,B-LOC
 Morocco,B-LOC
 ...,O
 UK,O
-Sentence #1511,
+Sentence #1506,
 @,O
 bsesdelhi,B-MISC
 BSES,I-MISC
@@ -42867,7 +42806,6 @@ TO,I-MISC
 FALL,I-MISC
 ANY,I-MISC
 TIME,I-MISC
-",",I-MISC
 AN,I-MISC
 ACCIDENT,I-MISC
 LIKELY,I-MISC
@@ -42894,7 +42832,7 @@ New,B-LOC
 Delhi,I-LOC
 110020.,O
 pic.twitter.com/OPgAZlT4xH,O
-Sentence #1512,
+Sentence #1507,
 Often,O
 dubbed,O
 flying,O
@@ -42913,14 +42851,13 @@ the,O
 past,B-TIM
 decade,I-TIM
 .,O
-Sentence #1513,
+Sentence #1508,
 Updated,O
 :,O
 Aug,O
-"20,2019",O
 23:47,O
 IST,O
-Sentence #1514,
+Sentence #1509,
 By,O
 HT,B-ORG
 Correspondent,I-ORG
@@ -42928,7 +42865,7 @@ Hindustan,B-ORG
 Times,I-ORG
 New,I-ORG
 Delhi,I-ORG
-Sentence #1515,
+Sentence #1510,
 Unlock,O
 5.0,O
 ke,O
@@ -42942,7 +42879,7 @@ https,O
 //www.instagram.com/p/CA5IZz9HEfjjzXKDE_u9Rplb1Svcj2J3qgsyyE0/,O
 ?,O
 igshid=2dvfonouont2,O
-Sentence #1516,
+Sentence #1511,
 @,O
 SonuSood,O
 Dear,O
@@ -42985,7 +42922,7 @@ thing,O
 for,O
 me,O
 .,O
-Sentence #1517,
+Sentence #1512,
 @,O
 ArvindKejriwal,O
 Plz,O
@@ -43036,7 +42973,7 @@ govt,O
 ..,O
 hospital,O
 ....,O
-Sentence #1518,
+Sentence #1513,
 @,O
 vishnumppalamu,O
 Pls,O
@@ -43086,7 +43023,7 @@ trauma,O
 operation,O
 theatre,O
 .,O
-Sentence #1519,
+Sentence #1514,
 Covid,O
 monkeys,O
 escape,O
@@ -43096,14 +43033,14 @@ New,B-LOC
 Delhi,I-LOC
 India,B-LOC
 .,O
-Sentence #1520,
+Sentence #1515,
 Calling,O
 it,O
 an,O
 accident,O
 .,O
 pic.twitter.com/ZmNDRWa1Qr,O
-Sentence #1521,
+Sentence #1516,
 ``,O
 Unlike,O
 previous,O
@@ -43143,7 +43080,7 @@ Chinese,B-GPE
 territory,O
 .,O
 '',O
-Sentence #1522,
+Sentence #1517,
 #,O
 HimachalPradesh,O
 MLA,O
@@ -43184,7 +43121,7 @@ topographical,O
 conditions,O
 .,O
 pic.twitter.com/k6oQ5BiAxY,O
-Sentence #1523,
+Sentence #1518,
 @,O
 JeffBezos,O
 Sir,O
@@ -43230,7 +43167,7 @@ Mob,O
 New,B-LOC
 Delhi,I-LOC
 India,I-LOC
-Sentence #1524,
+Sentence #1519,
 Address,B-ORG
 &,O
 phone,O
@@ -43265,7 +43202,7 @@ utm_medium=,O
 via,O
 @,O
 ProKerala,O
-Sentence #1525,
+Sentence #1520,
 New,B-LOC
 Delhi,I-LOC
 :,O
@@ -43301,7 +43238,7 @@ an,O
 https,O
 :,O
 //www.meanwebhost.com/pnb-hikes-accidental-insurance-cover-for-army-personnel-veterans/,O
-Sentence #1526,
+Sentence #1521,
 @,O
 DelhiJalBoard,O
 @,O
@@ -43354,7 +43291,7 @@ breathing,O
 Pls,O
 help,O
 !,O
-Sentence #1527,
+Sentence #1522,
 @,O
 CPCB_OFFICIAL,O
 @,O
@@ -43404,7 +43341,7 @@ Delhi,B-LOC
 https,O
 :,O
 //www.financialexpress.com/auto/bike-news/tyre-killers-installed-in-noida-more-on-wrong-side-drivers-worst-nightmare/1436991/lite/,O
-Sentence #1528,
+Sentence #1523,
 Avalanche,O
 risk,O
 high,O
@@ -43422,7 +43359,7 @@ http,O
 :,O
 //dlvr.it/Qw8gzN,O
 pic.twitter.com/ZbHGWracX2,O
-Sentence #1529,
+Sentence #1524,
 Raju,O
 chacha,O
 accidents,O
@@ -43472,7 +43409,7 @@ than,O
 alive,O
 na,O
 .,O
-Sentence #1530,
+Sentence #1525,
 #,O
 delhi,O
 #,O
@@ -43480,7 +43417,7 @@ newdelhi,O
 https,O
 :,O
 //twitter.com/prasanto/status/1080776704946245632,O
-Sentence #1531,
+Sentence #1526,
 A,O
 film,O
 on,O
@@ -43498,7 +43435,7 @@ watching,O
 https,O
 :,O
 //twitter.com/goyalsanjeev/status/1080718281990758400,O
-Sentence #1532,
+Sentence #1527,
 @,O
 anandmahindra,O
 Sir,O
@@ -43548,7 +43485,7 @@ Mob,O
 8368480764,O
 New,B-LOC
 Delhi,I-LOC
-Sentence #1533,
+Sentence #1528,
 Aircraft,B-ORG
 Accident,I-ORG
 Investigation,I-ORG
@@ -43577,7 +43514,7 @@ https,O
 via,O
 @,O
 nuzzel,O
-Sentence #1534,
+Sentence #1529,
 @,O
 nitingadkari,O
 Most,O
@@ -43632,7 +43569,7 @@ takes,O
 you,O
 on,O
 reverse,O
-Sentence #1535,
+Sentence #1530,
 @,O
 PiyushGoyal,O
 New,B-LOC
@@ -43663,7 +43600,7 @@ women,O
 and,O
 children,O
 pic.twitter.com/2Ff0DtHoBW,O
-Sentence #1536,
+Sentence #1531,
 @,O
 PiyushGoyalOffc,O
 New,B-LOC
@@ -43694,7 +43631,7 @@ women,O
 and,O
 children,O
 pic.twitter.com/odn0LRzxRv,O
-Sentence #1537,
+Sentence #1532,
 @,O
 PiyushGoyal,O
 New,B-LOC
@@ -43725,7 +43662,7 @@ women,O
 and,O
 children,O
 pic.twitter.com/mpRLaFz0j0,O
-Sentence #1538,
+Sentence #1533,
 New,B-LOC
 Delhi,I-LOC
 railway,I-LOC
@@ -43754,7 +43691,7 @@ women,O
 and,O
 children,O
 pic.twitter.com/ecJYq4hPWX,O
-Sentence #1539,
+Sentence #1534,
 @,O
 CPCB_OFFICIAL,O
 @,O
@@ -43790,7 +43727,7 @@ prevent,O
 road,O
 accidents,O
 .,O
-Sentence #1540,
+Sentence #1535,
 @,O
 M_Lekhi,B-PER
 Dear,I-PER
@@ -43843,7 +43780,7 @@ on,O
 this,O
 road,B-LOC
 .,O
-Sentence #1541,
+Sentence #1536,
 Worst,O
 traffic,O
 condition,O
@@ -43890,7 +43827,7 @@ DelhiPolice,O
 @,O
 DCPNEastDelhi,O
 @,O
-Sentence #1542,
+Sentence #1537,
 Paying,O
 tributes,O
 to,O
@@ -43925,7 +43862,7 @@ Delhi,I-LOC
 today,B-TIM
 .,O
 pic.twitter.com/0h8k5fPJVc,O
-Sentence #1543,
+Sentence #1538,
 @,O
 FBDPolice,O
 @,O
@@ -43955,7 +43892,7 @@ avoid,O
 any,O
 accident,O
 .,O
-Sentence #1544,
+Sentence #1539,
 Nirman,B-LOC
 vihar,I-LOC
 chowck,I-LOC
@@ -43994,7 +43931,7 @@ delhitraficpolice,O
 delhipolice,O
 #,O
 muncipalcorporationofdelhipic.twitter.com/xeMlWQ3Qz4,O
-Sentence #1545,
+Sentence #1540,
 @,O
 dtptraffic,O
 @,O
@@ -44046,7 +43983,7 @@ day,O
 hundred,O
 of,O
 vehical,O
-Sentence #1546,
+Sentence #1541,
 @,O
 dmgbnagar,O
 @,O
@@ -44092,7 +44029,7 @@ please,O
 take,O
 action,O
 pic.twitter.com/Z0SJbpNkxl,O
-Sentence #1547,
+Sentence #1542,
 A,O
 car,O
 is,O
@@ -44132,7 +44069,7 @@ noidatraffic,O
 CeoNoida,O
 @,O
 rituias2003,O
-Sentence #1548,
+Sentence #1543,
 Huge,O
 &,O
 dangerous,O
@@ -44172,7 +44109,7 @@ CeoNoida,O
 noida_authority,O
 @,O
 rituias2003,O
-Sentence #1549,
+Sentence #1544,
 Lot,O
 of,O
 Pot,B-LOC
@@ -44198,7 +44135,7 @@ congestion,O
 and,O
 accident,O
 .,O
-Sentence #1550,
+Sentence #1545,
 Please,O
 repair,O
 @,O
@@ -44212,7 +44149,7 @@ TOINoida,O
 CMOfficeUP,O
 @,O
 UPGovtpic.twitter.com/04aHHpKTuA,O
-Sentence #1551,
+Sentence #1546,
 @,O
 CPFaridabad,O
 Sir,O
@@ -44262,7 +44199,7 @@ already,O
 been,O
 occured,O
 .,O
-Sentence #1552,
+Sentence #1547,
 Flood,O
 in,O
 Old,O
@@ -44299,7 +44236,7 @@ Cuaruption,O
 BJP,O
 #,O
 bjpharayanapic.twitter.com/b02KB79gNy,O
-Sentence #1553,
+Sentence #1548,
 Manoj,B-PER
 Kumar,I-PER
 Wadhwa,I-PER
@@ -44324,11 +44261,11 @@ six,B-TIM
 years,O
 ago,O
 .,O
-Sentence #1554,
+Sentence #1549,
 https,O
 :,O
 //www.india.com/buzz/man-who-lost-3-year-old-son-in-road-accident-fills-potholes-on-roads-in-faridabad-3924966/,O
-Sentence #1555,
+Sentence #1550,
 @,O
 htTweets,O
 #,O
@@ -44354,7 +44291,7 @@ an,O
 accident,O
 #,O
 whoisreadytolisten,O
-Sentence #1556,
+Sentence #1551,
 Carpet,O
 bonbed,O
 Palam,B-LOC
@@ -44368,7 +44305,7 @@ by,O
 truck,O
 car,O
 accident,O
-Sentence #1557,
+Sentence #1552,
 @,O
 dtptraffic,O
 :,O
@@ -44389,7 +44326,7 @@ High,O
 risk,O
 of,O
 accident,O
-Sentence #1558,
+Sentence #1553,
 @,O
 DCPSouthDelhi,O
 Dear,O
@@ -44449,7 +44386,7 @@ Please,O
 help,O
 .,O
 pic.twitter.com/Yq1ML4Bed3,O
-Sentence #1559,
+Sentence #1554,
 @,O
 DelhiPolice,O
 @,O
@@ -44487,7 +44424,7 @@ cause,O
 fatal,O
 accidents,O
 .,O
-Sentence #1560,
+Sentence #1555,
 Big,B-PER
 Pot,I-PER
 hole,O
@@ -44533,7 +44470,7 @@ ArvindKejriwal,O
 msisodia,O
 @,O
 dnapic.twitter.com/21VXmE748U,O
-Sentence #1561,
+Sentence #1556,
 @,O
 dtptraffic,O
 heavy,O
@@ -44557,7 +44494,7 @@ minor,O
 accident,O
 !,O
 !,O
-Sentence #1562,
+Sentence #1557,
 Delhi,B-ORG
 police,O
 solved,O
@@ -44603,7 +44540,7 @@ accident,O
 case,O
 recovered,O
 .,O
-Sentence #1563,
+Sentence #1558,
 Severe,O
 #,O
 accident,O
@@ -44618,7 +44555,7 @@ T1,B-ORG
 #,O
 delhi,O
 pic.twitter.com/SGei81662L,O
-Sentence #1564,
+Sentence #1559,
 Guys,O
 If,O
 anyone,O
@@ -44651,7 +44588,7 @@ me,O
 .,O
 @,O
 delhi,B-LOC
-Sentence #1565,
+Sentence #1560,
 @,O
 gaur_bhavna,O
 @,O
@@ -44693,12 +44630,12 @@ Diseases,O
 and,O
 Accident,O
 everywhere,O
-Sentence #1566,
+Sentence #1561,
 Anyone,O
 please,O
 save,O
 us,O
-Sentence #1567,
+Sentence #1562,
 @,O
 ArvindKejriwal,O
 Please,O
@@ -44725,7 +44662,7 @@ local,O
 residents,O
 .,O
 pic.twitter.com/06qJOre5j2,O
-Sentence #1568,
+Sentence #1563,
 @,O
 dtptraffic,O
 @,O
@@ -44775,7 +44712,7 @@ main,I-LOC
 road,I-LOC
 Delhi-46,O
 pic.twitter.com/93A6iaUaF2,O
-Sentence #1569,
+Sentence #1564,
 @,O
 dtptraffic,O
 I,O
@@ -44830,7 +44767,7 @@ and,O
 otr,O
 vehicles,O
 .,O
-Sentence #1570,
+Sentence #1565,
 Request,O
 to,O
 mr,O
@@ -44883,7 +44820,7 @@ sab,O
 chalta,O
 haii,O
 .,O
-Sentence #1571,
+Sentence #1566,
 @,O
 DCPSouthDelhi,O
 My,O
@@ -44932,20 +44869,19 @@ it,O
 is,O
 not,O
 closed,O
-Sentence #1572,
+Sentence #1567,
 Delhi,B-LOC
 :,O
 Car,O
 accident,O
 in,O
 Patel,B-PER
-"Nagar,1",I-PER
 woman,O
 and,O
 2,O
 children,O
 injured,O
-Sentence #1573,
+Sentence #1568,
 Heard,B-LOC
 delhi,I-LOC
 metro,I-LOC
@@ -44970,7 +44906,7 @@ delhi,B-LOC
 ?,O
 ?,O
 ?,O
-Sentence #1574,
+Sentence #1569,
 School,O
 Bus,O
 turned,O
@@ -44997,7 +44933,7 @@ the,O
 accident,O
 .,O
 pic.twitter.com/SrY9LQfQmr,O
-Sentence #1575,
+Sentence #1570,
 A,O
 school,O
 bus,O
@@ -45014,7 +44950,7 @@ one,O
 dead,O
 .,O
 pic.twitter.com/beebBGMAmS,O
-Sentence #1576,
+Sentence #1571,
 New,B-LOC
 Delhi,I-LOC
 Patel,I-LOC
@@ -45030,7 +44966,7 @@ http,O
 :,O
 //candydirectnews.com/new-delhi-patel-nagar-main-road-blocked-due-to-an-accident/,O
 pic.twitter.com/B1khtogUyB,O
-Sentence #1577,
+Sentence #1572,
 @,O
 DelhiPolice,O
 Sir,O
@@ -45075,7 +45011,7 @@ New,I-LOC
 Delhi,I-LOC
 110008,I-LOC
 pic.twitter.com/JJZROXlyQG,O
-Sentence #1578,
+Sentence #1573,
 24,O
 Hrs,B-ORG
 Power,I-ORG
@@ -45123,7 +45059,7 @@ look,O
 into,O
 this,O
 issue,O
-Sentence #1579,
+Sentence #1574,
 SANTOSH,B-MISC
 PEOPERTIES,I-MISC
 IN,I-MISC
@@ -45168,7 +45104,7 @@ Akhilesh,B-ORG
 Mo,I-ORG
 9919620086,O
 pic.twitter.com/ENEs2QEVtj,O
-Sentence #1580,
+Sentence #1575,
 sir,O
 ..,O
 in,O
@@ -45214,7 +45150,7 @@ fast,O
 as,O
 possible,O
 .,O
-Sentence #1581,
+Sentence #1576,
 @,O
 RidlrMUM,O
 Traffic,O
@@ -45237,7 +45173,7 @@ Garhi,I-ORG
 Flyover,I-ORG
 .,O
 Delhi,B-ORG
-Sentence #1582,
+Sentence #1577,
 @,O
 ddmotors_delhi,O
 @,O
@@ -45264,7 +45200,6 @@ at,O
 DD,B-ORG
 Motors,I-ORG
 A-1,B-ORG
-",",I-ORG
 Rohtak,I-ORG
 Rd,I-ORG
 Peera,B-PER
@@ -45282,7 +45217,7 @@ on,O
 the,O
 same,O
 day.,O
-Sentence #1583,
+Sentence #1578,
 @,O
 ddmotors_delhi,O
 @,O
@@ -45309,7 +45244,6 @@ at,O
 DD,B-ORG
 Motors,I-ORG
 A-1,B-ORG
-",",I-ORG
 Rohtak,I-ORG
 Rd,I-ORG
 Peera,B-PER
@@ -45328,7 +45262,7 @@ the,O
 same,O
 day,O
 .,O
-Sentence #1584,
+Sentence #1579,
 Padestrians,O
 at,O
 Peera,B-LOC
@@ -45376,7 +45310,7 @@ going,O
 to,O
 happen,O
 .,O
-Sentence #1585,
+Sentence #1580,
 Another,O
 accident,O
 at,O
@@ -45392,7 +45326,7 @@ please,O
 save,O
 people,O
 .......,O
-Sentence #1586,
+Sentence #1581,
 @,O
 dtptraffic,O
 i,O
@@ -45448,7 +45382,7 @@ Jam,O
 every,O
 Sunday,B-TIM
 .,O
-Sentence #1587,
+Sentence #1582,
 Potholes,O
 which,O
 were,O
@@ -45496,7 +45430,7 @@ dpradhanbjp,O
 PetroleumMin,O
 pls,O
 help.pic.twitter.com/ZyZzq2PEJt,O
-Sentence #1588,
+Sentence #1583,
 Today,B-TIM
 a,O
 deadliest,O
@@ -45521,7 +45455,7 @@ auto,O
 http,O
 :,O
 //fb.me/AJU30G3l,O
-Sentence #1589,
+Sentence #1584,
 Jain,O
 sahib,O
 PWD,B-ORG
@@ -45547,7 +45481,7 @@ kindlyLook,O
 into,O
 it,O
 urg,O
-Sentence #1590,
+Sentence #1585,
 Huge,B-PER
 Jam,I-PER
 in,O
@@ -45574,7 +45508,7 @@ of,O
 3,O
 dead,O
 .,O
-Sentence #1591,
+Sentence #1586,
 ``,O
 @,O
 NBTDilli,O
@@ -45600,7 +45534,7 @@ smart_mumbaikar,O
 DRIVE,O
 CAREFULLY,O
 '',O
-Sentence #1592,
+Sentence #1587,
 Dangerous,O
 accident,O
 at,O
@@ -45616,7 +45550,7 @@ spot,O
 #,O
 Delhi,B-LOC
 pic.twitter.com/YvFM7NPh06,I-LOC
-Sentence #1593,
+Sentence #1588,
 delhi,O
 #,O
 traffic,O
@@ -45627,10 +45561,8 @@ ROAD,I-LOC
 PUNJABI,B-LOC
 BAGH,I-LOC
 UNDERPASS,I-MISC
-",",I-MISC
 AN,I-MISC
 ACCIDENT,I-MISC
-",",I-MISC
 CAUSING,I-MISC
 SLOW,I-MISC
 MOVEMENT,I-MISC
@@ -45640,7 +45572,7 @@ TOWARDS,I-MISC
 http,O
 :,O
 //fb.me/1u6twzb89,O
-Sentence #1594,
+Sentence #1589,
 delhi,O
 #,O
 traffic,O
@@ -45661,7 +45593,7 @@ ZAKHIRA,I-MISC
 .,O
 Friday,B-TIM
 11-11-11,O
-Sentence #1595,
+Sentence #1590,
 delhi,O
 #,O
 traffic,O
@@ -45680,19 +45612,18 @@ DELAY,I-MISC
 TOWARDS,I-MISC
 ZAKHIRA,I-MISC
 .,O
-Sentence #1596,
+Sentence #1591,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 http,O
 :,O
 //bit.ly/16tJAC,O
-Sentence #1597,
+Sentence #1592,
 Another,O
 #,O
 Accident,O
@@ -45701,21 +45632,19 @@ Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
-Sentence #1598,
+Sentence #1593,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 http,O
 :,O
 //tinyurl.com/r5ae6r,O
-Sentence #1599,
+Sentence #1594,
 Another,O
 accident,O
 at,O
@@ -45728,14 +45657,13 @@ delhi,O
 !,O
 :,O
 (,O
-Sentence #1600,
+Sentence #1595,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 :,O
 A,O
@@ -45746,7 +45674,7 @@ Wednesday,B-TIM
 http,O
 :,O
 //economictimes.indiatimes.com/articleshow/4805760.cms,O
-Sentence #1601,
+Sentence #1596,
 timesofindia,O
 Accident,O
 at,O
@@ -45754,7 +45682,6 @@ Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 :,O
 A,O
@@ -45767,14 +45694,13 @@ when,O
 http,O
 :,O
 //bit.ly/11gCsO,O
-Sentence #1602,
+Sentence #1597,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 Delhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 -,B-ORG
 Economic,I-ORG
@@ -45782,14 +45708,13 @@ Times,I-ORG
 http,O
 :,O
 //oosms.com/71826,O
-Sentence #1603,
+Sentence #1598,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 DElhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 :,O
 One,O
@@ -45800,14 +45725,13 @@ been,O
 http,O
 :,O
 //timesofindia.indiatimes.com/articleshow/4805598.cms,O
-Sentence #1604,
+Sentence #1599,
 Accident,O
 at,O
 Punjabi,B-LOC
 Bagh,I-LOC
 DElhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 :,O
 One,O
@@ -45818,7 +45742,7 @@ been,O
 http,O
 :,O
 //timesofindia.indiatimes.com/articleshow/4805598.cms,O
-Sentence #1605,
+Sentence #1600,
 Woah,O
 !,O
 News,O
@@ -45844,7 +45768,7 @@ labourer,O
 No,O
 structural,O
 damage,O
-Sentence #1606,
+Sentence #1601,
 Delhi,B-LOC
 :,O
 another,O
@@ -45861,7 +45785,7 @@ one,O
 killed,O
 .,O
 www.youtube.com/starnews,O
-Sentence #1607,
+Sentence #1602,
 timesofindia,O
 Accident,O
 at,O
@@ -45869,7 +45793,6 @@ Punjabi,B-LOC
 Bagh,I-LOC
 DElhi,I-LOC
 Metro,I-LOC
-"site,1",O
 dead,O
 :,O
 One,O
@@ -45883,7 +45806,7 @@ girde,O
 http,O
 :,O
 //bit.ly/RIuMC,O
-Sentence #1608,
+Sentence #1603,
 :,O
 O,B-ORG
 Accident,I-ORG
@@ -45896,7 +45819,7 @@ bagh,I-LOC
 http,O
 :,O
 //fb.me/3eCQnW09d,O
-Sentence #1609,
+Sentence #1604,
 #,O
 Fire,O
 #,O
@@ -45927,11 +45850,11 @@ catches,O
 #,O
 accidental,O
 fire,O
-Sentence #1610,
+Sentence #1605,
 http,O
 :,O
 //timesofindia.indiatimes.com/city/delhi/Major-fire-in-Delhis-Punjabi-Bagh-area/articleshow/47532353.cms,O
-Sentence #1611,
+Sentence #1606,
 Oil,O
 tanker,O
 catches,O
@@ -45951,7 +45874,7 @@ http,O
 accident,O
 @,O
 TOIDelhi,O
-Sentence #1612,
+Sentence #1607,
 Fire,O
 accident,O
 in,O
@@ -45971,7 +45894,7 @@ traffic,O
 http,O
 :,O
 //www.sansani.com/news/fire-accident-in-godown-at-punjabi-bagh-in-new-delhi-troubles-traffic-03-06-2015/,O
-Sentence #1613,
+Sentence #1608,
 Fire,O
 accident,O
 in,O
@@ -45991,7 +45914,7 @@ traffic,O
 http,O
 :,O
 //telugu.indiareckoner.net/2015/06/fire-accident-in-godown-at-punjabi-bagh-in-new-delhi-troubles-traffic-03-06-2015/,O
-Sentence #1614,
+Sentence #1609,
 Huge,B-ORG
 Fire,I-ORG
 Accident,I-ORG
@@ -46013,7 +45936,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1615,
+Sentence #1610,
 #,O
 RT,O
 @,O
@@ -46050,7 +45973,7 @@ underway,O
 https,O
 :,O
 //twitter.com/ANI/status/1170311635405131776,O
-Sentence #1616,
+Sentence #1611,
 #,O
 UPDATE,B-ORG
 Delhi,I-ORG
@@ -46082,7 +46005,7 @@ underway,O
 https,O
 :,O
 //twitter.com/ANI/status/1170311635405131776,O
-Sentence #1617,
+Sentence #1612,
 #,O
 UPDATE,B-ORG
 Delhi,I-ORG
@@ -46114,7 +46037,7 @@ underway,O
 https,O
 :,O
 //twitter.com/ANI/status/1170311635405131776,O
-Sentence #1618,
+Sentence #1613,
 @,O
 GautamGambhir,O
 @,O
@@ -46163,7 +46086,7 @@ take,O
 some,O
 action,O
 .,O
-Sentence #1619,
+Sentence #1614,
 @,O
 ArvindKejriwal,O
 Plz,O
@@ -46214,7 +46137,7 @@ govt,O
 ..,O
 hospital,O
 ....,O
-Sentence #1620,
+Sentence #1615,
 @,O
 vishnumppalamu,O
 Pls,O
@@ -46264,7 +46187,7 @@ trauma,O
 operation,O
 theatre,O
 .,O
-Sentence #1621,
+Sentence #1616,
 #,O
 manekagandhi,O
 @,O
@@ -46316,7 +46239,7 @@ tag,O
 no,O
 2873.,O
 pic.twitter.com/xpbgujOwrg,O
-Sentence #1622,
+Sentence #1617,
 #,O
 manekagandhi,O
 Menaka,O
@@ -46373,7 +46296,7 @@ My,O
 no,O
 9910283000,O
 pic.twitter.com/CZyHyoEIcj,O
-Sentence #1623,
+Sentence #1618,
 Obstruction,O
 in,O
 traffic,O
@@ -46402,7 +46325,7 @@ stretch,O
 Delhi,B-ORG
 Traffic,I-ORG
 Police,I-ORG
-Sentence #1624,
+Sentence #1619,
 Unless,O
 there,O
 are,O
@@ -46429,7 +46352,7 @@ be,O
 set,O
 right,O
 .,O
-Sentence #1625,
+Sentence #1620,
 Delhi,B-PER
 Punjabi,B-LOC
 bagh,I-LOC
@@ -46448,7 +46371,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1626,
+Sentence #1621,
 Delhi,B-PER
 Punjabi,B-LOC
 Bagh,I-LOC
@@ -46456,7 +46379,6 @@ flyover,I-LOC
 accident,O
 15th,B-TIM
 may,O
-"2017,3",O
 dead,O
 https,O
 :,O
@@ -46464,7 +46386,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1627,
+Sentence #1622,
 Delhi,B-PER
 Punjabi,B-LOC
 bagh,I-LOC
@@ -46483,7 +46405,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1628,
+Sentence #1623,
 Delhi,B-PER
 Punjabi,B-LOC
 Bagh,I-LOC
@@ -46491,7 +46413,6 @@ flyover,I-LOC
 accident,O
 15th,B-TIM
 may,O
-"2017,3",O
 dead,O
 https,O
 :,O
@@ -46499,7 +46420,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1629,
+Sentence #1624,
 Last,O
 call,O
 of,O
@@ -46518,7 +46439,7 @@ yelling,O
 #,O
 Delhi,B-LOC
 pic.twitter.com/CIYKyAibmc,O
-Sentence #1630,
+Sentence #1625,
 kha,O
 gaye,O
 kejri,O
@@ -46545,7 +46466,7 @@ gaye,O
 sb,O
 politician,O
 .,O
-Sentence #1631,
+Sentence #1626,
 Two,O
 Dead,O
 Four,B-ORG
@@ -46570,7 +46491,7 @@ v=e38PUwIHCYM,O
 https,O
 :,O
 //delhiinformer.com/21745/two-dead-four-injured-in-a-road-accident-in-delhis-punjabi-bagh-delhi-video/,O
-Sentence #1632,
+Sentence #1627,
 Inspiring,O
 !,O
 How,O
@@ -46593,7 +46514,7 @@ Delhi,I-LOC
 http,O
 :,O
 //wp.me/p7ZPTy-tpm,O
-Sentence #1633,
+Sentence #1628,
 Punjabi,B-LOC
 Bagh,I-LOC
 accident,O
@@ -46606,7 +46527,7 @@ https,O
 //goo.gl/fb/bejCWx,O
 #,O
 delhi,O
-Sentence #1634,
+Sentence #1629,
 Punjabi,B-LOC
 Bagh,I-LOC
 accident,O
@@ -46627,11 +46548,11 @@ way,O
 to,O
 write,O
 exam,O
-Sentence #1635,
+Sentence #1630,
 https,O
 :,O
 //www.google.co.in/amp/m.hindustantimes.com/delhi-news/honda-city-skids-falls-off-flyover-in-west-delhi-2-students-dead-5-others-critical/story-GZhNJdQVoifSZwF8VBXvBN_amp.html,O
-Sentence #1636,
+Sentence #1631,
 Punjabi,B-LOC
 Bagh,I-LOC
 Accident,O
@@ -46670,7 +46591,7 @@ news,O
 Punjabi,B-LOC
 #,I-LOC
 Punjab,I-LOC
-Sentence #1637,
+Sentence #1632,
 Delhi,B-ORG
 :,I-ORG
 Fourth,I-ORG
@@ -46687,7 +46608,7 @@ Scroll.in,O
 https,O
 :,O
 //delhiinformer.com/21643/delhi-fourth-student-succumbs-to-injuries-from-punjabi-bagh-flyover-accident-scroll-in/,O
-Sentence #1638,
+Sentence #1633,
 Punjabi,B-LOC
 Bagh,I-LOC
 Accident,O
@@ -46710,7 +46631,7 @@ http,O
 top,O
 #,O
 newspic.twitter.com/c0Lv1TNxAO,O
-Sentence #1639,
+Sentence #1634,
 Punjabi,B-LOC
 Bagh,I-LOC
 accident,O
@@ -46731,7 +46652,7 @@ punjabibaghaccident,O
 Delhi,B-ORG
 #,I-ORG
 Punjab,I-ORG
-Sentence #1640,
+Sentence #1635,
 Delhi,B-LOC
 car,O
 accident,O
@@ -46755,7 +46676,7 @@ http,O
 :,O
 //dlvr.it/P8r2sF,O
 dl,O
-Sentence #1641,
+Sentence #1636,
 Delhi,B-ORG
 :,I-ORG
 Fourth,I-ORG
@@ -46791,7 +46712,7 @@ news,O
 Punjabi,B-LOC
 #,I-LOC
 Punjab,I-LOC
-Sentence #1642,
+Sentence #1637,
 scroll_in,O
 :,O
 Delhi,B-ORG
@@ -46809,7 +46730,7 @@ accident,O
 http,O
 :,O
 //bit.ly/2pFkpQH,O
-Sentence #1643,
+Sentence #1638,
 Delhi,B-ORG
 :,I-ORG
 Fourth,I-ORG
@@ -46825,7 +46746,7 @@ accident,O
 http,O
 :,O
 //bit.ly/2pFkpQH,O
-Sentence #1644,
+Sentence #1639,
 Delhi,B-LOC
 car,O
 accident,O
@@ -46843,7 +46764,7 @@ flyover,I-LOC
 in,O
 Punjabi,B-LOC
 Bagh,I-LOC
-Sentence #1645,
+Sentence #1640,
 A,O
 guy,O
 met,O
@@ -46889,7 +46810,7 @@ this,O
 @,O
 SatyendarJain,O
 sir,O
-Sentence #1646,
+Sentence #1641,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -46929,7 +46850,7 @@ last,O
 night,B-TIM
 .,O
 pic.twitter.com/HEA6kjmxbO,O
-Sentence #1647,
+Sentence #1642,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -46969,7 +46890,7 @@ last,O
 night,B-TIM
 .,O
 pic.twitter.com/zH0aQbYxmD,O
-Sentence #1648,
+Sentence #1643,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -47009,7 +46930,7 @@ last,O
 night,O
 @,O
 DelhiPolicepic.twitter.com/z9CH3tE2zk,O
-Sentence #1649,
+Sentence #1644,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -47049,7 +46970,7 @@ last,O
 night,B-TIM
 .,O
 pic.twitter.com/3RnKBvXYwP,O
-Sentence #1650,
+Sentence #1645,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -47089,7 +47010,7 @@ last,O
 night,B-TIM
 .,O
 pic.twitter.com/DVYmfZPhuo,O
-Sentence #1651,
+Sentence #1646,
 #,O
 Delhi,B-ORG
 :,I-ORG
@@ -47129,7 +47050,7 @@ last,O
 night,B-TIM
 .,O
 pic.twitter.com/FyhpeMnvvd,O
-Sentence #1652,
+Sentence #1647,
 #,O
 Delhi,B-LOC
 :,O
@@ -47164,7 +47085,7 @@ underway,O
 Accident,O
 #,O
 TV9Newspic.twitter.com/w7FsoXBCpN,O
-Sentence #1653,
+Sentence #1648,
 #,O
 MCD,O
 @,O
@@ -47206,7 +47127,7 @@ accidents,O
 occur,O
 .,O
 pic.twitter.com/lsVpPkKIuf,O
-Sentence #1654,
+Sentence #1649,
 #,O
 MCD,O
 @,O
@@ -47248,7 +47169,7 @@ accidents,O
 occur,O
 .,O
 pic.twitter.com/WRNj5fdq18,O
-Sentence #1655,
+Sentence #1650,
 #,O
 MCD,O
 @,O
@@ -47290,7 +47211,7 @@ accidents,O
 occur,O
 .,O
 pic.twitter.com/uSJcuZk9jp,O
-Sentence #1656,
+Sentence #1651,
 #,O
 MCD,O
 @,O
@@ -47332,7 +47253,7 @@ accidents,O
 occur,O
 .,O
 pic.twitter.com/ZxM0DsL176,O
-Sentence #1657,
+Sentence #1652,
 #,O
 MCD,O
 @,O
@@ -47373,7 +47294,7 @@ road,B-LOC
 accidents,O
 occur,O
 .,O
-Sentence #1658,
+Sentence #1653,
 @,O
 BloodDonorsIn,O
 #,O
@@ -47414,7 +47335,6 @@ out,O
 of,O
 2,O
 units,O
-"arranged,1",O
 remain,O
 Illness,O
 :,O
@@ -47424,7 +47344,7 @@ Accident,O
 Urgent,O
 #,O
 BloodMatters,O
-Sentence #1659,
+Sentence #1654,
 In,O
 picture,O
 Delhi,B-ORG
@@ -47467,7 +47387,7 @@ Delhi,B-LOC
 roads,I-LOC
 .,O
 pic.twitter.com/L5cMOQR6x5,O
-Sentence #1660,
+Sentence #1655,
 Traffic,O
 congestion,O
 at,O
@@ -47486,7 +47406,7 @@ accident,O
 .,O
 #,O
 Gurgaon,O
-Sentence #1661,
+Sentence #1656,
 Normal,O
 fire,O
 accident,O
@@ -47507,7 +47427,7 @@ while,O
 timesofindia,O
 @,O
 htTweets,O
-Sentence #1662,
+Sentence #1657,
 Freak,O
 accident,O
 at,O
@@ -47526,7 +47446,7 @@ chowk,I-LOC
 platform,O
 #,O
 delhi,O
-Sentence #1663,
+Sentence #1658,
 Jam,O
 due,O
 to,O
@@ -47543,7 +47463,7 @@ side,O
 TrafficGGM,O
 @,O
 dcptrafficggmpic.twitter.com/yGBNbQwQRl,O
-Sentence #1664,
+Sentence #1659,
 Delhi,B-LOC
 metro,I-LOC
 Accident,O
@@ -47563,7 +47483,7 @@ http,O
 :,O
 //www.uffteriada.com/delhi-metro-accident-man-dies/,O
 pic.twitter.com/4HYTPII0OJ,O
-Sentence #1665,
+Sentence #1660,
 Traffic,O
 Alert,O
 :,O
@@ -47604,26 +47524,22 @@ regretted,O
 .,O
 @,O
 gurgaonpolicepic.twitter.com/e00cQj0Yd4,O
-Sentence #1666,
+Sentence #1661,
 delhi,O
 #,O
 traffic,O
 MS,B-MISC
 MARG,I-MISC
-",",I-MISC
 RING,I-MISC
 ROAD,I-MISC
-",",I-MISC
 FRONT,I-MISC
 OF,I-MISC
 RAJOURI,I-MISC
 GARDEN,I-MISC
 BUS,I-MISC
 STAND,I-MISC
-",",I-MISC
 POT,I-MISC
 HOLE,I-MISC
-",",I-MISC
 MIGHT,I-MISC
 BE,I-MISC
 CAUSE,I-MISC
@@ -47633,7 +47549,7 @@ ACCIDENT,I-MISC
 http,O
 :,O
 //fb.me/18tZ1fNLH,O
-Sentence #1667,
+Sentence #1662,
 #,O
 Accident,O
 by,O
@@ -47651,7 +47567,7 @@ Garden,I-LOC
 #,O
 Delhi,B-LOC
 pic.twitter.com/dY1RwW8Gou,I-LOC
-Sentence #1668,
+Sentence #1663,
 Accident,O
 Update,O
 via,O
@@ -47676,7 +47592,7 @@ Cc,I-PER
 madversity,O
 @,O
 suhasinihpic.twitter.com/oVdv9ZbMDN,O
-Sentence #1669,
+Sentence #1664,
 @,O
 ArvindKejriwal,O
 a,O
@@ -47701,7 +47617,7 @@ accidents,O
 are,O
 taking,O
 place,O
-Sentence #1670,
+Sentence #1665,
 @,O
 ArvindKejriwal,O
 Accident,O
@@ -47726,7 +47642,7 @@ lesson,O
 to,O
 you,O
 .,O
-Sentence #1671,
+Sentence #1666,
 Yes,O
 my,O
 nephew,O
@@ -47759,7 +47675,7 @@ you,O
 ArvindKejriwal,O
 sir,O
 .,O
-Sentence #1672,
+Sentence #1667,
 If,O
 a,O
 horse,O
@@ -47801,7 +47717,7 @@ the,O
 place,O
 of,O
 accident,O
-Sentence #1673,
+Sentence #1668,
 Obstruction,O
 in,O
 traffic,O
@@ -47830,7 +47746,7 @@ stretch,O
 Delhi,B-ORG
 Traffic,I-ORG
 Police,I-ORG
-Sentence #1674,
+Sentence #1669,
 It,O
 is,O
 complete,O
@@ -47883,7 +47799,7 @@ dtbtraffic,O
 @,O
 delhi,B-LOC
 police,O
-Sentence #1675,
+Sentence #1670,
 Welcome,B-LOC
 to,O
 NCR,O
@@ -47907,7 +47823,7 @@ Complex,I-LOC
 http,O
 :,O
 //instagr.am/p/J5LSMTy4rR/,O
-Sentence #1676,
+Sentence #1671,
 @,O
 savaaricom,O
 Worsr,O
@@ -47935,7 +47851,7 @@ with,O
 an,O
 accident,O
 !,O
-Sentence #1677,
+Sentence #1672,
 Just,O
 heard,O
 a,O
@@ -47959,7 +47875,7 @@ on,O
 ?,O
 #,O
 Delhi,B-LOC
-Sentence #1678,
+Sentence #1673,
 Request,B-ORG
 B+,I-ORG
 blood,O
@@ -47983,7 +47899,7 @@ to,O
 a,O
 road,O
 accident,O
-Sentence #1679,
+Sentence #1674,
 @,O
 sidlal,O
 Saket,B-LOC
@@ -48013,7 +47929,7 @@ accident,O
 Cancel,O
 mayb,O
 ?,O
-Sentence #1680,
+Sentence #1675,
 12,O
 Senior,B-ORG
 Accident,I-ORG
@@ -48059,7 +47975,7 @@ Go2,I-ORG
 Our,I-ORG
 Page,O
 !,O
-Sentence #1681,
+Sentence #1676,
 Please,O
 help,O
 ...,O
@@ -48098,15 +48014,14 @@ AC,I-MISC
 NO,I-MISC
 -,I-MISC
 VIKAS,I-MISC
-"SHARMA,00601130000885",I-MISC
 IFSC,I-MISC
 CODE-,I-MISC
 HDFC0000060,I-MISC
-Sentence #1682,
+Sentence #1677,
 Plzz,B-PER
 Donate,I-PER
 pic.twitter.com/RPEitq3vFn,O
-Sentence #1683,
+Sentence #1678,
 This,O
 is,O
 actual,O
@@ -48156,7 +48071,7 @@ BJP4India,O
 narendramodi,O
 @,O
 AmitShahpic.twitter.com/XxU9NJmDS6,O
-Sentence #1684,
+Sentence #1679,
 Yesterday,B-TIM
 evening,I-TIM
 met,O
@@ -48206,7 +48121,7 @@ delhites,O
 https,O
 :,O
 //twitter.com/AAPInNews/status/965076206621282304,O
-Sentence #1685,
+Sentence #1680,
 #,O
 gyanbhartischool,O
 entry,O
@@ -48256,7 +48171,7 @@ delhi,O
 aapdelhi,O
 #,O
 pmoindia,O
-Sentence #1686,
+Sentence #1681,
 Sir,O
 ..,O
 Delhi,B-LOC
@@ -48307,7 +48222,7 @@ Tilak,B-LOC
 Nagar,I-LOC
 new,I-LOC
 mor,I-LOC
-Sentence #1687,
+Sentence #1682,
 Witnessed,O
 two,O
 car,O
@@ -48325,7 +48240,7 @@ dontdrinkanddrive,O
 .,O
 #,O
 YaDrinkYaDrive,O
-Sentence #1688,
+Sentence #1683,
 I,O
 liked,O
 a,O
@@ -48342,7 +48257,7 @@ on,O
 Delhi,B-ORG
 Agara,I-ORG
 highway,O
-Sentence #1689,
+Sentence #1684,
 Accident,O
 on,O
 Delhi,B-ORG
@@ -48357,7 +48272,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1690,
+Sentence #1685,
 Please,O
 also,O
 check,O
@@ -48393,7 +48308,7 @@ cause,O
 of,O
 accident,O
 .,O
-Sentence #1691,
+Sentence #1686,
 @,O
 CPCB_OFFICIAL,O
 @,O
@@ -48446,7 +48361,7 @@ water,O
 overflow,O
 .,O
 pic.twitter.com/sb2mH6a7Lh,O
-Sentence #1692,
+Sentence #1687,
 @,O
 AxisBank,O
 Sir,O
@@ -48496,7 +48411,7 @@ bank.offers,O
 a,O
 accidental,O
 1/3,O
-Sentence #1693,
+Sentence #1688,
 @,O
 ArvindKejriwal,O
 Sir,O
@@ -48556,7 +48471,7 @@ AAP,B-ORG
 Best,O
 CM,O
 .,O
-Sentence #1694,
+Sentence #1689,
 Just,O
 found,O
 a,O
@@ -48605,7 +48520,7 @@ some,O
 action,O
 .,O
 ?,O
-Sentence #1695,
+Sentence #1690,
 @,O
 ArvindKejriwal,O
 Sir,O
@@ -48633,7 +48548,7 @@ Delhi,I-LOC
 .,O
 ICU,O
 .,O
-Sentence #1696,
+Sentence #1691,
 Plz,O
 help,O
 sir,O
@@ -48658,10 +48573,10 @@ reach,O
 in,O
 this,O
 situation,O
-Sentence #1697,
+Sentence #1692,
 Mo,O
 9827260084,O
-Sentence #1698,
+Sentence #1693,
 @,O
 ArvindKejriwal,O
 even,O
@@ -48714,7 +48629,7 @@ paying.,O
 kejriwalmeansgovernancehttps,O
 :,O
 //twitter.com/ArvindKejriwal/status/1188375537208610816,O
-Sentence #1699,
+Sentence #1694,
 @,O
 delhi,B-LOC
 #,O
@@ -48775,14 +48690,13 @@ Neb,B-LOC
 Sarai,I-LOC
 Gali,I-LOC
 2,I-LOC
-Sentence #1700,
+Sentence #1695,
 delhi,O
 #,O
 traffic,O
 .BARAPULAH,O
 BARAPULAH,B-MISC
 ROAD,I-MISC
-",",I-MISC
 ACCIDENT,I-MISC
 CAUSING,I-MISC
 DELAY,I-MISC
@@ -48791,7 +48705,7 @@ SARAI,I-MISC
 KALE,I-MISC
 KHAN,I-MISC
 .,O
-Sentence #1701,
+Sentence #1696,
 AJAD,O
 MARKET,O
 GOING,O
@@ -48799,7 +48713,7 @@ GOING,O
 http,O
 :,O
 //fb.me/YmS5Pf1g,O
-Sentence #1702,
+Sentence #1697,
 Dad,B-PER
 Rajendra,I-PER
 found,O
@@ -48826,7 +48740,7 @@ accident,O
 Vadra,O
 deaths,O
 mystery,O
-Sentence #1703,
+Sentence #1698,
 ``,O
 They,O
 (,O
@@ -48852,7 +48766,7 @@ Delhi,B-ORG
 Police,I-ORG
 .,O
 '',O
-Sentence #1704,
+Sentence #1699,
 @,O
 dtptraffic,O
 Sir/,B-PER
@@ -48898,7 +48812,7 @@ this,O
 matter,O
 .,O
 pic.twitter.com/h6GE5yFSfY,O
-Sentence #1705,
+Sentence #1700,
 asked,O
 them,O
 status,O
@@ -48952,7 +48866,7 @@ recall,O
 yrs,O
 accident,O
 ?,O
-Sentence #1706,
+Sentence #1701,
 #,O
 MarutiSuzuki,O
 has,O
@@ -49005,7 +48919,7 @@ compliance,O
 to,O
 rules,O
 pic.twitter.com/AtLCTGGX82,O
-Sentence #1707,
+Sentence #1702,
 @,O
 dtptraffic,O
 Obstruction,O
@@ -49039,7 +48953,7 @@ further,O
 .,O
 #,O
 Delhi,B-LOC
-Sentence #1708,
+Sentence #1703,
 The,O
 accident,O
 occurred,O
@@ -49059,7 +48973,7 @@ train,O
 http,O
 :,O
 //www.deccanherald.com/content/640021/1-killed-2-injured-truck.html,O
-Sentence #1709,
+Sentence #1704,
 No,O
 friendship,O
 is,O
@@ -49077,7 +48991,7 @@ Delhi-17,I-LOC
 https,O
 :,O
 //www.instagram.com/p/BNRUk6Mhh19/,O
-Sentence #1710,
+Sentence #1705,
 Chirag,B-LOC
 Delhi,I-LOC
 sheikh,I-LOC
@@ -49099,10 +49013,10 @@ causing,O
 accidents,O
 .,O
 pic.twitter.com/6yZIhFy9yg,O
-Sentence #1711,
+Sentence #1706,
 Traffic,B-ORG
 Alert,I-ORG
-Sentence #1712,
+Sentence #1707,
 Traffic,O
 will,O
 remain,O
@@ -49128,7 +49042,7 @@ avoid,O
 the,O
 stretch,O
 .,O
-Sentence #1713,
+Sentence #1708,
 Worst,O
 traffic,O
 condition,O
@@ -49175,7 +49089,7 @@ DelhiPolice,O
 @,O
 DCPNEastDelhi,O
 @,O
-Sentence #1714,
+Sentence #1709,
 till,O
 we,O
 r,O
@@ -49219,7 +49133,7 @@ route,O
 in,O
 delhi,B-LOC
 .,O
-Sentence #1715,
+Sentence #1710,
 @,O
 deepakj61719269,O
 and,O
@@ -49274,7 +49188,7 @@ reply,O
 me,O
 .,O
 pic.twitter.com/fNGbiDYY5N,O
-Sentence #1716,
+Sentence #1711,
 South,B-LOC
 Delhi,I-LOC
 Jalboard,I-LOC
@@ -49319,7 +49233,7 @@ since,B-TIM
 july,I-TIM
 2018,I-TIM
 pic.twitter.com/cYsJuBqqZE,O
-Sentence #1717,
+Sentence #1712,
 @,O
 dtptraffic,O
 Fruit,O
@@ -49365,7 +49279,7 @@ and,O
 remove,O
 them,O
 .,O
-Sentence #1718,
+Sentence #1713,
 This,O
 little,O
 one,O
@@ -49419,7 +49333,7 @@ recovery,O
 SaveDogs,O
 #,O
 DogRescuespic.twitter.com/cb5hHHsY8R,O
-Sentence #1719,
+Sentence #1714,
 Today,B-TIM
 red,O
 Light,B-ORG
@@ -49441,7 +49355,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1720,
+Sentence #1715,
 Man,O
 killed,O
 in,O
@@ -49464,7 +49378,7 @@ whil,O
 http,O
 :,O
 //ift.tt/2pfz6Xa,O
-Sentence #1721,
+Sentence #1716,
 Dog,O
 met,O
 with,O
@@ -49493,7 +49407,7 @@ Road,I-LOC
 Delhi,B-LOC
 #,O
 DogRescuepic.twitter.com/CPl98C0o8o,O
-Sentence #1722,
+Sentence #1717,
 Speeding,O
 BMW,O
 driven,O
@@ -49515,7 +49429,7 @@ area,I-LOC
 accident,O
 #,O
 uber,O
-Sentence #1723,
+Sentence #1718,
 @,O
 DelhiPolice,O
 someone,O
@@ -49567,7 +49481,7 @@ of,O
 mobile,O
 snatching,O
 accident,O
-Sentence #1724,
+Sentence #1719,
 @,O
 PiyushGoyalOffc,O
 someone,O
@@ -49618,7 +49532,7 @@ of,O
 mobile,O
 snatching,O
 accident,O
-Sentence #1725,
+Sentence #1720,
 #,O
 3Novices,O
 :,O
@@ -49672,7 +49586,7 @@ Barapullah,B-ORG
 news,O
 For,O
 In,O
-Sentence #1726,
+Sentence #1721,
 They,O
 also,O
 cheat,O
@@ -49723,7 +49637,7 @@ staff,O
 for,O
 delaying,O
 5years,O
-Sentence #1727,
+Sentence #1722,
 Kalu,B-PER
 Sarai,I-PER
 Delhi-16,I-PER
@@ -49767,7 +49681,7 @@ delhifire,O
 ManojTiwariMP,O
 @,O
 BJP4India,O
-Sentence #1728,
+Sentence #1723,
 Gap,O
 is,O
 too,O
@@ -49789,12 +49703,12 @@ look,O
 into,O
 it,O
 ...,O
-Sentence #1729,
+Sentence #1724,
 @,O
 RailMinIndia,O
 @,O
 RatlamDRMpic.twitter.com/QOpgx4H4ef,O
-Sentence #1730,
+Sentence #1725,
 @,O
 ArvindKejriwal,O
 @,O
@@ -49835,7 +49749,7 @@ Traffic,O
 police,O
 most,O
 unhelpful,O
-Sentence #1731,
+Sentence #1726,
 Two,O
 motorcyclists,O
 killed,O
@@ -49861,7 +49775,7 @@ effo,O
 http,O
 :,O
 //bit.ly/dwjLEC,O
-Sentence #1732,
+Sentence #1727,
 Two,O
 motorcyclists,O
 killed,O
@@ -49887,7 +49801,7 @@ http,O
 //bit.ly/bpa32l,O
 Mumbai,B-ORG
 Times,I-ORG
-Sentence #1733,
+Sentence #1728,
 Two,O
 motorcyclists,O
 killed,O
@@ -49914,7 +49828,7 @@ http,O
 news_in,O
 #,O
 DNA,O
-Sentence #1734,
+Sentence #1729,
 my,O
 friend,O
 had,O
@@ -49942,7 +49856,7 @@ Vihar,I-LOC
 ?,O
 #,O
 delhi,O
-Sentence #1735,
+Sentence #1730,
 @,O
 abhisar_sharma,O
 Lost,O
@@ -49967,7 +49881,7 @@ has,O
 been,O
 ......,O
 cont,O
-Sentence #1736,
+Sentence #1731,
 @,O
 sudhirchaudhary,O
 Lost,O
@@ -49992,7 +49906,7 @@ been,O
 died,O
 completely,O
 .,O
-Sentence #1737,
+Sentence #1732,
 @,O
 dtptraffic,O
 why,O
@@ -50019,7 +49933,7 @@ from,O
 noida,B-LOC
 to,O
 delhi,O
-Sentence #1738,
+Sentence #1733,
 {,O
 Warning,O
 :,O
@@ -50044,7 +49958,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1739,
+Sentence #1734,
 No,O
 officers,O
 of,O
@@ -50088,7 +50002,7 @@ ArvindKejriwal,O
 msisodia,O
 @,O
 kgahlotpic.twitter.com/OZt6no6pGo,O
-Sentence #1740,
+Sentence #1735,
 No,O
 officers,O
 of,O
@@ -50132,7 +50046,7 @@ ArvindKejriwal,O
 msisodia,O
 @,O
 kgahlotpic.twitter.com/g4x1CrMwSj,O
-Sentence #1741,
+Sentence #1736,
 @,O
 dtptraffic,O
 Please,O
@@ -50175,7 +50089,7 @@ is,O
 attached,O
 .,O
 pic.twitter.com/wy1Klw6k6h,O
-Sentence #1742,
+Sentence #1737,
 @,O
 noidapolice,O
 I,O
@@ -50237,7 +50151,7 @@ Apollo,B-LOC
 Sarita,I-LOC
 Vihar,I-LOC
 .,O
-Sentence #1743,
+Sentence #1738,
 For,O
 the,O
 last,O
@@ -50293,7 +50207,7 @@ development,O
 in,O
 Delhi,B-LOC
 .,O
-Sentence #1744,
+Sentence #1739,
 Respected,O
 Sirs,O
 @,O
@@ -50347,7 +50261,7 @@ case,O
 https,O
 :,O
 //twitter.com/AamAadmiParty/status/1156189235902369792,O
-Sentence #1745,
+Sentence #1740,
 https,O
 :,O
 //itsenuf.com/report/gKn7rc-ne,O
@@ -50397,7 +50311,7 @@ safety,O
 itsenuf,O
 #,O
 EveryReportMatterspic.twitter.com/KxpNer1mcG,O
-Sentence #1746,
+Sentence #1741,
 #,O
 Delhi,B-PER
 Need,I-PER
@@ -50441,7 +50355,7 @@ BloodMatters,O
 Powered,O
 by,O
 Twitterpic.twitter.com/fiWd838ay2,O
-Sentence #1747,
+Sentence #1742,
 Help,B-PER
 Alert,I-PER
 :,O
@@ -50467,7 +50381,7 @@ Sarita,B-LOC
 Vihar,I-LOC
 Delhi,I-LOC
 .,O
-Sentence #1748,
+Sentence #1743,
 .,O
 @,O
 DelhiPolice,O
@@ -50486,7 +50400,7 @@ Delhi,B-LOC
 Sarita,B-LOC
 Vihar,I-LOC
 underpass,O
-Sentence #1749,
+Sentence #1744,
 @,O
 dtptraffic,O
 @,O
@@ -50513,7 +50427,7 @@ police,O
 do,O
 for,O
 him,O
-Sentence #1750,
+Sentence #1745,
 Sarojini,B-LOC
 nagar,I-LOC
 fazalganj,O
@@ -50543,7 +50457,7 @@ nhi,O
 kara,O
 sakta,O
 pic.twitter.com/iQmv5qGkmK,O
-Sentence #1751,
+Sentence #1746,
 Its,O
 a,O
 murder,O
@@ -50589,7 +50503,7 @@ DainikBhaskar,O
 AmarUjalaNews,O
 @,O
 DnaZeeNews,O
-Sentence #1752,
+Sentence #1747,
 @,O
 CPFaridabad,O
 sir,O
@@ -50633,7 +50547,7 @@ to,O
 avoid,O
 accidents,O
 .,O
-Sentence #1753,
+Sentence #1748,
 @,O
 CPFaridabad,O
 sir,O
@@ -50663,7 +50577,7 @@ to,O
 avoid,O
 accident,O
 .,O
-Sentence #1754,
+Sentence #1749,
 An,O
 dangerous,O
 accident,O
@@ -50672,7 +50586,7 @@ seelampur,B-LOC
 delhi,I-LOC
 ...,O
 pic.twitter.com/qf2j7wvjXE,O
-Sentence #1755,
+Sentence #1750,
 Inspiring,B-LOC
 story,O
 of,O
@@ -50712,7 +50626,7 @@ IndependenceDay,B-TIM
 https,O
 :,O
 //www.nedrickexpress.com/inspiring-story-of-75-year-old-ganga-ram-who-lost-his-son-in-a-road-accident-hes-been-managing-delhi-traffic-without-any-salary/Inspiring,O
-Sentence #1756,
+Sentence #1751,
 After,O
 loosing,O
 his,O
@@ -50747,7 +50661,7 @@ a,O
 traffic,O
 sentinel,O
 .,O
-Sentence #1757,
+Sentence #1752,
 Read,O
 More,O
 :,O
@@ -50762,7 +50676,7 @@ https,O
 :,O
 //bit.ly/2K2y0Iv,O
 pic.twitter.com/ayF9NPabW1,O
-Sentence #1758,
+Sentence #1753,
 A,O
 auto,O
 man,O
@@ -50816,7 +50730,7 @@ be,O
 happen,O
 .,O
 pic.twitter.com/RK3snZCTO7,O
-Sentence #1759,
+Sentence #1754,
 This,O
 lady,O
 was,O
@@ -50870,7 +50784,7 @@ result,O
 in,O
 death,O
 pic.twitter.com/4nRtbGXzn2,O
-Sentence #1760,
+Sentence #1755,
 @,O
 PawarSpeaks,O
 @,O
@@ -50920,7 +50834,7 @@ HIND,O
 https,O
 :,O
 //twitter.com/ArvindKejriwal/status/1169514678206238721,O
-Sentence #1761,
+Sentence #1756,
 5,O
 https,O
 :,O
@@ -50944,7 +50858,7 @@ ArvindKejriwal,O
 smharoon4,O
 @,O
 khurapanapic.twitter.com/X1enXDOnJG,O
-Sentence #1762,
+Sentence #1757,
 @,O
 LtGovDelhi,O
 @,O
@@ -50987,7 +50901,7 @@ THE,I-MISC
 IMMPORTANT,I-MISC
 LIVES,I-MISC
 pic.twitter.com/bgRoWg1tAp,O
-Sentence #1763,
+Sentence #1758,
 @,O
 ArvindKejriwal,O
 @,O
@@ -51043,7 +50957,7 @@ no,O
 .,O
 pic.twitter.com/wOvdgTET8V,O
 '',O
-Sentence #1764,
+Sentence #1759,
 Real,O
 condition,O
 of,O
@@ -51082,7 +50996,7 @@ EDMC,O
 #,O
 Shahdara,B-LOC
 pic.twitter.com/0DpKlX9c5E,O
-Sentence #1765,
+Sentence #1760,
 #,O
 Accident,O
 near,O
@@ -51133,7 +51047,7 @@ HelpAnimals,O
 RescueHelpline,O
 -,O
 09999099423pic.twitter.com/YIE7A5JILq,O
-Sentence #1766,
+Sentence #1761,
 Ma'am,O
 new,O
 bus,O
@@ -51183,7 +51097,7 @@ h.,O
 https,O
 :,O
 //twitter.com/dm_ghaziabad/status/1067844302167044096,O
-Sentence #1767,
+Sentence #1762,
 This,O
 construction,O
 of,O
@@ -51226,14 +51140,14 @@ Shahdara,I-ORG
 Delhi,I-ORG
 110032,O
 .,O
-Sentence #1768,
+Sentence #1763,
 #,O
 ArvindKejriwal,O
 #,O
 DelhiPollution,O
 #,O
 delhigovtvscentrepic.twitter.com/iK2danLjZZ,O
-Sentence #1769,
+Sentence #1764,
 A,O
 33-year-old,O
 bus,O
@@ -51266,7 +51180,7 @@ http,O
 :,O
 //thefirstmail.in/news/news-details/224677-,O
 pic.twitter.com/oEiLV2U5Kv,O
-Sentence #1770,
+Sentence #1765,
 @,O
 bsesdelhi,O
 @,O
@@ -51306,7 +51220,7 @@ from,O
 BSES,O
 .,O
 pic.twitter.com/mgdbC6CfkY,O
-Sentence #1771,
+Sentence #1766,
 Rohtash,B-LOC
 Nagar,I-LOC
 main,O
@@ -51361,9 +51275,8 @@ is,O
 useless,O
 here,O
 .,O
-Sentence #1772,
+Sentence #1767,
 3,O
-"Dead,10",O
 injured,O
 in,O
 Fire,B-ORG
@@ -51383,7 +51296,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1773,
+Sentence #1768,
 I,O
 added,O
 a,O
@@ -51399,7 +51312,6 @@ http,O
 ?,O
 a,O
 3,O
-"Dead,10",O
 injured,O
 in,O
 Fire,B-ORG
@@ -51410,7 +51322,7 @@ Shahdara,I-ORG
 ||,O
 Bhaarat,B-ORG
 Today,B-TIM
-Sentence #1774,
+Sentence #1769,
 #,O
 Shahdara,B-LOC
 Fire,O
@@ -51429,7 +51341,7 @@ https,O
 v=WJxqLeozLDM,O
 #,O
 Accident,O
-Sentence #1775,
+Sentence #1770,
 Fire,B-ORG
 Kills,I-ORG
 3,O
@@ -51450,7 +51362,7 @@ ShahdaraFire,O
 http,O
 :,O
 //newsworldindia.in/india/metro/fire-kills-3-injuring-10-others-in-shahdara-area-of-delhi/234000/,O
-Sentence #1776,
+Sentence #1771,
 @,O
 narendramodi,O
 sir,O
@@ -51474,7 +51386,7 @@ waiting,O
 for,O
 an,O
 accident,O
-Sentence #1777,
+Sentence #1772,
 @,O
 GautamGambhir,O
 In,O
@@ -51522,7 +51434,7 @@ down,O
 Please,O
 Sir,O
 !,O
-Sentence #1778,
+Sentence #1773,
 A,O
 32,O
 B,B-ORG
@@ -51555,7 +51467,7 @@ last,O
 days,O
 .,O
 pic.twitter.com/yxykbn1Q3m,O
-Sentence #1779,
+Sentence #1774,
 The,O
 reality,O
 of,O
@@ -51582,7 +51494,7 @@ accidents,O
 None,O
 accountable,O
 pic.twitter.com/te3HCntaFV,O
-Sentence #1780,
+Sentence #1775,
 The,O
 reality,O
 of,O
@@ -51609,7 +51521,7 @@ accidents,O
 None,O
 accountable,O
 pic.twitter.com/n8BPIhN5YG,O
-Sentence #1781,
+Sentence #1776,
 The,O
 reality,O
 of,O
@@ -51636,7 +51548,7 @@ accidents,O
 None,O
 accountable,O
 pic.twitter.com/oypUtKpzIv,O
-Sentence #1782,
+Sentence #1777,
 Just,O
 In,O
 :,O
@@ -51660,7 +51572,7 @@ Four,O
 injured,O
 seriously,O
 .,O
-Sentence #1783,
+Sentence #1778,
 Sir,O
 i,O
 want,O
@@ -51713,7 +51625,7 @@ narendramodi,O
 DelhiPolice,O
 @,O
 ArvindKejriwal,O
-Sentence #1784,
+Sentence #1779,
 Sir,O
 plz,O
 order,O
@@ -51761,7 +51673,7 @@ making,O
 Delhi,B-LOC
 hell,O
 .,O
-Sentence #1785,
+Sentence #1780,
 I,O
 added,O
 a,O
@@ -51787,7 +51699,7 @@ Railway,I-LOC
 Station,I-LOC
 In,O
 Delhi,B-LOC
-Sentence #1786,
+Sentence #1781,
 @,O
 ArvindKejriwal,O
 @,O
@@ -51834,7 +51746,7 @@ daily,O
 basis,O
 1-2,O
 ..,O
-Sentence #1787,
+Sentence #1782,
 Dear,O
 sir,O
 good,O
@@ -51888,7 +51800,7 @@ IS,I-MISC
 VERY,I-MISC
 VERY,I-MISC
 BAD,I-MISC
-Sentence #1788,
+Sentence #1783,
 Delhi,B-LOC
 road,I-LOC
 rage,O
@@ -51929,7 +51841,7 @@ htTweets,O
 htdelhihttps,O
 :,O
 //www.hindustantimes.com/delhi-news/19-year-old-motorcyclist-s-ear-bitten-off-spat-out-in-delhi-road-rage/story-VtB3FBrmnJq7N2rRWPkucN.html,O
-Sentence #1789,
+Sentence #1784,
 Shakurpur,B-LOC
 subhash,O
 place,O
@@ -51947,7 +51859,7 @@ can,O
 cause,O
 accident,O
 .,O
-Sentence #1790,
+Sentence #1785,
 @,O
 PMOIndia,O
 Request,O
@@ -51969,7 +51881,7 @@ accident,O
 8010421710,O
 ),O
 pic.twitter.com/tl0IdUFeI3,O
-Sentence #1791,
+Sentence #1786,
 Request,O
 to,O
 replace,O
@@ -51988,7 +51900,7 @@ congestion,O
 accidents,O
 8010421710,O
 pic.twitter.com/dd8sbg3oV0,O
-Sentence #1792,
+Sentence #1787,
 @,O
 dtptraffic,O
 sir,O
@@ -52025,7 +51937,7 @@ against,O
 it,O
 .,O
 7982148935,O
-Sentence #1793,
+Sentence #1788,
 Cows,O
 blocking,O
 main,O
@@ -52047,7 +51959,7 @@ accidents,O
 causing,O
 pollution,O
 too,O
-Sentence #1794,
+Sentence #1789,
 Urgent,B-ORG
 Action,I-ORG
 with,O
@@ -52070,7 +51982,7 @@ MakeIndiaGreatAgain,O
 ItsIndiaTimeNow,O
 #,O
 Indiapic.twitter.com/gaB59b7d5T,O
-Sentence #1795,
+Sentence #1790,
 @,O
 tatapower_ddl,O
 Sir,O
@@ -52122,7 +52034,7 @@ avoid,O
 any,O
 accident,O
 .,O
-Sentence #1796,
+Sentence #1791,
 Two,O
 persons,O
 helping,O
@@ -52144,7 +52056,7 @@ Delhi,B-LOC
 https,O
 :,O
 //trib.al/ZxjSuj9,O
-Sentence #1797,
+Sentence #1792,
 Two,O
 persons,O
 helping,O
@@ -52166,9 +52078,8 @@ Delhi,B-LOC
 https,O
 :,O
 //trib.al/ZxjSuj9,O
-Sentence #1798,
+Sentence #1793,
 2,O
-"killed,1",O
 injured,O
 in,O
 motorcycle-tractor,O
@@ -52189,7 +52100,7 @@ utm_source=twitter__hozint,O
 &,O
 utm_content=826419,O
 pic.twitter.com/sFcoDKnI6Q,O
-Sentence #1799,
+Sentence #1794,
 Delhi,B-LOC
 :,O
 Two,O
@@ -52214,7 +52125,7 @@ yesterday,B-TIM
 night,I-TIM
 .,O
 pic.twitter.com/rrNxOyuwo0,O
-Sentence #1800,
+Sentence #1795,
 Fire,O
 accident,O
 in,O
@@ -52225,7 +52136,7 @@ Park,I-LOC
 http,O
 :,O
 //wp.me/p3YrAm-2db,O
-Sentence #1801,
+Sentence #1796,
 Fire,B-ORG
 Accident,I-ORG
 Near,I-ORG
@@ -52240,7 +52151,7 @@ Down,I-ORG
 http,O
 :,O
 //wp.me/p4zw8b-88U,O
-Sentence #1802,
+Sentence #1797,
 #,O
 URGENT,B-MISC
 DL7S,I-MISC
@@ -52260,7 +52171,6 @@ Major,B-LOC
 Accident,O
 Hit,B-ORG
 &,I-ORG
-"Run,26th",B-TIM
 June,I-TIM
 MidNight,I-TIM
 12:15,O
@@ -52277,7 +52187,6 @@ Colony,I-LOC
 Road,I-LOC
 #,I-LOC
 Delhi,I-LOC
-"Male,25y-30y",O
 IDENTITY,B-ORG
 Not,I-ORG
 Available,I-ORG
@@ -52291,12 +52200,11 @@ hai,O
 delhipolice,O
 @,O
 dtptrafficpic.twitter.com/0hszwhHLUJ,O
-Sentence #1803,
+Sentence #1798,
 In,O
 South,B-LOC
 extension,I-LOC
 Part,O
-"2,1978-79",O
 ...,O
 I,O
 studied,O
@@ -52326,7 +52234,7 @@ back,O
 to,O
 blore,O
 .,O
-Sentence #1804,
+Sentence #1799,
 this,O
 complaints,O
 relates,O
@@ -52374,7 +52282,7 @@ like,O
 that,O
 .,O
 pic.twitter.com/YY1icHAmP7,O
-Sentence #1805,
+Sentence #1800,
 Woman,O
 car,O
 driver,O
@@ -52392,7 +52300,7 @@ News24,O
 #,O
 Subhash_Nagar,B-LOC
 pic.twitter.com/5vzUwrHM7Q,O
-Sentence #1806,
+Sentence #1801,
 Delhi,B-ORG
 Subhash,I-ORG
 Nagar,I-ORG
@@ -52407,7 +52315,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1807,
+Sentence #1802,
 @,O
 IntrepidSaffron,O
 Plz,O
@@ -52441,7 +52349,7 @@ please,O
 meri,O
 madad,O
 karo,O
-Sentence #1808,
+Sentence #1803,
 New,B-LOC
 Delhi,I-LOC
 Subhash,I-LOC
@@ -52462,7 +52370,7 @@ Mo,O
 ..,O
 7985645510,O
 pic.twitter.com/XiXKBe40Ip,O
-Sentence #1809,
+Sentence #1804,
 CCTV,B-ORG
 Delhi,I-ORG
 Tempo,I-ORG
@@ -52483,7 +52391,7 @@ v=DUWVyoH67MM,O
 http,O
 :,O
 //onlinemakejobs.com/cctv-delhi-tempo-hit-and-run-accident-subhash-nagar-10-aug-2016/,O
-Sentence #1810,
+Sentence #1805,
 Subhash,B-LOC
 Nagar,I-LOC
 Delhi,I-LOC
@@ -52505,7 +52413,7 @@ help,O
 each,O
 other,O
 .,O
-Sentence #1811,
+Sentence #1806,
 @,O
 SatyendarJain,O
 @,O
@@ -52525,7 +52433,7 @@ victim,O
 's,O
 family,O
 ?,O
-Sentence #1812,
+Sentence #1807,
 Subhash,B-LOC
 Nagar,I-LOC
 hit-and-run,O
@@ -52546,7 +52454,7 @@ hospital,O
 http,O
 :,O
 //zeenews.india.com/news/delhi/subhash-nagar-hit-and-run-fallout-delhi-govt-announces-reward-for-people-for-taking-accident-victims-to-hospital_1917725.html,O
-Sentence #1813,
+Sentence #1808,
 @,O
 CPDelhi,O
 @,O
@@ -52571,7 +52479,7 @@ of,O
 police,O
 interrogation,O
 .,O
-Sentence #1814,
+Sentence #1809,
 The,O
 draft,O
 policy,O
@@ -52598,7 +52506,7 @@ aftr,O
 Subhash,B-LOC
 nagar,I-LOC
 accident,O
-Sentence #1815,
+Sentence #1810,
 The,O
 draft,O
 policy,O
@@ -52625,7 +52533,7 @@ aftr,O
 Subhash,B-LOC
 nagar,I-LOC
 accident,O
-Sentence #1816,
+Sentence #1811,
 The,O
 draft,O
 policy,O
@@ -52652,7 +52560,7 @@ aftr,O
 Subhash,B-LOC
 nagar,I-LOC
 accident,O
-Sentence #1817,
+Sentence #1812,
 @,O
 dtptraffic,O
 @,O
@@ -52683,7 +52591,7 @@ for,O
 bikes,O
 .,O
 pic.twitter.com/aeGjbS1YfR,O
-Sentence #1818,
+Sentence #1813,
 @,O
 dtptraffic,O
 @,O
@@ -52713,7 +52621,7 @@ risk,O
 for,O
 bikes,O
 .,O
-Sentence #1819,
+Sentence #1814,
 DAILY,O
 10-20,O
 ACCIDENT,O
@@ -52744,7 +52652,7 @@ MUNICIPAL,I-MISC
 CORPORATION,I-MISC
 Trucks,O
 ..,O
-Sentence #1820,
+Sentence #1815,
 @,O
 PMOIndia,O
 Sir,O
@@ -52753,7 +52661,6 @@ Akul,I-ORG
 Gupta,I-ORG
 stay,O
 in,O
-"178,1st",O
 floor,O
 Sukhdev,B-LOC
 Vihar,I-LOC
@@ -52792,7 +52699,7 @@ temple,O
 at,O
 home,O
 .,O
-Sentence #1821,
+Sentence #1816,
 #,O
 delhi,O
 #,O
@@ -52812,7 +52719,7 @@ TOWARDS,I-MISC
 SULTANPUR,I-MISC
 .,O
 8:15am,O
-Sentence #1822,
+Sentence #1817,
 my,O
 father,O
 has,O
@@ -52842,7 +52749,7 @@ to,O
 http,O
 :,O
 //fb.me/1sRRXvu7g,O
-Sentence #1823,
+Sentence #1818,
 I,B-ORG
 Think,I-ORG
 Delhi,I-ORG
@@ -52894,7 +52801,7 @@ ArvindKejriwal,O
 aajtak,O
 @,O
 abpnewstvpic.twitter.com/JfrxM1yNoR,O
-Sentence #1824,
+Sentence #1819,
 @,O
 ArvindKejriwal,O
 Sir,O
@@ -52920,7 +52827,7 @@ to,O
 some,O
 serious,O
 accidents,O
-Sentence #1825,
+Sentence #1820,
 @,O
 gomechanicindia,B-LOC
 Great,O
@@ -52968,7 +52875,7 @@ satisfied,O
 with,O
 work,O
 .,O
-Sentence #1826,
+Sentence #1821,
 @,O
 Uppolice,O
 @,O
@@ -53014,7 +52921,7 @@ utm_partner=jantakiawaz,O
 utm_campaign=share,O
 &,O
 utm_medium=twitter,O
-Sentence #1827,
+Sentence #1822,
 Travelling,O
 to,O
 Delhi,B-LOC
@@ -53040,7 +52947,7 @@ for,O
 the,O
 life,O
 .,O
-Sentence #1828,
+Sentence #1823,
 Oudh,O
 and,O
 Rohilkhand,B-LOC
@@ -53084,7 +52991,7 @@ India,B-LOC
 ohttps,O
 :,O
 //lnkd.in/fjgy5gN,O
-Sentence #1829,
+Sentence #1824,
 Delhi,B-LOC
 man,O
 killed,O
@@ -53111,7 +53018,7 @@ o,O
 http,O
 :,O
 //bit.ly/9t2K0X,O
-Sentence #1830,
+Sentence #1825,
 News,B-ORG
 India,I-ORG
 :,O
@@ -53140,7 +53047,7 @@ asked,O
 http,O
 :,O
 //bit.ly/9fLgKj,O
-Sentence #1831,
+Sentence #1826,
 ``,O
 Delhi,B-ORG
 Supreme,I-ORG
@@ -53165,7 +53072,6 @@ toll,O
 .,O
 130,O
 '',O
-",000",O
 killed,O
 in,O
 road,B-LOC
@@ -53173,7 +53079,7 @@ accidents,O
 in,O
 2012,B-TIM
 .,O
-Sentence #1832,
+Sentence #1827,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -53199,7 +53105,7 @@ that,O
 http,O
 :,O
 //bit.ly/TcZBUw,O
-Sentence #1833,
+Sentence #1828,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53218,7 +53124,7 @@ Court,I-LOC
 http,O
 :,O
 //www.ndtv.com/article/india/accidents-in-delhi-because-court-order-on-tinted-car-windows-not-implemented-supreme-court-245329,O
-Sentence #1834,
+Sentence #1829,
 City,O
 got,O
 too,O
@@ -53245,7 +53151,7 @@ Court,I-LOC
 http,O
 :,O
 //bit.ly/Nl3auf,O
-Sentence #1835,
+Sentence #1830,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53264,7 +53170,7 @@ Court,I-LOC
 http,O
 :,O
 //adf.ly/AtZzu,O
-Sentence #1836,
+Sentence #1831,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53283,7 +53189,7 @@ Court,I-LOC
 http,O
 :,O
 //adf.ly/AtZyu,O
-Sentence #1837,
+Sentence #1832,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53302,7 +53208,7 @@ Court,I-LOC
 http,O
 :,O
 //fb.me/1xs6nnDPY,O
-Sentence #1838,
+Sentence #1833,
 #,O
 IndianStockMarket,O
 Accidents,O
@@ -53325,7 +53231,7 @@ Court,I-ORG
 http,O
 :,O
 //bit.ly/NTB7MY,O
-Sentence #1839,
+Sentence #1834,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53344,7 +53250,7 @@ Court,I-LOC
 http,O
 :,O
 //dlvr.it/1tBFwH,O
-Sentence #1840,
+Sentence #1835,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53369,7 +53275,7 @@ Co,I-LOC
 http,O
 :,O
 //bit.ly/NCiJts,O
-Sentence #1841,
+Sentence #1836,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53394,7 +53300,7 @@ Co,I-LOC
 http,O
 :,O
 //bit.ly/NTB7MY,O
-Sentence #1842,
+Sentence #1837,
 Accidents,O
 in,O
 Delhi,B-LOC
@@ -53417,7 +53323,7 @@ http,O
 News,O
 #,O
 India,B-LOC
-Sentence #1843,
+Sentence #1838,
 Apex,O
 court,O
 wants,O
@@ -53438,7 +53344,7 @@ Thursday,B-TIM
 http,O
 :,O
 //goo.gl/fb/h7M4p,O
-Sentence #1844,
+Sentence #1839,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -53464,7 +53370,7 @@ comp,O
 http,O
 :,O
 //bit.ly/ux7Rec,O
-Sentence #1845,
+Sentence #1840,
 MyNews.in,O
 Apex,O
 court,O
@@ -53489,7 +53395,7 @@ http,O
 :,O
 //bit.ly/vb1dtD,O
 MyNews.in,O
-Sentence #1846,
+Sentence #1841,
 Violation,O
 of,O
 Supreme,B-LOC
@@ -53541,7 +53447,7 @@ them,O
 too,O
 .,O
 pic.twitter.com/qJJMBfTE6I,O
-Sentence #1847,
+Sentence #1842,
 While,O
 hearing,O
 an,O
@@ -53566,7 +53472,7 @@ bench,O
 https,O
 :,O
 //fb.me/ynvHYX81,O
-Sentence #1848,
+Sentence #1843,
 The,O
 Hon'ble,O
 Supreme,B-LOC
@@ -53614,11 +53520,11 @@ of,O
 road,B-LOC
 accidents,O
 .,O
-Sentence #1849,
+Sentence #1844,
 http,O
 :,O
 //www.thehindu.com/news/national/kerala/state-plans-law-to-protect-good-samaritans/article22662149.ece,O
-Sentence #1850,
+Sentence #1845,
 #,O
 NewsNow,O
 In,O
@@ -53632,7 +53538,7 @@ of,O
 Supreme,B-LOC
 court,I-LOC
 compound,O
-Sentence #1851,
+Sentence #1846,
 #,O
 News,O
 #,O
@@ -53641,7 +53547,7 @@ Accident,O
 Daijiworld,O
 #,O
 NewDelhipic.twitter.com/7K4Fsj23IN,O
-Sentence #1852,
+Sentence #1847,
 Scrap,B-ORG
 Dealer,I-ORG
 Delhi,I-ORG
@@ -53663,7 +53569,7 @@ http,O
 :,O
 //dlvr.it/PycZ8C,O
 pic.twitter.com/21biCD0frE,O
-Sentence #1853,
+Sentence #1848,
 RT,O
 ankit_bcet,O
 :,O
@@ -53687,11 +53593,11 @@ after,O
 an,O
 accident,O
 .,O
-Sentence #1854,
+Sentence #1849,
 Get,O
 well,O
 so,O
-Sentence #1855,
+Sentence #1850,
 Heard,O
 the,O
 Supreme,B-ORG
@@ -53712,13 +53618,13 @@ after,O
 an,O
 accident,O
 .,O
-Sentence #1856,
+Sentence #1851,
 Get,O
 well,O
 soon,O
 MyLord,O
 .,O
-Sentence #1857,
+Sentence #1852,
 Good,O
 to,O
 know,O
@@ -53745,7 +53651,7 @@ happen,O
 in,O
 delhi,B-LOC
 .,O
-Sentence #1858,
+Sentence #1853,
 --,O
 Vasant,B-LOC
 Shetty,I-LOC
@@ -53770,7 +53676,7 @@ liquor,O
 http,O
 :,O
 //fb.me/QOBls2f4,O
-Sentence #1859,
+Sentence #1854,
 @,O
 NBTDilli,O
 Road,B-LOC
@@ -53790,7 +53696,7 @@ delhi,O
 -gurgaon,O
 eway,O
 .,O
-Sentence #1860,
+Sentence #1855,
 SC,O
 grants,O
 compensation,O
@@ -53815,7 +53721,7 @@ awarded,O
 http,O
 :,O
 //bit.ly/29mcK1b,O
-Sentence #1861,
+Sentence #1856,
 456,O
 SC,O
 grants,O
@@ -53842,7 +53748,7 @@ Tuesday,B-TIM
 http,O
 :,O
 //bit.ly/29tQBiF,O
-Sentence #1862,
+Sentence #1857,
 SC,O
 grants,O
 compensation,O
@@ -53866,7 +53772,7 @@ Rs,O
 http,O
 :,O
 //dlvr.it/LkGNXP,O
-Sentence #1863,
+Sentence #1858,
 SC,O
 grants,O
 compensation,O
@@ -53892,7 +53798,7 @@ awarded,O
 http,O
 :,O
 //ow.ly/Kmyl5024C4w,O
-Sentence #1864,
+Sentence #1859,
 #,O
 Delhi,B-ORG
 #,I-ORG
@@ -53916,7 +53822,7 @@ Vic,O
 http,O
 :,O
 //wingztv.com/video/indiaabovehate-delhi-hc-comes-hard-on-police,O
-Sentence #1865,
+Sentence #1860,
 Follow,O
 Centres,O
 guidelines,O
@@ -53943,7 +53849,7 @@ W,B-ORG
 http,O
 :,O
 //bit.ly/1Utco9J,O
-Sentence #1866,
+Sentence #1861,
 SC,O
 issues,O
 notice,O
@@ -53972,7 +53878,7 @@ issued,O
 http,O
 :,O
 //bit.ly/1SEbrL0,O
-Sentence #1867,
+Sentence #1862,
 SC,O
 issues,O
 notice,O
@@ -54001,7 +53907,7 @@ http,O
 //dlvr.it/KYJ9VN,O
 #,O
 AssamTimes,O
-Sentence #1868,
+Sentence #1863,
 Salman,B-PER
 Khan,I-PER
 files,O
@@ -54026,7 +53932,7 @@ Salman,O
 http,O
 :,O
 //tinyurl.com/zojs7sp,O
-Sentence #1869,
+Sentence #1864,
 #,O
 SupremeCourt,O
 #,O
@@ -54049,7 +53955,7 @@ Viralhttps,O
 //lalluram.com/,O
 ?,O
 p=139553,O
-Sentence #1870,
+Sentence #1865,
 NEW,B-LOC
 DELHI,I-LOC
 :,O
@@ -54061,7 +53967,6 @@ Thursday,B-TIM
 expressed,O
 concern,O
 over,O
-"14,926",O
 people,O
 being,O
 killed,O
@@ -54089,7 +53994,7 @@ http,O
 :,O
 //www.jammulinksnews.com/newsdetail/176830/Jammu-Links-News-SC_expresses_concern_over_large_number_of_deaths_due_to_potholes_in_last_5_years,O
 pic.twitter.com/RuozFvsibr,O
-Sentence #1871,
+Sentence #1866,
 Dear,O
 @,O
 DelhiPolice,O
@@ -54106,7 +54011,7 @@ in,O
 Delhi,I-LOC
 no,O
 ?,O
-Sentence #1872,
+Sentence #1867,
 Delhi,B-LOC
 is,O
 the,O
@@ -54120,7 +54025,7 @@ every,O
 four,O
 minutes,O
 .,O
-Sentence #1873,
+Sentence #1868,
 Supreme,B-LOC
 Court,I-LOC
 says,O
@@ -54141,7 +54046,7 @@ what,O
 the,O
 matter,O
 ?,O
-Sentence #1874,
+Sentence #1869,
 @,O
 CPDelhi,O
 @,O
@@ -54150,7 +54055,7 @@ SwatiJaiHind,O
 ArvindKejriwalhttps,O
 :,O
 //twitter.com/KhushbooTweets/status/1068922329017724928,O
-Sentence #1875,
+Sentence #1870,
 INDIA,B-LOC
 NEW,I-LOC
 DELHI,I-LOC
@@ -54200,7 +54105,7 @@ http,O
 :,O
 //bit.ly/2K4DCCm,O
 pic.twitter.com/vqkBMdsXqA,O
-Sentence #1876,
+Sentence #1871,
 Respected,O
 dcp,O
 north,B-LOC
@@ -54246,7 +54151,7 @@ welcome,B-LOC
 Happy,O
 diwali,O
 .,O
-Sentence #1877,
+Sentence #1872,
 #,O
 SupremeCourt,O
 Blames,B-PER
@@ -54294,7 +54199,7 @@ Accidents,I-ORG
 Opines,I-ORG
 @,O
 Praveen_Dalal.pic.twitter.com/1fHjtHRBDF,O
-Sentence #1878,
+Sentence #1873,
 @,O
 PMOIndia,O
 @,O
@@ -54346,10 +54251,10 @@ with,O
 less,O
 fine,O
 .,O
-Sentence #1879,
+Sentence #1874,
 #,O
 ____,O
-Sentence #1880,
+Sentence #1875,
 Learn,O
 from,O
 Kejriwal,O
@@ -54360,7 +54265,6 @@ Govt,I-ORG
 Accident,I-ORG
 Victim,I-ORG
 Policy,I-ORG
-",",I-ORG
 Orders,I-ORG
 Supreme,I-ORG
 Court,I-ORG
@@ -54373,7 +54277,7 @@ http,O
 :,O
 //Bit.ly/SCPaisesDelhiGovt,O
 pic.twitter.com/gj2COfQLHa,O
-Sentence #1881,
+Sentence #1876,
 Learn,O
 from,O
 Kejriwal,O
@@ -54384,7 +54288,6 @@ Govt,I-ORG
 Accident,I-ORG
 Victim,I-ORG
 Policy,I-ORG
-",",I-ORG
 Orders,I-ORG
 Supreme,I-ORG
 Court,I-ORG
@@ -54397,7 +54300,7 @@ http,O
 :,O
 //Bit.ly/SCPaisesDelhiGovt,O
 pic.twitter.com/gj2COfQLHa,O
-Sentence #1882,
+Sentence #1877,
 Well,B-PER
 said,O
 agar,O
@@ -54440,7 +54343,7 @@ salary,O
 https,O
 :,O
 //www.facebook.com/suryaprakashy1/posts/1786754228034372,O
-Sentence #1883,
+Sentence #1878,
 In,O
 politics,O
 nothing,O
@@ -54477,7 +54380,7 @@ SaveDemocracy,O
 KarnatakaResortPolitics,O
 #,O
 KarnatakaKurukshetra,O
-Sentence #1884,
+Sentence #1879,
 @,O
 PMOIndia,O
 The,O
@@ -54529,7 +54432,7 @@ dying,O
 from,O
 accident,O
 .,O
-Sentence #1885,
+Sentence #1880,
 Extended,O
 assistance,O
 to,O
@@ -54576,7 +54479,7 @@ CMO_Odisha,O
 ManishTewari,O
 @,O
 RahulGandhipic.twitter.com/d4Xc7tWGZm,O
-Sentence #1886,
+Sentence #1881,
 Under,O
 the,O
 guidance,O
@@ -54620,7 +54523,7 @@ RahulGandhi,O
 ManishTewari,O
 @,O
 VTankhapic.twitter.com/YRTvVAt2DK,O
-Sentence #1887,
+Sentence #1882,
 In,O
 #,O
 SupremeCourt,O
@@ -54666,7 +54569,7 @@ from,O
 terminal,O
 illness,O
 .,O
-Sentence #1888,
+Sentence #1883,
 Consented,O
 to,O
 show,O
@@ -54698,7 +54601,7 @@ says,O
 government,O
 amid,O
 row,O
-Sentence #1889,
+Sentence #1884,
 https,O
 :,O
 //www.ndtv.com/news/view/ndtv/2186419/site=classic/,O
@@ -54706,7 +54609,7 @@ https,O
 device=androidv2,O
 &,O
 showads=no,O
-Sentence #1890,
+Sentence #1885,
 As,O
 it,O
 should,O
@@ -54760,7 +54663,7 @@ interlocutors,O
 Expctng,O
 ur,O
 help,O
-Sentence #1891,
+Sentence #1886,
 #,O
 Unnao,O
 Unnao,O
@@ -54813,17 +54716,17 @@ on,O
 ventilator,O
 support,O
 .,O
-Sentence #1892,
+Sentence #1887,
 #,O
 WinNews,O
 #,O
 NewsToday,O
-Sentence #1893,
+Sentence #1888,
 (,O
 13-11-2019,O
 ),O
 ...,O
-Sentence #1894,
+Sentence #1889,
 #,O
 TamilNews,O
 #,O
@@ -54859,7 +54762,7 @@ Leave,O
 #,O
 SupremeCourt,O
 pic.twitter.com/phzVXfwWQa,O
-Sentence #1895,
+Sentence #1890,
 The,O
 woman,O
 was,O
@@ -54884,7 +54787,7 @@ orders,O
 unnaohttps,O
 :,O
 //www.blush.me/news/landlords-refuse-to-rent-their-home-to-unnao-rape-survivors-kin-delhi-court-asks-dcw-to-help,O
-Sentence #1896,
+Sentence #1891,
 Zara,B-PER
 Unnao,I-PER
 side,O
@@ -54939,7 +54842,7 @@ DISCUSS,I-MISC
 is,O
 #,O
 Section375,O
-Sentence #1897,
+Sentence #1892,
 #,O
 UnnaoCase,O
 :,O
@@ -54963,12 +54866,12 @@ Supreme,B-LOC
 Court,I-LOC
 orders,O
 .,O
-Sentence #1898,
+Sentence #1893,
 #,O
 DCNationhttps,O
 :,O
 //www.deccanchronicle.com/nation/current-affairs/120919/with-deterioration-in-health-unnao-rape-survivor-records-statement-at.html,O
-Sentence #1899,
+Sentence #1894,
 The,O
 Supreme,B-LOC
 Court,I-LOC
@@ -55014,7 +54917,7 @@ victim,O
 http,O
 :,O
 //bit.ly/2MZAxYz,O
-Sentence #1900,
+Sentence #1895,
 #,O
 Unnao,O
 rape,O
@@ -55071,7 +54974,7 @@ the,O
 victim,O
 .,O
 pic.twitter.com/jpuvaweBvm,O
-Sentence #1901,
+Sentence #1896,
 #,O
 RT,O
 @,O
@@ -55126,7 +55029,7 @@ court,O
 at,O
 AI,O
 pic.twitter.com/xpU5m9l0Gc,O
-Sentence #1902,
+Sentence #1897,
 Unnao,O
 rape,O
 case,O
@@ -55178,7 +55081,7 @@ AIIMS,B-LOC
 in,O
 Del,B-LOC
 pic.twitter.com/5DqtBtJIYI,O
-Sentence #1903,
+Sentence #1898,
 Unnao,O
 rape,O
 case,O
@@ -55233,7 +55136,7 @@ to,O
 examine,O
 the,O
 vic,O
-Sentence #1904,
+Sentence #1899,
 #,O
 SupremeCourt,O
 grants,O
@@ -55291,7 +55194,7 @@ From,O
 ANI,O
 ),O
 pic.twitter.com/nfxCHnO7IT,O
-Sentence #1905,
+Sentence #1900,
 Unnao,O
 rape,O
 case,O
@@ -55348,7 +55251,7 @@ the,O
 victim,O
 .,O
 pic.twitter.com/wRcsY3BwgN,O
-Sentence #1906,
+Sentence #1901,
 #,O
 SupremeCourt,O
 asks,O
@@ -55374,7 +55277,7 @@ gang,O
 rape,O
 victim,O
 .,O
-Sentence #1907,
+Sentence #1902,
 CBI,O
 made,O
 a,O
@@ -55395,10 +55298,10 @@ in,O
 road,B-LOC
 accident,O
 .,O
-Sentence #1908,
+Sentence #1903,
 @,O
 DeccanHerald,O
-Sentence #1909,
+Sentence #1904,
 #,O
 UnnaoRapeCase,O
 :,O
@@ -55453,7 +55356,7 @@ the,O
 victim,O
 .,O
 pic.twitter.com/SYdPnxu2IA,O
-Sentence #1910,
+Sentence #1905,
 #,O
 Unnaorapecase,O
 :,O
@@ -55508,7 +55411,7 @@ examine,O
 the,O
 victim,O
 pic.twitter.com/nitCAPgsGL,O
-Sentence #1911,
+Sentence #1906,
 Unnao,O
 rape,O
 case,O
@@ -55564,7 +55467,7 @@ examine,O
 the,O
 victim,O
 .,O
-Sentence #1912,
+Sentence #1907,
 Unnao,O
 rape,O
 case,O
@@ -55621,11 +55524,11 @@ the,O
 victim,O
 .,O
 pic.twitter.com/lq1dh7dFux,O
-Sentence #1913,
+Sentence #1908,
 Breaking,O
 now,O
 !,O
-Sentence #1914,
+Sentence #1909,
 Supreme,B-LOC
 Court,I-LOC
 transfer,O
@@ -55647,7 +55550,7 @@ to,O
 #,O
 Delhi,B-LOC
 immediately,O
-Sentence #1915,
+Sentence #1910,
 Big,O
 slap,O
 on,O
@@ -55657,7 +55560,7 @@ police,O
 UP,O
 governments,O
 face,O
-Sentence #1916,
+Sentence #1911,
 CJI,O
 says,O
 investigation,O
@@ -55669,7 +55572,7 @@ completed,O
 within,O
 7,B-TIM
 days,O
-Sentence #1917,
+Sentence #1912,
 ;,O
 https,O
 :,O
@@ -55700,7 +55603,7 @@ delhi,O
 #,O
 hospital,O
 #,O
-Sentence #1918,
+Sentence #1913,
 Unnao,O
 accident,O
 :,O
@@ -55719,7 +55622,7 @@ Delhi,I-LOC
 https,O
 :,O
 //www.newsx.com/national/unnao-accident-supreme-court-orders-to-airlift-victim-lawyer-from-lucknow-to-aiims-delhi.html,O
-Sentence #1919,
+Sentence #1914,
 Unnao,B-PER
 Case,I-PER
 :,O
@@ -55730,7 +55633,6 @@ all,O
 5,O
 cases,O
 to,O
-"Delhi,7-day-deadline",O
 to,O
 CBI,O
 in,O
@@ -55742,7 +55644,7 @@ UnnaoCase,O
 UnnaoKiBeti,O
 #,O
 unnaohorror,O
-Sentence #1920,
+Sentence #1915,
 SC,O
 defers,O
 transfer,O
@@ -55786,7 +55688,7 @@ CJI,O
 jurisdictionhttps,O
 :,O
 //bit.ly/31hkAjE,O
-Sentence #1921,
+Sentence #1916,
 Tagore,B-LOC
 Garden,I-LOC
 Metro,I-LOC
@@ -55801,7 +55703,7 @@ https,O
 via,O
 @,O
 YouTube,O
-Sentence #1922,
+Sentence #1917,
 @,O
 dtchq_delhi,O
 pvc,O
@@ -55842,7 +55744,7 @@ karte,O
 buses,O
 ?,O
 pic.twitter.com/HshZuWXTVy,O
-Sentence #1923,
+Sentence #1918,
 @,O
 dtchq_delhi,O
 @,O
@@ -55900,7 +55802,7 @@ DTC,I-MISC
 TERMINAL,I-MISC
 ME,I-MISC
 BHEJE,I-MISC
-Sentence #1924,
+Sentence #1919,
 Kapil,O
 veer,O
 Arora,B-PER
@@ -55927,7 +55829,7 @@ have,O
 swami,O
 g,O
 .,O
-Sentence #1925,
+Sentence #1920,
 Sir,O
 ..,O
 Delhi,B-LOC
@@ -55978,7 +55880,7 @@ Tilak,B-LOC
 Nagar,I-LOC
 new,I-LOC
 mor,I-LOC
-Sentence #1926,
+Sentence #1921,
 9,B-TIM
 march,I-TIM
 2017,I-TIM
@@ -55995,13 +55897,13 @@ Video,O
 New,B-LOC
 Delhi,I-LOC
 -,I-LOC
-Sentence #1927,
+Sentence #1922,
 source,O
 -,O
 http,O
 :,O
 //cctvcam.net/9-march-2017-janakpuri-tilak-nagar-metro-station-todays-accident-cctv-video-2017-new-delhi/,O
-Sentence #1928,
+Sentence #1923,
 Just,O
 In,O
 :,O
@@ -56024,7 +55926,7 @@ in,O
 Delhi,B-LOC
 .,O
 pic.twitter.com/qmr2BUeA8F,O
-Sentence #1929,
+Sentence #1924,
 A,O
 freak,O
 accident,O
@@ -56051,7 +55953,7 @@ around,O
 year,O
 old,O
 .,O
-Sentence #1930,
+Sentence #1925,
 @,O
 DCPWestDelhi,O
 one,O
@@ -56076,7 +55978,7 @@ major,O
 accident,O
 @,O
 sudhirchaudhary,O
-Sentence #1931,
+Sentence #1926,
 Accident,O
 on,O
 Tilak,B-LOC
@@ -56092,7 +55994,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1932,
+Sentence #1927,
 West,B-LOC
 Delhi,I-LOC
 in,O
@@ -56131,7 +56033,7 @@ this,O
 problem,O
 is,O
 solved,O
-Sentence #1933,
+Sentence #1928,
 I,O
 am,O
 a,O
@@ -56185,7 +56087,7 @@ the,O
 concerned,O
 authorities,O
 .,O
-Sentence #1934,
+Sentence #1929,
 @,O
 dtptraffic,O
 @,O
@@ -56235,7 +56137,7 @@ Tilak,B-LOC
 Nagar,I-LOC
 circle,O
 .,O
-Sentence #1935,
+Sentence #1930,
 @,O
 LtGovDelhi,O
 @,O
@@ -56287,7 +56189,7 @@ kids,O
 can,O
 fall,O
 pic.twitter.com/D2i8EWnaHU,O
-Sentence #1936,
+Sentence #1931,
 10-month-old,O
 girl,O
 killed,O
@@ -56303,7 +56205,7 @@ nagar,I-LOC
 http,O
 :,O
 //zeenews.india.com/india/10-month-old-girl-killed-in-fatal-car-accident-at-delhis-tilak-nagar-2288652.html,O
-Sentence #1937,
+Sentence #1932,
 10,O
 Fatal,O
 accident,O
@@ -56450,7 +56352,7 @@ e0,O
 a4,O
 %,O
 be/,O
-Sentence #1938,
+Sentence #1933,
 #,O
 Mercedes,B-PER
 Hit,I-PER
@@ -56478,7 +56380,7 @@ India,B-LOC
 accident,O
 #,O
 roadrage,O
-Sentence #1939,
+Sentence #1934,
 #,O
 Fire,O
 #,O
@@ -56512,7 +56414,7 @@ audited,O
 http,O
 :,O
 //timesofindia.indiatimes.com/city/delhi/Fire-at-Delhis-Udyog-Bhawan/articleshow/47466674.cms,O
-Sentence #1940,
+Sentence #1935,
 @,O
 ddmotors_delhi,O
 @,O
@@ -56539,7 +56441,6 @@ at,O
 DD,B-ORG
 Motors,I-ORG
 A-1,B-ORG
-",",I-ORG
 Rohtak,I-ORG
 Rd,I-ORG
 Peera,B-PER
@@ -56557,7 +56458,7 @@ on,O
 the,O
 same,O
 day.,O
-Sentence #1941,
+Sentence #1936,
 @,O
 ddmotors_delhi,O
 @,O
@@ -56584,7 +56485,6 @@ at,O
 DD,B-ORG
 Motors,I-ORG
 A-1,B-ORG
-",",I-ORG
 Rohtak,I-ORG
 Rd,I-ORG
 Peera,B-PER
@@ -56603,7 +56503,7 @@ the,O
 same,O
 day,O
 .,O
-Sentence #1942,
+Sentence #1937,
 West,B-LOC
 Delhi,I-LOC
 Uttam,I-LOC
@@ -56627,7 +56527,7 @@ IMMEDIATE,B-MISC
 Construction,I-MISC
 IS,I-MISC
 REQUIRED,I-MISC
-Sentence #1943,
+Sentence #1938,
 Thanks,B-PER
 Abhinav,I-PER
 bhai,I-PER
@@ -56667,7 +56567,7 @@ Age,O
 M-,B-ORG
 8287595742,I-ORG
 .,O
-Sentence #1944,
+Sentence #1939,
 An,O
 accident,O
 victim,O
@@ -56703,7 +56603,7 @@ Age,O
 M-,B-ORG
 8287595742,I-ORG
 .,O
-Sentence #1945,
+Sentence #1940,
 An,O
 accident,O
 victim,O
@@ -56743,7 +56643,7 @@ M-,B-ORG
 drharshvardhan,O
 @,O
 ArvindKejriwal,O
-Sentence #1946,
+Sentence #1941,
 An,O
 accident,O
 victim,O
@@ -56785,7 +56685,7 @@ TajinderBagga,O
 ArvindKejriwal,O
 @,O
 SatyendarJain,O
-Sentence #1947,
+Sentence #1942,
 Safety,O
 is,O
 no,O
@@ -56798,7 +56698,7 @@ Delhi,B-LOC
 https,O
 :,O
 //www.instagram.com/p/BhV7NeJAvmbQX8k3txuvgrZJ8ohG9XuKFmfb2I0/,O
-Sentence #1948,
+Sentence #1943,
 accidents,O
 all,O
 over,O
@@ -56825,7 +56725,7 @@ suggestion,O
 !,O
 !,O
 !,O
-Sentence #1949,
+Sentence #1944,
 On,O
 my,O
 way,O
@@ -56842,7 +56742,6 @@ the,O
 middle,O
 of,O
 the,O
-"rd,500",O
 mts,O
 ahead,O
 a,O
@@ -56859,7 +56758,7 @@ Welcome,B-LOC
 to,O
 Delhi,B-LOC
 !,O
-Sentence #1950,
+Sentence #1945,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -56873,7 +56772,6 @@ collapses,O
 on,O
 rickshaw,O
 :,O
-",Jan",O
 18,O
 (,O
 IANS,O
@@ -56889,7 +56787,7 @@ t,O
 http,O
 :,O
 //bit.ly/dGfE9K,O
-Sentence #1951,
+Sentence #1946,
 DTN,B-ORG
 Delhi,I-ORG
 2010,O
@@ -56903,7 +56801,6 @@ collapses,O
 on,O
 rickshaw,O
 :,O
-",Jan",O
 18,O
 (,O
 IANS,O
@@ -56919,7 +56816,7 @@ t,O
 http,O
 :,O
 //bit.ly/dGfE9K,O
-Sentence #1952,
+Sentence #1947,
 Arya,B-ORG
 Samaj,I-ORG
 Marriage,I-ORG
@@ -56935,7 +56832,6 @@ in,O
 Personal,B-ORG
 Injury,I-ORG
 Claims,I-ORG
-",",I-ORG
 Car,I-ORG
 Accident,I-ORG
 Lawyer,I-ORG
@@ -56945,7 +56841,7 @@ http,O
 //bit.ly/ljVqHT,O
 #,O
 news,O
-Sentence #1953,
+Sentence #1948,
 Divorce,B-ORG
 Consultant,I-ORG
 in,O
@@ -56960,7 +56856,6 @@ in,O
 Personal,B-ORG
 Injury,I-ORG
 Claims,I-ORG
-",",I-ORG
 Car,I-ORG
 Accident,I-ORG
 Lawyer,I-ORG
@@ -56970,7 +56865,7 @@ L,I-ORG
 http,O
 :,O
 //bit.ly/hfZXUZ,O
-Sentence #1954,
+Sentence #1949,
 Welcome,B-LOC
 2,I-LOC
 Delhi,I-LOC
@@ -57005,7 +56900,7 @@ hai,O
 rey,O
 Dilli,O
 !,O
-Sentence #1955,
+Sentence #1950,
 @,O
 JantaKaReporter,O
 Yesterday,B-TIM
@@ -57029,7 +56924,7 @@ Delhi,B-LOC
 .,O
 Changes,O
 Welcome,B-LOC
-Sentence #1956,
+Sentence #1951,
 #,O
 DelhiShamedAgain,O
 Welcome,B-LOC
@@ -57058,11 +56953,10 @@ notif_t=like,O
 Delhi,B-LOC
 #,O
 Uber,O
-Sentence #1957,
+Sentence #1952,
 Accident,O
 on,O
 Delhi,B-LOC
-"flyover,1",O
 injured,O
 Videos,O
 Welcome,B-LOC
@@ -57075,7 +56969,7 @@ via,O
 @,O
 @,O
 clickforu,O
-Sentence #1958,
+Sentence #1953,
 Union,O
 minister,O
 Gopinath,O
@@ -57098,7 +56992,7 @@ of,O
 Thrones,B-LOC
 #,O
 RIPMunde,O
-Sentence #1959,
+Sentence #1954,
 Four,O
 accidents,O
 in,O
@@ -57112,7 +57006,7 @@ Driver,B-ORG
 Safe,I-ORG
 guys,O
 !,O
-Sentence #1960,
+Sentence #1955,
 @,O
 ArvindKejriwal,O
 you,O
@@ -57136,7 +57030,7 @@ toilets,O
 accident,O
 prone,O
 city,O
-Sentence #1961,
+Sentence #1956,
 Cash,O
 reward,O
 for,O
@@ -57160,7 +57054,7 @@ save,O
 precious,O
 lives,O
 .,O
-Sentence #1962,
+Sentence #1957,
 @,O
 khushsundar,O
 #,O
@@ -57185,7 +57079,7 @@ any,O
 case,O
 in,O
 future,O
-Sentence #1963,
+Sentence #1958,
 Good,B-ORG
 Samaritan,I-ORG
 act,O
@@ -57210,7 +57104,7 @@ http,O
 via,O
 @,O
 TOIDelhi,O
-Sentence #1964,
+Sentence #1959,
 Yup,O
 almost,O
 just,O
@@ -57222,7 +57116,7 @@ Welcome,B-LOC
 to,O
 delhi,B-LOC
 .,O
-Sentence #1965,
+Sentence #1960,
 Welcome,B-LOC
 this,O
 .,O
@@ -57251,7 +57145,7 @@ http,O
 via,O
 @,O
 timesofindia,O
-Sentence #1966,
+Sentence #1961,
 Again,O
 a,O
 welcome,O
@@ -57271,7 +57165,7 @@ Delhi,B-LOC
 https,O
 :,O
 //twitter.com/AnantBhan/status/840130241980858368,O
-Sentence #1967,
+Sentence #1962,
 4,O
 trucks,O
 burnt,O
@@ -57297,7 +57191,7 @@ area,I-LOC
 http,O
 :,O
 //bit.ly/O1aZ93,O
-Sentence #1968,
+Sentence #1963,
 4,O
 trucks,O
 burnt,O
@@ -57323,7 +57217,7 @@ area,I-LOC
 http,O
 :,O
 //bit.ly/PD7VNy,O
-Sentence #1969,
+Sentence #1964,
 Photo,O
 :,O
 Welcome,B-LOC
@@ -57348,7 +57242,7 @@ increasing,O
 http,O
 :,O
 //tmblr.co/ZJAbfvKMvg5Q,O
-Sentence #1970,
+Sentence #1965,
 Welcome,B-LOC
 to,O
 NCR,O
@@ -57372,7 +57266,7 @@ Complex,I-LOC
 http,O
 :,O
 //instagr.am/p/J5LSMTy4rR/,O
-Sentence #1971,
+Sentence #1966,
 if,O
 the,O
 shiv,B-LOC
@@ -57398,7 +57292,7 @@ delhi,B-LOC
 !,O
 @,O
 SachinKalbag,O
-Sentence #1972,
+Sentence #1967,
 Welcome,B-LOC
 to,O
 the,O
@@ -57420,7 +57314,7 @@ fight,O
 managing,O
 the,O
 traffic,O
-Sentence #1973,
+Sentence #1968,
 Earth,O
 quake,O
 in,O
@@ -57446,7 +57340,7 @@ chennai,O
 !,O
 Welcome,B-LOC
 2012,I-LOC
-Sentence #1974,
+Sentence #1969,
 Err,O
 ..,O
 in,O
@@ -57488,7 +57382,7 @@ welcome,O
 as,O
 necessary,O
 .,O
-Sentence #1975,
+Sentence #1970,
 i,O
 welcome,O
 the,O
@@ -57535,7 +57429,7 @@ Government,I-ORG
 AdityanathResignNowhttps,O
 :,O
 //m.economictimes.com/news/politics-and-nation/supreme-court-to-transfer-all-unnao-rape-cases-to-delhi-seeks-report-from-cbi/articleshow/70477117.cms,O
-Sentence #1976,
+Sentence #1971,
 @,O
 nitin_gadkari,O
 We,O
@@ -57583,7 +57477,7 @@ fined,O
 .,O
 @,O
 dtptraffic,O
-Sentence #1977,
+Sentence #1972,
 @,O
 PMOIndia,O
 @,O
@@ -57600,7 +57494,6 @@ Balaji,B-ORG
 prodyogki,O
 welcome,B-LOC
 plot,O
-"6,12,8",O
 in,O
 sector,B-TIM
 3,I-TIM
@@ -57625,7 +57518,7 @@ caring,O
 Need,O
 urgent,O
 repair,O
-Sentence #1978,
+Sentence #1973,
 Sir,O
 my,O
 friend,O
@@ -57669,7 +57562,7 @@ been,O
 implemented,O
 or,O
 not,O
-Sentence #1979,
+Sentence #1974,
 Delhi,B-ORG
 government,O
 proposes,O
@@ -57709,7 +57602,7 @@ give,O
 his,O
 consent,O
 .,O
-Sentence #1980,
+Sentence #1975,
 Congrats,B-ORG
 Delhi,I-ORG
 Govt.for,I-ORG
@@ -57751,7 +57644,7 @@ ETHealthWorld,O
 JPNadda,O
 @,O
 drdeepaksawant,O
-Sentence #1981,
+Sentence #1976,
 Take,O
 accident,O
 victims,O
@@ -57781,7 +57674,7 @@ right,O
 http,O
 :,O
 //indianexpress.com/article/cities/delhi/take-accident-victims-to-hospital-within-golden-hour-well-pay-delhi-govt-4980101/,O
-Sentence #1982,
+Sentence #1977,
 #,O
 AccidentVictimScheme,O
 by,O
@@ -57811,7 +57704,7 @@ accidents,O
 https,O
 :,O
 //goo.gl/G143Ye,O
-Sentence #1983,
+Sentence #1978,
 If,O
 someone,O
 is,O
@@ -57836,7 +57729,7 @@ very,O
 humanian,O
 decision,O
 .,O
-Sentence #1984,
+Sentence #1979,
 #,O
 DelhiGovt,O
 to,O
@@ -57868,7 +57761,7 @@ and,O
 @,O
 SatyendarJain,O
 .,O
-Sentence #1985,
+Sentence #1980,
 Welcome,B-LOC
 to,O
 Ashok,B-ORG
@@ -57894,7 +57787,7 @@ http,O
 :,O
 //www.lawyersindelhi.in/home.html,O
 pic.twitter.com/bZRztB97lC,O
-Sentence #1986,
+Sentence #1981,
 SANTOSH,B-MISC
 PEOPERTIES,I-MISC
 IN,I-MISC
@@ -57939,7 +57832,7 @@ Akhilesh,B-ORG
 Mo,I-ORG
 9919620086,O
 pic.twitter.com/ENEs2QEVtj,O
-Sentence #1987,
+Sentence #1982,
 Respected,O
 dcp,O
 north,B-LOC
@@ -57985,7 +57878,7 @@ welcome,B-LOC
 Happy,O
 diwali,O
 .,O
-Sentence #1988,
+Sentence #1983,
 Delhi,B-ORG
 Govt,I-ORG
 step,O
@@ -58035,7 +57928,7 @@ PMOIndia,O
 myogiadityanath,O
 @,O
 mlkhattar,O
-Sentence #1989,
+Sentence #1984,
 A,O
 fire,O
 accident,O
@@ -58081,7 +57974,7 @@ for,I-ORG
 selecting,O
 @,O
 ArvindKejriwal,O
-Sentence #1990,
+Sentence #1985,
 @,O
 narendramodi,O
 @,O
@@ -58133,7 +58026,7 @@ accident,O
 which,O
 act,O
 apply,O
-Sentence #1991,
+Sentence #1986,
 @,O
 BillGates,O
 Honable,O
@@ -58160,7 +58053,7 @@ in,O
 World,O
 @,O
 UNRSCpic.twitter.com/IZtyRKkcfP,O
-Sentence #1992,
+Sentence #1987,
 Folks,O
 -,O
 Delhis,O
@@ -58185,7 +58078,7 @@ Bolsonaro,I-PER
 feel,O
 welcome,B-LOC
 .,O
-Sentence #1993,
+Sentence #1988,
 Delhi,B-ORG
 Metro,I-ORG
 Rail,I-ORG
@@ -58203,7 +58096,7 @@ a,O
 via,O
 @,O
 YouTube,O
-Sentence #1994,
+Sentence #1989,
 Delhi,B-LOC
 Metro,I-LOC
 coach,O
@@ -58225,7 +58118,7 @@ Indraprastha,B-ORG
 http,O
 :,O
 //bit.ly/14inAF,O
-Sentence #1995,
+Sentence #1990,
 In,O
 delhi,B-LOC
 Potholes,I-LOC
@@ -58273,7 +58166,7 @@ running,O
 near,O
 this,O
 location,O
-Sentence #1996,
+Sentence #1991,
 Sanjeev,B-PER
 Kumar,I-PER
 is,O
@@ -58329,7 +58222,7 @@ where,O
 he,O
 has,O
 pic.twitter.com/xFMh2vhbMy,O
-Sentence #1997,
+Sentence #1992,
 delhi,O
 #,O
 traffic,O
@@ -58352,7 +58245,7 @@ MOVEMENT,I-MISC
 http,O
 :,O
 //fb.me/17ztIM8mO,O
-Sentence #1998,
+Sentence #1993,
 A,B-ORG
 Motor,I-ORG
 Accident,I-ORG
@@ -58408,7 +58301,7 @@ raoz_of_india,O
 ahirregiment,O
 #,O
 ahirwal,O
-Sentence #1999,
+Sentence #1994,
 Tilak,B-LOC
 Marg,I-LOC
 circle,O
@@ -58432,7 +58325,7 @@ been,O
 http,O
 :,O
 //dlvr.it/5sv440,O
-Sentence #2000,
+Sentence #1995,
 Tilak,B-LOC
 Marg,I-LOC
 circle,O
@@ -58449,7 +58342,7 @@ district,O
 http,O
 :,O
 //ift.tt/1rK5QWF,O
-Sentence #2001,
+Sentence #1996,
 Tilak,B-LOC
 Marg,I-LOC
 circle,O
@@ -58470,7 +58363,7 @@ http,O
 news,O
 #,O
 Hindu,O
-Sentence #2002,
+Sentence #1997,
 @,O
 DelhiPolice,O
 @,O
@@ -58486,7 +58379,7 @@ Date,I-ORG
 -8th,B-TIM
 november,I-TIM
 2018,I-TIM
-Sentence #2003,
+Sentence #1998,
 Im,O
 writing,O
 this,O
@@ -58516,7 +58409,7 @@ fathers,O
 accident,O
 case,O
 .,O
-Sentence #2004,
+Sentence #1999,
 A,O
 Delhi,B-PER
 autowallah,I-PER
@@ -58569,7 +58462,7 @@ pampered,O
 rowdy,O
 group,O
 pic.twitter.com/xiattk4tnb,O
-Sentence #2005,
+Sentence #2000,
 Accident,O
 at,O
 Tolstoy,B-LOC
@@ -58592,7 +58485,7 @@ day-2,O
 of,O
 #,O
 lockdown.pic.twitter.com/qx6MOJUqen,O
-Sentence #2006,
+Sentence #2001,
 A,O
 guy,O
 met,O
@@ -58638,7 +58531,7 @@ this,O
 @,O
 SatyendarJain,O
 sir,O
-Sentence #2007,
+Sentence #2002,
 an,O
 accident,O
 at,O
@@ -58650,7 +58543,7 @@ Delhi,B-LOC
 just,O
 now,O
 pic.twitter.com/xxaVjWw817,O
-Sentence #2008,
+Sentence #2003,
 @,O
 rajnathsingh,O
 @,O
@@ -58705,7 +58598,7 @@ a,O
 corrective,O
 action,O
 .,O
-Sentence #2009,
+Sentence #2004,
 *,O
 *,O
 New,B-ORG
@@ -58713,7 +58606,7 @@ Delhi,I-ORG
 Alert,I-ORG
 *,O
 *,O
-Sentence #2010,
+Sentence #2005,
 VoSD,O
 Accident,B-ORG
 Alert,I-ORG
@@ -58735,7 +58628,7 @@ Mandir,I-LOC
 http,O
 :,O
 //fb.me/1KUujSKxh,O
-Sentence #2011,
+Sentence #2006,
 Speeding,O
 car,O
 leaves,O
@@ -58761,7 +58654,7 @@ of,O
 http,O
 :,O
 //tinyurl.com/ctyj2mr,O
-Sentence #2012,
+Sentence #2007,
 Speeding,O
 car,O
 leaves,O
@@ -58789,7 +58682,7 @@ of,O
 the,O
 Minis,O
 ...,O
-Sentence #2013,
+Sentence #2008,
 Speeding,O
 car,O
 leaves,O
@@ -58815,7 +58708,7 @@ of,O
 http,O
 :,O
 //bit.ly/v0Gjhi,O
-Sentence #2014,
+Sentence #2009,
 delhi24X7,O
 Speeding,O
 car,O
@@ -58840,7 +58733,7 @@ http,O
 :,O
 //bit.ly/ryHKzD,O
 delhi24X7,O
-Sentence #2015,
+Sentence #2010,
 @,O
 JatinKiDuniya,O
 :,O
@@ -58861,7 +58754,7 @@ Flyover,I-LOC
 Bad,O
 one,O
 ...,O
-Sentence #2016,
+Sentence #2011,
 Ah,O
 ...,O
 Honda,O
@@ -58879,7 +58772,7 @@ Flyover,I-LOC
 Bad,O
 one,O
 ...,O
-Sentence #2017,
+Sentence #2012,
 Details,O
 of,O
 events,O
@@ -58908,7 +58801,7 @@ in,O
 Delhi,B-LOC
 .,O
 1/5,O
-Sentence #2018,
+Sentence #2013,
 Details,O
 of,O
 events,O
@@ -58936,7 +58829,7 @@ in,O
 Delhi,B-LOC
 .,O
 1/5,O
-Sentence #2019,
+Sentence #2014,
 Union,B-ORG
 Minister,I-ORG
 Gopinath,I-ORG
@@ -58961,7 +58854,7 @@ Extremely,O
 sad,O
 news,O
 .,O
-Sentence #2020,
+Sentence #2015,
 #,O
 3Novices,O
 :,O
@@ -59015,7 +58908,7 @@ Barapullah,B-ORG
 news,O
 For,O
 In,O
-Sentence #2021,
+Sentence #2016,
 Delhi,B-LOC
 traffic,O
 police,O
@@ -59036,7 +58929,7 @@ many,O
 fatal,O
 accidents,O
 .,O
-Sentence #2022,
+Sentence #2017,
 Normal,O
 fire,O
 accident,O
@@ -59057,7 +58950,7 @@ while,O
 timesofindia,O
 @,O
 htTweets,O
-Sentence #2023,
+Sentence #2018,
 Freak,O
 accident,O
 at,O
@@ -59076,7 +58969,7 @@ chowk,I-LOC
 platform,O
 #,O
 delhi,O
-Sentence #2024,
+Sentence #2019,
 Traffic,O
 congestion,O
 at,O
@@ -59095,7 +58988,7 @@ accident,O
 .,O
 #,O
 Gurgaon,O
-Sentence #2025,
+Sentence #2020,
 Jam,O
 due,O
 to,O
@@ -59112,7 +59005,7 @@ side,O
 TrafficGGM,O
 @,O
 dcptrafficggmpic.twitter.com/yGBNbQwQRl,O
-Sentence #2026,
+Sentence #2021,
 Delhi,B-LOC
 metro,I-LOC
 Accident,O
@@ -59132,7 +59025,7 @@ http,O
 :,O
 //www.uffteriada.com/delhi-metro-accident-man-dies/,O
 pic.twitter.com/4HYTPII0OJ,O
-Sentence #2027,
+Sentence #2022,
 Traffic,O
 Alert,O
 :,O
@@ -59173,7 +59066,7 @@ regretted,O
 .,O
 @,O
 gurgaonpolicepic.twitter.com/e00cQj0Yd4,O
-Sentence #2028,
+Sentence #2023,
 Will,O
 these,O
 cement,O
@@ -59203,7 +59096,7 @@ turn,O
 dtptraffic,O
 @,O
 pwddelhipic.twitter.com/7XatToPToQ,O
-Sentence #2029,
+Sentence #2024,
 At,O
 rani,O
 Jhansi,B-LOC
@@ -59232,7 +59125,7 @@ eidgah,O
 #,O
 Delhi,B-LOC
 pic.twitter.com/25NZ3myewV,O
-Sentence #2030,
+Sentence #2025,
 Very,O
 unfortunate,O
 incident,O
@@ -59249,7 +59142,7 @@ on,O
 Rani,B-LOC
 Jhansi,I-LOC
 Road,I-LOC
-Sentence #2031,
+Sentence #2026,
 Very,O
 very,O
 sad,O
@@ -59271,7 +59164,7 @@ the,O
 affected,O
 families,O
 .,O
-Sentence #2032,
+Sentence #2027,
 ``,O
 Sad,O
 to,O
@@ -59281,7 +59174,7 @@ this,O
 terrible,O
 accident,O
 .,O
-Sentence #2033,
+Sentence #2028,
 May,B-TIM
 God,O
 be,O
@@ -59292,7 +59185,7 @@ of,O
 the,O
 deceased,O
 .,O
-Sentence #2034,
+Sentence #2029,
 Request,O
 @,O
 INCDelhi,O
@@ -59304,7 +59197,7 @@ extend,O
 all,O
 help,O
 .,O
-Sentence #2035,
+Sentence #2030,
 ``,O
 ``,O
 Delhi,B-PER
@@ -59326,7 +59219,7 @@ rise,O
 https,O
 :,O
 //mybs.in/2XBPB8j,O
-Sentence #2036,
+Sentence #2031,
 Up,O
 to,O
 43,O
@@ -59356,12 +59249,12 @@ hours,O
 of,O
 today,B-TIM
 .,O
-Sentence #2037,
+Sentence #2032,
 #,O
 DelhiFirehttps,O
 :,O
 //www.deccanherald.com/liveblog/delhi-fire-accident-live-at-least-43-people-dead-more-than-50-rescued-783683.html,O
-Sentence #2038,
+Sentence #2033,
 @,O
 India_Yamaha,B-PER
 I,I-PER
@@ -59416,7 +59309,7 @@ outside,O
 .,O
 Really,O
 ?,O
-Sentence #2039,
+Sentence #2034,
 Sick,O
 and,O
 tired,O
@@ -59443,7 +59336,7 @@ on,O
 the,O
 road,B-LOC
 .,O
-Sentence #2040,
+Sentence #2035,
 Reading,O
 the,O
 news,O
@@ -59470,7 +59363,7 @@ to,O
 drive,O
 carefully,O
 .,O
-Sentence #2041,
+Sentence #2036,
 Reading,O
 story,O
 on,O
@@ -59492,26 +59385,3 @@ bless,O
 their,O
 souls,O
 .,O
-Sentence #2042,
-Reading,O
-#,O
-Delhi,B-LOC
-#,O
-Gurugram,B-ORG
-newspaper,O
-is,O
-http,O
-:,O
-//scary.Top,O
-3,O
-news,O
-of,O
-any,O
-day-Car,O
-snatching,O
-brutal,O
-rape,O
-road,B-LOC
-accident,O
-#,O
-Lawbreakers,O

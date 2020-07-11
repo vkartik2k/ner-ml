@@ -1,6 +1,6 @@
 import csv
 
-f = open("covid_tbd.csv", "r")
+f = open("Final/covid.csv", "r")
 curr = []
 finalSentences = []
 for x in f:

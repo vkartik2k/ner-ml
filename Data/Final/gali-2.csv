@@ -35,7 +35,7 @@ till,O
 now,O
 .,O
 Regards,O
-Sentence #1,O
+Sentence #1,
 @,O
 bsesDelhI,B-ORG
 street,O
@@ -77,7 +77,7 @@ no,O
 9891324104,O
 9015233086,O
 pic.twitter.com/8iDUzxSQSl,O
-Sentence #2,O
+Sentence #2,
 @,
 dtptraffic,B-ORG
 This,O
@@ -135,7 +135,7 @@ take,O
 actions,O
 .,O
 pic.twitter.com/M0KOSG1b2N,O
-Sentence #3,O
+Sentence #3,
 Bhalswa,B-LOC
 j,I-LOC
 j,I-LOC
@@ -152,7 +152,7 @@ no,I-LOC
 ward,O
 20,O
 pic.twitter.com/DZhMhU0L3K,O
-Sentence #4,O
+Sentence #4,
 Location,O
 -,O
 P-20,B-LOC
@@ -193,7 +193,7 @@ one,O
 is,O
 there,O
 .,O
-Sentence #5,O
+Sentence #5,
 Gali,B-LOC
 No,I-LOC
 6,I-LOC
@@ -209,7 +209,7 @@ ArvindKejriwal,O
 suraiya95,O
 @,O
 SatyendarJain,O
-Sentence #6,O
+Sentence #6,
 @,
 DelhiJalBoard,B-ORG
 @,O
@@ -445,7 +445,7 @@ ArvindKejriwal,O
 suraiya95,O
 @,O
 SatyendarJain,O
-Sentence #13,O
+Sentence #13,
 @,O
 DelhiJalBoard,B-ORG
 @,O
@@ -604,7 +604,7 @@ change,O
 in,O
 government,O
 .,O
-Sentence #17,O
+Sentence #17,
 @,
 ArvindKejriwal,B-PER
 Sir,O
@@ -642,7 +642,7 @@ Take,O
 some,O
 positive,O
 action,O
-Sentence #18,O
+Sentence #18,
 Sir,
 Ji,O
 ye,O
@@ -677,7 +677,7 @@ Seelampur,B-LOC
 New,B-LOC
 DelhI,I-LOC
 110053,I-LOC
-Sentence #20,I-LOC
+Sentence #20,
 @,O
 bsesDelhI,B-ORG
 @,I-ORG
@@ -770,7 +770,7 @@ Take,O
 some,O
 positive,O
 action,O
-Sentence #22,O
+Sentence #22,
 Sir,O
 Ji,O
 ye,O
@@ -805,7 +805,7 @@ Seelampur,B-LOC
 New,B-LOC
 DelhI,I-LOC
 110053,I-LOC
-Sentence #24,I-LOC
+Sentence #24,
 @,O
 ArvindKejriwal,B-PER
 .,O
@@ -826,7 +826,7 @@ Delhi,B-LOC
 .,O
 @,O
 ArvindKejriwal,B-PER
-Sentence #25,O
+Sentence #25,
 @,
 suraiya95,B-PER
 illegal,O
@@ -881,7 +881,7 @@ Please,O
 expedite,O
 on,O
 priority,O
-Sentence #27,O
+Sentence #27,
 @,O
 DelhiJalBoard,B-ORG
 Hi,O
@@ -1016,7 +1016,7 @@ Please,O
 expedite,O
 on,O
 priority,O
-Sentence #31,O
+Sentence #31,
 @,O
 DelhiJalBoard,B-ORG
 Hi,O
@@ -1448,7 +1448,7 @@ Street,O
 light,B-ORG
 not,O
 working,O
-Sentence #40,O
+Sentence #40,
 @,O
 bsesdelhi,O
 4TH,O
@@ -1483,7 +1483,7 @@ NO-103409954,O
 Sentence #43,
 @,O
 SatyendarJain,O
-Sentence #44,O
+Sentence #44,
 9TH,O
 REMINDER,O
 NO,O
@@ -1494,7 +1494,7 @@ REPLY,O
 YOUR,O
 SIDE,O
 ?,O
-Sentence #45,O
+Sentence #45,
 LOW,O
 VOLTAGE,O
 PROBLEM,O
@@ -1513,7 +1513,7 @@ DELHI-110045,I-LOC
 Sentence #46,
 CA,O
 NO-103409954,O
-Sentence #47,O
+Sentence #47,
 9TH,O
 REMINDER,O
 NO,O
@@ -1524,7 +1524,7 @@ REPLY,O
 YOUR,O
 SIDE,O
 ?,O
-Sentence #48,O
+Sentence #48,
 LOW,O
 VOLTAGE,O
 PROBLEM,O
@@ -2833,7 +2833,7 @@ DelhI,B-LOC
 Sentence #89,
 @,O
 EastDelhiMCD,B-ORG
-Sentence #90,O
+Sentence #90,
 Garbage,O
 van,O
 not,O
@@ -3009,7 +3009,7 @@ C.A,I-LOC
 .,O
 No,O
 101339600,O
-Sentence #94,
+Sentence #95,
 @,O
 bsesDelhI,B-ORG
 There,O
@@ -3029,7 +3029,7 @@ C.A,O
 .,O
 No,O
 101339600,O
-Sentence #95,
+Sentence #96,
 @,O
 IndiaPostOffice,B-ORG
 @,O
@@ -3066,7 +3066,7 @@ NEW,I-LOC
 DelhI,B-LOC
 DELHI,B-LOC
 110031,I-LOC
-Sentence #96,
+Sentence #97,
 7,
 19,O
 -,O
@@ -3084,11 +3084,11 @@ Park,I-LOC
 Delhi,B-LOC
 -,I-LOC
 33,I-LOC
-Sentence #97,
+Sentence #98,
 ``,O
 ``,O
 pic.twitter.com/h76dK52ypp,O
-Sentence #98,
+Sentence #99,
 We,O
 Are,O
 Ready,O
@@ -3101,7 +3101,7 @@ Printing,O
 Job,O
 Work,O
 .,O
-Sentence #99,
+Sentence #100,
 Shivansh,O
 Enterprises,O
 Printing,O
@@ -3138,7 +3138,7 @@ shivanshenterprises.in,O
 @,O
 gmail.com,O
 pic.twitter.com/Y9ozOyBTvK,O
-Sentence #100,
+Sentence #101,
 On,O
 August,O
 30,O
@@ -3164,7 +3164,7 @@ in,O
 Delhis,B-LOC
 Maujpur,I-LOC
 .,O
-Sentence #101,
+Sentence #102,
 @,O
 anusuya_som,B-PER
 visits,O
@@ -3183,7 +3183,7 @@ exactly,O
 happened.https,O
 :,O
 //www.newslaundry.com/2019/09/06/newdelhi-what-happened-in-gali-no-5,O
-Sentence #102,
+Sentence #103,
 My,O
 contact,O
 no,O
@@ -3206,10 +3206,10 @@ Vihar,B-LOC
 DelhI,B-LOC
 .,I-LOC
 110093,I-LOC
-Sentence #103,
+Sentence #104,
 @,O
 EastDelhiMCD,B-ORG
-Sentence #104,
+Sentence #105,
 Garbage,O
 van,O
 not,O
@@ -3235,7 +3235,7 @@ Modern,I-LOC
 Shahdara,I-LOC
 DelhI,B-LOC
 110032,I-LOC
-Sentence #105,
+Sentence #106,
 @,O
 ArvindKejriwal,B-PER
 Hello,O
@@ -3285,7 +3285,7 @@ pic.twitter.com/kCYummjqRe,O
 at,O
 Ashok,B-LOC
 Nagar,I-LOC
-Sentence #106,
+Sentence #107,
 @,O
 RailMinIndia,O
 Hello,O
@@ -3334,7 +3334,7 @@ pnr,O
 no,O
 .,O
 2748005009,O
-Sentence #107,
+Sentence #108,
 The,O
 correct,O
 address,O
@@ -3365,7 +3365,7 @@ nagar,I-LOC
 karawal,B-LOC
 nagar,I-LOC
 delhi-110094,B-LOC
-Sentence #108,
+Sentence #109,
 @,O
 bsesDelhI,B-ORG
 There,O
@@ -3385,7 +3385,7 @@ C.A,O
 .,O
 No,O
 101339600,O
-Sentence #109,
+Sentence #110,
 @,O
 IndiaPostOffice,B-ORG
 @,O
@@ -3422,7 +3422,7 @@ NEW,B-LOC
 DelhI,I-LOC
 DELHI,B-LOC
 110031,I-LOC
-Sentence #110,
+Sentence #111,
 7,O
 19,O
 -,O
@@ -3440,11 +3440,11 @@ Park,I-LOC
 Delhi,B-LOC
 -,I-LOC
 33,I-LOC
-Sentence #111,
+Sentence #112,
 ``,O
 ``,O
 pic.twitter.com/h76dK52ypp,O
-Sentence #112,
+Sentence #113,
 MY,O
 JIO,O
 NOS,O
@@ -3474,7 +3474,7 @@ NAGAR,I-LOC
 DELHI-110092,B-LOC
 J.P.,B-PER
 SHARMA,I-PER
-Sentence #113,
+Sentence #114,
 @,O
 SatyendarJain,B-PER
 14TH,O
@@ -3487,7 +3487,7 @@ REPLY,O
 YOUR,O
 SIDE,O
 ?,O
-Sentence #114,
+Sentence #115,
 LOW,O
 VOLTAGE,O
 PROBLEM,O
@@ -3503,10 +3503,10 @@ D,O
 PALAM,B-LOC
 NEW,B-LOC
 DELHI-110045,I-LOC
-Sentence #115,
+Sentence #116,
 CA,
 NO-103409954,O
-Sentence #116,
+Sentence #117,
 R,O
 block,B-LOC
 galI,B-LOC
@@ -3528,7 +3528,7 @@ basiis,O
 https,O
 :,O
 //twitter.com/kum25287484/status/1170374157395255297,O
-Sentence #117,
+Sentence #118,
 R,B-LOC
 block,I-LOC
 galI,B-LOC
@@ -3542,7 +3542,7 @@ DelhI,I-LOC
 https,O
 :,O
 //twitter.com/kum25287484/status/1170372869962043393,O
-Sentence #118,
+Sentence #119,
 Thanks,O
 for,O
 the,O
@@ -3570,7 +3570,7 @@ Mohalla,B-LOC
 Maujpur,I-LOC
 Delhi-53,I-LOC
 .,I-LOC
-Sentence #119,
+Sentence #120,
 MY,O
 JIO,O
 NOS,O
@@ -3600,7 +3600,7 @@ NAGAR,I-LOC
 DELHI-110092,B-LOC
 J.P.,B-PER
 SHARMA,I-PER
-Sentence #120,
+Sentence #121,
 @,O
 SatyendarJain,B-PER
 14TH,O
@@ -3613,7 +3613,7 @@ REPLY,O
 YOUR,O
 SIDE,O
 ?,O
-Sentence #121,
+Sentence #122,
 LOW,O
 VOLTAGE,O
 PROBLEM,O
@@ -3629,10 +3629,10 @@ D,O
 PALAM,B-LOC
 NEW,B-LOC
 DELHI-110045,I-LOC
-Sentence #122,
+Sentence #123,
 CA,O
 NO-103409954,O
-Sentence #123,
+Sentence #124,
 R,B-LOC
 block,I-LOC
 galI,B-LOC
@@ -3654,7 +3654,7 @@ basiis,O
 https,O
 :,O
 //twitter.com/kum25287484/status/1170374157395255297,O
-Sentence #124,
+Sentence #125,
 R,B-LOC
 block,I-LOC
 galI,B-LOC
@@ -3668,7 +3668,7 @@ DelhI,I-LOC
 https,O
 :,O
 //twitter.com/kum25287484/status/1170372869962043393,O
-Sentence #125,
+Sentence #126,
 Thanks,O
 for,O
 the,O
@@ -3696,7 +3696,7 @@ Mohalla,I-LOC
 Maujpur,B-LOC
 Delhi-53,B-LOC
 .,O
-Sentence #126,
+Sentence #127,
 @,O
 ArvindKejriwal,B-PER
 @,O
@@ -3747,7 +3747,7 @@ bhi,O
 nhi,O
 .,O
 pic.twitter.com/9ErvA3odkh,O
-Sentence #127,
+Sentence #128,
 @,O
 AmitShah,B-PER
 Namaste,O
@@ -3798,7 +3798,7 @@ par,O
 kabza,O
 kar,O
 liya,O
-Sentence #128,
+Sentence #129,
 @,O
 narendramodi,B-PER
 Meri,O
@@ -3830,7 +3830,7 @@ sadbhawna,O
 apartment,O
 ke,O
 piche,O
-Sentence #129,
+Sentence #130,
 A,B-LOC
 block,I-LOC
 galI,B-LOC
@@ -3853,7 +3853,7 @@ call,O
 https,O
 :,O
 //twitter.com/RAHUL07822/status/1163036807522484225,O
-Sentence #130,
+Sentence #131,
 Hi,O
 I,O
 am,O
@@ -3902,13 +3902,13 @@ Maruti,O
 Service,O
 centre,O
 .,O
-Sentence #131,
+Sentence #132,
 Manish,B-PER
 kumar,I-PER
-Sentence #132,
+Sentence #133,
 A32,O
 B2,O
-Sentence #133,
+Sentence #134,
 Achrya,B-LOC
 niketan,I-LOC
 Gali,B-LOC
@@ -3917,19 +3917,19 @@ no,I-LOC
 -3,I-LOC
 Mayur,B-LOC
 vihar-1,I-LOC
-Sentence #134,
+Sentence #135,
 New,B-LOC
 DelhI,I-LOC
 DelhI,B-LOC
 -,I-LOC
 110091,I-LOC
-Sentence #135,
+Sentence #136,
 Phone,O
 number,O
 :,O
 9871696800,O
 7979077416,O
-Sentence #136,
+Sentence #137,
 @,O
 ArvindKejriwal,B-PER
 @,O
@@ -3980,7 +3980,7 @@ bhi,O
 nhi,O
 .,O
 pic.twitter.com/9ErvA3odkh,O
-Sentence #137,
+Sentence #138,
 @,O
 AmitShah,B-PER
 Namaste,O
@@ -4031,7 +4031,7 @@ par,O
 kabza,O
 kar,O
 liya,O
-Sentence #138,
+Sentence #139,
 @,O
 narendramodi,B-PER
 Meri,O
@@ -4063,7 +4063,7 @@ sadbhawna,O
 apartment,O
 ke,O
 piche,O
-Sentence #139,
+Sentence #140,
 A,B-LOC
 block,I-LOC
 galI,B-LOC
@@ -4086,7 +4086,7 @@ call,O
 https,O
 :,O
 //twitter.com/RAHUL07822/status/1163036807522484225,O
-Sentence #140,
+Sentence #141,
 Hi,O
 I,O
 am,O
@@ -4135,13 +4135,13 @@ Maruti,O
 Service,B-ORG
 centre,I-ORG
 .,I-LOC
-Sentence #141,
+Sentence #142,
 Manish,O
 kumar,O
-Sentence #142,
+Sentence #143,
 A32,O
 B2,O
-Sentence #143,
+Sentence #144,
 Achrya,B-LOC
 niketan,I-LOC
 Gali,B-LOC
@@ -4150,19 +4150,19 @@ no,I-LOC
 -3,I-LOC
 Mayur,B-LOC
 vihar-1,I-LOC
-Sentence #144,
+Sentence #145,
 New,B-LOC
 DelhI,I-LOC
 DelhI,B-LOC
 -,I-LOC
 110091,I-LOC
-Sentence #145,
+Sentence #146,
 Phone,O
 number,O
 :,O
 9871696800,O
 7979077416,O
-Sentence #146,
+Sentence #147,
 @,O
 GautamGambhir,O
 After,O
@@ -4212,7 +4212,7 @@ JAL,O
 BORD,O
 Workers,O
 .,O
-Sentence #147,
+Sentence #148,
 @,O
 bajpai_anil,B-ORG
 After,O
@@ -4262,7 +4262,7 @@ JAL,O
 BORD,O
 Workers,O
 .,O
-Sentence #148,
+Sentence #149,
 @,O
 GautamGambhir,B-PER
 After,O
@@ -4312,7 +4312,7 @@ JAL,B-LOC
 BORD,I-MISC
 Workers,I-MISC
 .,I-MISC
-Sentence #149,
+Sentence #150,
 T-SHIRT,O
 IS,O
 LIKE,O
@@ -4325,7 +4325,7 @@ PRINT,O
 ANYTHING,O
 ON,O
 IT,O
-Sentence #150,
+Sentence #151,
 Shivansh,O
 Enterprises,O
 (,O
@@ -4358,13 +4358,13 @@ Printing,O
 Advertising,O
 Branding,O
 pic.twitter.com/TMIXiXauYJ,O
-Sentence #151,
+Sentence #152,
 @,O
 msisodia,O
 Good,O
 Morning,O
 Sir,O
-Sentence #152,
+Sentence #153,
 Few,O
 days,O
 back,O
@@ -4416,7 +4416,7 @@ for,O
 my,O
 problem,O
 pic.twitter.com/uLlmyEZy5t,O
-Sentence #153,
+Sentence #154,
 ABBAL,O
 singh,O
 NEGI,O
@@ -4431,7 +4431,7 @@ III,I-LOC
 NEW,B-LOC
 DelhI,I-LOC
 110059,I-LOC
-Sentence #154,
+Sentence #155,
 Mob,O
 no,O
 7217654982,O
@@ -4439,7 +4439,7 @@ Email,O
 negiabbalsingh1963,O
 @,O
 gmail.com,O
-Sentence #155,
+Sentence #156,
 @,O
 GautamGambhir,O
 After,O
@@ -4489,53 +4489,3 @@ JAL,I-ORG
 BORD,I-ORG
 Workers,O
 .,O
-Sentence #156,
-@,O
-bajpai_anil,O
-After,O
-a,O
-long,O
-disappointment,O
-I,O
-am,O
-writing,O
-to,O
-you,O
-in,O
-hope,O
-that,O
-you,O
-will,O
-respond,O
-quickly,O
-I,O
-am,O
-living,O
-in,O
-Gali,O
-no,B-LOC
-1,I-LOC
-Raghubar,B-LOC
-Pura,I-LOC
-no,I-LOC
-2,I-LOC
-Gandhi,O
-nagar,B-LOC
-DelhI,I-LOC
-110031,B-LOC
-is,I-LOC
-totally,O
-broken,O
-last,O
-4,O
-months,B-TIM
-Gali,O
-broken,B-GPE
-by,O
-EDMC,O
-OR,B-MISC
-DelhI,I-MISC
-JAL,B-LOC
-BORD,I-MISC
-Workers,I-MISC
-.,I-MISC

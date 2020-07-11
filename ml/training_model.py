@@ -93,43 +93,50 @@ def sent2labels(sent):
 def sent2tokens(sent):
     return [token for token, postag, label in sent]
 
-############################################################################################
-#                                    Loading main_dataset                                  #
-############################################################################################
 
-df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
-df = df[:300000]
-df.head()
-df.isnull().sum()
-df = df.fillna(method='ffill')
+def sent2labels2(sent):
+    return [xe[1] for xe in sent]
 
-df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
-df1=df.groupby('Tag').size().reset_index(name='counts')
+# ############################################################################################
+# #                                    Loading main_dataset                                  #
+# ############################################################################################
 
-class SentenceGetter(object):
-    def __init__(self, data):
-        self.n_sent = 1
-        self.data = data
-        self.empty = False
-        agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
-                                                           s['POS'].values.tolist(), 
-                                                           s['Tag'].values.tolist())]
-        self.grouped = self.data.groupby('Sentence #').apply(agg_func)
-        self.sentences = [s for s in self.grouped]
+# df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
+# df = df[:300000]
+# df.head()
+# df.isnull().sum()
+# df = df.fillna(method='ffill')
 
-    def get_next(self):
-        try: 
-            s = self.grouped['Sentence: {}'.format(self.n_sent)]
-            self.n_sent += 1
-            return s 
-        except:
-            return None
+# df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
+# df1=df.groupby('Tag').size().reset_index(name='counts')
 
-getter = SentenceGetter(df)
-sentences = getter.sentences
+# class SentenceGetter(object):
+#     def __init__(self, data):
+#         self.n_sent = 1
+#         self.data = data
+#         self.empty = False
+#         agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
+#                                                            s['POS'].values.tolist(), 
+#                                                            s['Tag'].values.tolist())]
+#         self.grouped = self.data.groupby('Sentence #').apply(agg_func)
+#         self.sentences = [s for s in self.grouped]
 
-X1 = [sent2features(s) for s in sentences]
-Y1 = [sent2labels(s) for s in sentences]
+#     def get_next(self):
+#         try: 
+#             s = self.grouped['Sentence: {}'.format(self.n_sent)]
+#             self.n_sent += 1
+#             return s 
+#         except:
+#             return None
+
+# getter = SentenceGetter(df)
+# sentences = getter.sentences
+
+# X1 = [sent2features(s) for s in sentences]
+# Y1 = [sent2labels(s) for s in sentences]
+
+X1 = []
+Y1 = []
 
 print("Status : main_dataset loaded successfully!")
 
@@ -137,33 +144,48 @@ print("Status : main_dataset loaded successfully!")
 #                                    Loading covid_dataset                                 #
 ############################################################################################
 
-df = pd.read_csv('Dataset/covid_dataset.csv', encoding = "ISO-8859-1")
-df.head()
-df.isnull().sum()
-df = df.fillna(method='ffill')
+list1 = []
 
-list1 = df.values.tolist()
+f = open("../Data/Final/covid.csv", "r")
+curr = []
+for x in f:
+    if "Sentence #" in x:
+        if curr != [] :
+            list1.append(curr)
+        curr = []
+    else :
+        # x = x[0:len(x)-1]
+        y = x.split(',')
+        curr.append(y)
 
-X2 = [word2features2(list1, i) for i in range(len(list1))]
-Y2 = [[data[1]] for data in list1]
+X2 = [sent2features(s) for s in list1]
+Y2 = [sent2labels2(s) for s in list1]
 
-print("Status : covid_dataset loaded successfully!")
+print("Status : covid loaded successfully!")
 
 ############################################################################################
 #                                   Loading accident_dataset                               #
 ############################################################################################
 
-df = pd.read_csv('Dataset/accident_dataset.csv', encoding = "ISO-8859-1")
-df.head()
-df.isnull().sum()
-df = df.fillna(method='ffill')
+list1 = []
 
-list1 = df.values.tolist()
+f = open("../Data/Final/accident.csv", "r")
+curr = []
+for x in f:
+    if "Sentence #" in x:
+        if curr != [] :
+            list1.append(curr)
+        curr = []
+    else :
+        # x = x[0:len(x)-1]
+        y = x.split(',')
+        curr.append(y)
 
-X3 = [word2features2(list1, i) for i in range(len(list1))]
-Y3 = [[data[1]] for data in list1]
+X3 = [sent2features(s) for s in list1]
+Y3 = [sent2labels2(s) for s in list1]
 
 print("Status : accident_dataset loaded successfully!")
+
 
 ############################################################################################
 #                                 Defining and training Model                              #
