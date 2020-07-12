@@ -97,46 +97,43 @@ def sent2tokens(sent):
 def sent2labels2(sent):
     return [xe[1] for xe in sent]
 
-# ############################################################################################
-# #                                    Loading main_dataset                                  #
-# ############################################################################################
+############################################################################################
+#                                    Loading main_dataset                                  #
+############################################################################################
 
-# df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
-# df = df[:300000]
-# df.head()
-# df.isnull().sum()
-# df = df.fillna(method='ffill')
+df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
+df = df[:100000]
+df.head()
+df.isnull().sum()
+df = df.fillna(method='ffill')
 
-# df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
-# df1=df.groupby('Tag').size().reset_index(name='counts')
+df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
+df1=df.groupby('Tag').size().reset_index(name='counts')
 
-# class SentenceGetter(object):
-#     def __init__(self, data):
-#         self.n_sent = 1
-#         self.data = data
-#         self.empty = False
-#         agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
-#                                                            s['POS'].values.tolist(), 
-#                                                            s['Tag'].values.tolist())]
-#         self.grouped = self.data.groupby('Sentence #').apply(agg_func)
-#         self.sentences = [s for s in self.grouped]
+class SentenceGetter(object):
+    def __init__(self, data):
+        self.n_sent = 1
+        self.data = data
+        self.empty = False
+        agg_func = lambda s: [(w, p, t) for w, p, t in zip(s['Word'].values.tolist(), 
+                                                           s['POS'].values.tolist(), 
+                                                           s['Tag'].values.tolist())]
+        self.grouped = self.data.groupby('Sentence #').apply(agg_func)
+        self.sentences = [s for s in self.grouped]
 
-#     def get_next(self):
-#         try: 
-#             s = self.grouped['Sentence: {}'.format(self.n_sent)]
-#             self.n_sent += 1
-#             return s 
-#         except:
-#             return None
+    def get_next(self):
+        try: 
+            s = self.grouped['Sentence: {}'.format(self.n_sent)]
+            self.n_sent += 1
+            return s 
+        except:
+            return None
 
-# getter = SentenceGetter(df)
-# sentences = getter.sentences
+getter = SentenceGetter(df)
+sentences = getter.sentences
 
-# X1 = [sent2features(s) for s in sentences]
-# Y1 = [sent2labels(s) for s in sentences]
-
-X1 = []
-Y1 = []
+X1 = [sent2features(s) for s in sentences]
+Y1 = [sent2labels(s) for s in sentences]
 
 print("Status : main_dataset loaded successfully!")
 
@@ -146,7 +143,7 @@ print("Status : main_dataset loaded successfully!")
 
 list1 = []
 
-f = open("../Data/Final/covid.csv", "r")
+f = open("Dataset/shuffled.csv", "r")
 curr = []
 for x in f:
     if "Sentence #" in x:
@@ -155,36 +152,13 @@ for x in f:
         curr = []
     else :
         # x = x[0:len(x)-1]
-        y = x.split(',')
+        y = x.strip('\n').split(',')
         curr.append(y)
 
 X2 = [sent2features(s) for s in list1]
 Y2 = [sent2labels2(s) for s in list1]
 
-print("Status : covid loaded successfully!")
-
-############################################################################################
-#                                   Loading accident_dataset                               #
-############################################################################################
-
-list1 = []
-
-f = open("../Data/Final/accident.csv", "r")
-curr = []
-for x in f:
-    if "Sentence #" in x:
-        if curr != [] :
-            list1.append(curr)
-        curr = []
-    else :
-        # x = x[0:len(x)-1]
-        y = x.split(',')
-        curr.append(y)
-
-X3 = [sent2features(s) for s in list1]
-Y3 = [sent2labels2(s) for s in list1]
-
-print("Status : accident_dataset loaded successfully!")
+print("Status : Annotated Data loaded successfully!")
 
 
 ############################################################################################
@@ -199,13 +173,12 @@ crf = sklearn_crfsuite.CRF(
     all_possible_transitions=True
 )
 
-X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.1, random_state=0)
-X_train3, X_test3, Y_train3, Y_test3 = train_test_split(X3, Y3, test_size=0.1, random_state=0)
+X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.3, random_state=0)
 
-X_train = X1 + X_train2 + X_train3
-Y_train = Y1 + Y_train2 + Y_train3
-X_test = X_test2 + X_test3
-Y_test = Y_test2 + Y_test3
+X_train = X1 + X_train2
+Y_train = Y1 + Y_train2
+X_test = X_test2
+Y_test = Y_test2
 
 print("Status : Training and Testing Data ready!")
 print("Size of training data " , len(X_train))

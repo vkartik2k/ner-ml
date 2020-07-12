@@ -15,7 +15,7 @@ from sklearn_crfsuite import metrics
 from collections import Counter
 import csv
 import re
-import nltk
+# import nltk
 
 # list1 =open("Tweets/gali_tweets.tsv").read().split('\n')
 # sentences = []
