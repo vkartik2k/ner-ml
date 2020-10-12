@@ -47,6 +47,8 @@ import re
 #     sentences[i] = sentences[i].split()
 sentence = input('Enter sentence for NER :').split()
 
+
+
 def word2features(sent, i):
     word = sent[i]
     features = {

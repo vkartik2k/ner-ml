@@ -8484,7 +8484,7 @@ the,O
 deaths,O
 of,O
 22,O
-pilgrims,O
+pilgrims,B-EPR
 who,O
 w,O
 ...,O
@@ -17612,7 +17612,7 @@ in,O
 Ramesh,B-LOC
 Nagar,I-LOC
 New,B-LOC
-DelhI,I-LOC
+DelhI,ILOC
 .,O
 Need,O
 your,O
@@ -19182,7 +19182,7 @@ mysteriously,O
 .,O
 Except,O
 MadhavRao,B-PER
-Schindhia,B-PER
+Schindhia,B-EPR
 who,O
 was,O
 having,O
@@ -22532,7 +22532,7 @@ Address,O
 -,O
 galli,B-LOC
 no,I-LOC
-7,I-LOC
+7,I-LLOC
 first,B-LOC
 floor,I-LOC
 house,B-LOC
@@ -25276,7 +25276,7 @@ delhi,B-LOC
 #,O
 metrohospital,O
 #,O
-delhI,B-LOC
+delhI,B-LOV
 #,O
 delhincr,O
 #,O
@@ -26505,7 +26505,7 @@ Ex,I-LOC
 Model,B-LOC
 Town,I-LOC
 Delhi,B-LOC
-110009,B-LOC
+110009,T-LOC
 .,O
 #,O
 mdcityhealthcare,O
@@ -28448,7 +28448,7 @@ Google,B-ORG
 :,O
 Scindhia,B-PER
 Sonia,B-PER
-Car,O
+Car,0
 Accident,I-ORG
 IIT,I-ORG
 Delhi,I-ORG
@@ -32491,7 +32491,7 @@ NO,I-LOC
 RAJU,B-LOC
 EXT,I-LOC
 .,I-LOC
-OLD,B-LOC
+OLD,B-LOCC
 PALAM,I-LOC
 ROAD,I-LOC
 OPP,O
@@ -43031,7 +43031,7 @@ Indira,B-LOC
 GandhI,O
 ...,I-LOC
 International,I-LOC
-...,I-LOC
+...,I-LLOC
 Airport,I-LOC
 ...,O
 drone,O
@@ -44623,7 +44623,7 @@ Sentence #1338,
 @,O
 ArvindKejriwal,O
 H,B-LOC
-.,O
+.,O-LOC
 no,I-LOC
 -,I-LOC
 1076,I-LOC
@@ -48824,7 +48824,7 @@ Vineet,I-PER
 Banga,I-PER
 Address,O
 :,O
-24/109,B-LOC
+24/109,B0LOC
 West,B-LOC
 Patel,B-LOC
 Nagar,I-LOC
@@ -53600,7 +53600,7 @@ my,O
 state,O
 New,B-LOC
 DelhI,B-LOC
-Your,O
+Your,0
 Distubturs,I-ORG
 mr.saket,O
 not,O
@@ -103739,13 +103739,13 @@ action,O
 Here,O
 is,O
 the,O
-address,O
+address,B-LOV
 of,O
 contagion,O
 spot,O
 :,O
-Nav,B-LOC
-Shakti,I-LOC
+Nav,B-LOV
+Shakti,I-LOV
 Sadan,I-LOC
 plot,B-LOC
 27,I-LOC
@@ -107792,7 +107792,7 @@ AM,I-TIM
 in,O
 1982,B-TIM
 Scindia,B-PER
-&,O
+&,0
 Sonia,B-PER
 were,O
 caught,O
