@@ -101,8 +101,8 @@ def sent2labels2(sent):
 #                                    Loading main_dataset                                  #
 ############################################################################################
 
-df = pd.read_csv('Dataset/main_dataset.csv', encoding = "ISO-8859-1")
-df = df[:100000]
+df = pd.read_csv('locations_only/main_dataset.csv', encoding = "ISO-8859-1")
+df = df[:200000]
 df.head()
 df.isnull().sum()
 df = df.fillna(method='ffill')
@@ -143,7 +143,7 @@ print("Status : main_dataset loaded successfully!")
 
 list1 = []
 
-f = open("Dataset/shuffled.csv", "r")
+f = open("locations_only/shuffled.csv", "r")
 curr = []
 for x in f:
     if "Sentence #" in x:
@@ -176,8 +176,8 @@ crf = sklearn_crfsuite.CRF(
 
 X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.25, random_state=0)
 
-X_train = X1 + X2
-Y_train = Y1 + Y2
+X_train = X1 + X_train2
+Y_train = Y1 + Y_train2
 X_test = X_test2
 Y_test = Y_test2
 
