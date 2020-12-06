@@ -176,8 +176,10 @@ crf = sklearn_crfsuite.CRF(
 
 X_train2, X_test2, Y_train2, Y_test2 = train_test_split(X2, Y2, test_size=0.25, random_state=0)
 
-X_train = X1 + X_train2
-Y_train = Y1 + Y_train2
+# X_train = X1 + X_train2
+# Y_train = Y1 + Y_train2
+X_train = X1 
+Y_train = Y1 
 X_test = X_test2
 Y_test = Y_test2
 
@@ -194,7 +196,7 @@ print("Status : Training Successful!")
 Y_pred = crf.predict(X_test)
 print(metrics.flat_classification_report(Y_test, Y_pred, labels = None))
 
-# q = []
+# # q = []
 # for i in Y_train:
 #     q += i
 
